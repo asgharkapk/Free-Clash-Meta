@@ -687,7 +687,6 @@ proxy-providers:
   proxylist1:
     type: http
     url: >-
-      https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity
       https://raw.githubusercontent.com/FNET00bot/FNET00/Config/Base64
     interval: 7200
 
