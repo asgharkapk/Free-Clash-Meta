@@ -700,8 +700,8 @@ proxy-groups:
   - name: 🦽Manual
     type: select
     icon: https://www.svgrepo.com/show/489275/web-select.svg
-    proxies:
-      - DIRECT
+    use:
+      - proxylist1
   - name: 🏁Countries
     type: select
     icon: https://www.svgrepo.com/download/245796/geography-map.svg
@@ -2066,15 +2066,15 @@ proxy-groups:
     #icon 
     url: https://www.gstatic.com/generate_204
     tolerance: 300
-    proxies:
-      - DIRECT
+    use:
+      - proxylist1
   - name: ☁️cloudflare
     type: url-test
     icon: https://www.svgrepo.com/show/353564/cloudflare.svg
     url: https://cp.cloudflare.com/generate_204
     tolerance: 300
-    proxies:
-      - DIRECT
+    use:
+      - proxylist1
 
   - name: 🇭🇰HongKong
     type: url-test
@@ -2334,32 +2334,32 @@ proxy-groups:
     #icon 
     url: https://cp.cloudflare.com/generate_204
     tolerance: 300
-    proxies:
-      - DIRECT
+    use:
+      - proxylist1
   - name: 🥸consistent-hashing
     type: load-balance
     #icon 
     strategy: consistent-hashing
     url: https://cp.cloudflare.com/generate_204
     tolerance: 300
-    proxies:
-      - DIRECT
+    use:
+      - proxylist1
   - name: 🥸round-robin
     type: load-balance
     #icon 
     strategy: round-robin
     url: https://cp.cloudflare.com/generate_204
     tolerance: 300
-    proxies:
-      - DIRECT
+    use:
+      - proxylist1
   - name: 🥸sticky-sessions
     type: load-balance
     #icon 
     strategy: sticky-sessions
     url: https://cp.cloudflare.com/generate_204
     tolerance: 300
-    proxies:
-      - DIRECT
+    use:
+      - proxylist1
   - name: 🔓Direct
     type: select
     icon: https://www.svgrepo.com/show/253512/unlock.svg
