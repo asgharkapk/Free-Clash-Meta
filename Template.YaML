@@ -1,9 +1,11 @@
 global-client-fingerprint: chrome
+
 port: 7890
 socks-port: 7891
 redir-port: 7892
 mixed-port: 7893
 tproxy-port: 7894
+
 allow-lan: true
 tcp-concurrent: true
 enable-process: true
@@ -18,12 +20,14 @@ unified-delay: false
 disable-keep-alive: false
 keep-alive-idle: 30
 keep-alive-interval: 30
+
 profile:
   name: My Custom Clash Profile
   version: 1
   author: test
   store-selected: true
   store-fake-ip: true
+
 dns:
   enable: true
   ipv6: true
@@ -46,6 +50,7 @@ dns:
     - time.*.com
     - ntp.*.com
     - "*.ir"
+
   default-nameserver:
     - 8.8.8.8
     - 8.8.4.4
@@ -159,6 +164,7 @@ dns:
     - 2400:3200::1
     - 2a02:6b8::feed:0ff
     - 2620:fe::fe
+
 sniffer:
   enable: true
   force-dns-mapping: true
@@ -169,6 +175,7 @@ sniffer:
       ports: [80, 8080, 8880, 2052, 2082, 2086, 2095]
     TLS:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
+
 tun:
   enable: true
   stack: mixed
@@ -178,6 +185,7 @@ tun:
   dns-hijack:
     - any:53
     - tcp://any:53
+
 rule-providers:
   category_public_tracker:
     type: http
@@ -683,6 +691,7 @@ proxy-providers:
     interval: 7200
 
 proxy-groups:
+
   - name: 🌐Proxy
     type: select
     icon: https://www.svgrepo.com/show/439191/http-2.svg
@@ -697,11 +706,13 @@ proxy-groups:
       - 🥸round-robin
       - 🥸sticky-sessions
       - 🏁Countries
+
   - name: 🦽Manual
     type: select
     icon: https://www.svgrepo.com/show/489275/web-select.svg
     use:
       - proxylist1
+
   - name: 🏁Countries
     type: select
     icon: https://www.svgrepo.com/download/245796/geography-map.svg
@@ -740,6 +751,7 @@ proxy-groups:
       - 🇩🇰Denmark
       - 🇮🇸Iceland
       - 🌍Others
+
   - name: 📘Facebook🎯
     type: select
     icon: https://www.svgrepo.com/show/343553/facebook-network-communication-internet-interaction.svg
@@ -2360,6 +2372,7 @@ proxy-groups:
     tolerance: 300
     use:
       - proxylist1
+
   - name: 🔓Direct
     type: select
     icon: https://www.svgrepo.com/show/253512/unlock.svg
@@ -2378,11 +2391,13 @@ proxy-groups:
       - 🔓Direct
       - 🚫Block
       - 🎯Destinations
+
 ntp:
   enable: true
   server: time.apple.com
   port: 123
   interval: 30
+
 rules:
   - RULE-SET,BanEasyPrivacy,🛡️PrivacyTrackers
   - GEOSITE,category-ads-all,🛑Advertisements
