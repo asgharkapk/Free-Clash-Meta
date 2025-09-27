@@ -689,6 +689,8 @@ proxy-providers:
     url: >-
       https://raw.githubusercontent.com/FNET00bot/FNET00/Config/Base64
     interval: 7200
+    include-all: true
+    path: ./FNET00bot.yaml
 
 proxy-groups:
 
