@@ -685,7 +685,7 @@ proxy-providers:
 proxy-groups:
   - name: 🌐Proxy
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/439191/http-2.svg
     proxies:
       - ⤵️FirstPing
       - 🦽Manual
@@ -699,12 +699,12 @@ proxy-groups:
       - 🏁Countries
   - name: 🦽Manual
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/489275/web-select.svg
     proxies:
       - DIRECT
   - name: 🏁Countries
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/download/245796/geography-map.svg
     proxies:
       - 🇬🇧UK
       - 🇭🇰HongKong
@@ -742,7 +742,7 @@ proxy-groups:
       - 🌍Others
   - name: 📘Facebook🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/343553/facebook-network-communication-internet-interaction.svg
     proxies:
       - 🚫Block
       - 🔓Direct
@@ -755,7 +755,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🛑Advertisements
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/93261/click-ad.svg
     proxies:
       - 🚫Block
       - 🔓Direct
@@ -768,7 +768,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🛡️PrivacyTrackers
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/453947/hide.svg
     proxies:
       - 🚫Block
       - 🔓Direct
@@ -781,7 +781,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🦠SECURITY
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/406633/microbe.svg
     proxies:
       - 🚫Block
       - 🔓Direct
@@ -794,7 +794,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🖥️Lan
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/187321/networking-server.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
@@ -807,7 +807,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🇮🇷IranWebsites
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/405513/flag-for-flag-iran.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
@@ -820,7 +820,7 @@ proxy-groups:
       - 🏁Countries
   - name: </>GIT🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/439173/git.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
@@ -833,7 +833,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🎮Dota2🎯
     type: select
-    icon: 
+    icon: https://www.citypng.com/public/uploads/preview/hd-dota-2-official-logo-png-701751694788589vbfyq561nz.png
     proxies:
       - 🔓Direct
       - 🌐Proxy
@@ -846,7 +846,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🚂Steam🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/452107/steam.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
@@ -859,7 +859,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🤬censorMovie🎯
     type: select
-    icon: 
+    icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS33HISPQ3YqM26dlS3m6IfpwJ3wgudtCZ3cQ&s
     proxies:
       - 🔓Direct
       - 🌐Proxy
@@ -872,7 +872,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🕹️VideoGame🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/400887/videogame.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
@@ -885,7 +885,7 @@ proxy-groups:
       - 🏁Countries
   - name: 📲Xiaomi🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/331655/xiaomi.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
@@ -898,7 +898,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🪟Windows🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/52775/windows.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
@@ -911,7 +911,7 @@ proxy-groups:
       - 🏁Countries
   - name: 📥Download🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/411366/download.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
@@ -924,7 +924,7 @@ proxy-groups:
       - 🏁Countries
   - name: 💻AnyDesk🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/331289/anydesk.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
@@ -937,7 +937,7 @@ proxy-groups:
       - 🏁Countries
   - name: 💬Whatsapp🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/452133/whatsapp.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
@@ -950,7 +950,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🔀Restream🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/402073/letter-r.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
@@ -963,7 +963,7 @@ proxy-groups:
       - 🏁Countries
   - name: ☁️Cloudflare🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/331337/cloudflare.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -976,7 +976,7 @@ proxy-groups:
       - 🏁Countries
   - name: 📱Google🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/382723/google.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -989,7 +989,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🎛NVIDIA🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/331511/nvidia.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1002,7 +1002,7 @@ proxy-groups:
       - 🏁Countries
   - name: 📺YouTube🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/416500/youtube-circle-logo.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1015,7 +1015,7 @@ proxy-groups:
       - 🏁Countries
   - name: 📙Reddit🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/354270/reddit-icon.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1028,7 +1028,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🔵Telegram🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/354443/telegram.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1041,7 +1041,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🤖Grok🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/535603/robot.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1054,7 +1054,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🤖OpenAI🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/306500/openai.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1067,7 +1067,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🤖AI🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/486520/ai.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1080,7 +1080,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🐦Twitter🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/331618/twitter.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1093,7 +1093,7 @@ proxy-groups:
       - 🏁Countries
   - name: 📸Instagram🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/331440/instagram.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1106,7 +1106,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🎥Netflix🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/303196/netflix-2-logo.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1119,7 +1119,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🎶Spotify🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/475684/spotify-color.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1132,7 +1132,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🎬TikTok🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/303260/tiktok-logo-logo.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1145,7 +1145,7 @@ proxy-groups:
       - 🏁Countries
   - name: 💼LinkedIn🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/452051/linkedin.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1158,7 +1158,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🎮Blizzard🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/331321/blizzard.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1171,7 +1171,7 @@ proxy-groups:
       - 🏁Countries
   - name: ⚫EpicGames🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/306007/epicgames.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1184,7 +1184,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🎮RiotGames🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/306668/riotgames.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1197,7 +1197,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🎮BattleNet🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/305784/battlenet.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1210,7 +1210,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🟩kick🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/382727/kickstarter-kick-starter-crowdfunding.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1223,7 +1223,7 @@ proxy-groups:
       - 🏁Countries
   - name: 👾Twitch🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/331620/twitch-v2.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1236,7 +1236,7 @@ proxy-groups:
       - 🏁Countries
   - name: 📡streamlabs🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/519482/streamlabs.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1249,7 +1249,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🎦OBS.exe🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/426784/obs.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1262,7 +1262,7 @@ proxy-groups:
       - 🏁Countries
   - name: ⚫EpicGames.exe🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/443039/brand-epicgames.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1275,7 +1275,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🎮Blizzard.exe🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/331321/blizzard.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1288,7 +1288,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🎮LOL.exe🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/458866/rofl.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1301,7 +1301,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🎮VALORANT.exe🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/424907/valorant-logo-play.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1314,7 +1314,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🎮BattleNet.exe🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/305784/battlenet.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1327,7 +1327,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🗣️Discord🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/331368/discord-v2.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1340,7 +1340,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🦁Brave.exe🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/331328/brave.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1353,7 +1353,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🟢Edge.exe🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/349349/edge.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1366,7 +1366,7 @@ proxy-groups:
       - 🏁Countries
   - name: ⭕Opera.exe🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/331521/opera.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1379,7 +1379,7 @@ proxy-groups:
       - 🏁Countries
   - name: ©️Chrome.exe🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/475640/chrome-color.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1392,7 +1392,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🔫Fortnite.exe🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/504355/fortnite.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1405,7 +1405,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🚗GTAV.exe🎯
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/303623/gta-grand-theft-auto-logo.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1418,7 +1418,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🔫CODWarzone.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1431,7 +1431,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🧨CODColdWar.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1444,7 +1444,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🔫CODModernWarfare.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1457,7 +1457,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🏹ApexLegends.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1470,7 +1470,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🎯Valorant.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1483,7 +1483,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🔫CS2.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1496,7 +1496,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🕹️CSGO.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1509,7 +1509,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🎮Overwatch2.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1522,7 +1522,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🧙LeagueLoL.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1535,7 +1535,7 @@ proxy-groups:
       - 🏁Countries
   - name: ⚔️Smite.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1548,7 +1548,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🏁ForzaHorizon5.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1561,7 +1561,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🏎️ForzaMotorsport.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1574,7 +1574,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🚗NFSHeat.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1587,7 +1587,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🚗NFSUnbound.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1600,7 +1600,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🏎️F1-23.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1613,7 +1613,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🛡️EldenRing.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1626,7 +1626,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🐺Witcher3.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1639,7 +1639,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🤖Cyberpunk2077.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1652,7 +1652,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🐉SkyrimSE.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1665,7 +1665,7 @@ proxy-groups:
       - 🏁Countries
   - name: ☢️Fallout4.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1678,7 +1678,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🚀Starfield.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1691,7 +1691,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🌌Genshin.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1704,7 +1704,7 @@ proxy-groups:
       - 🏁Countries
   - name: ⚽FIFA.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1717,7 +1717,7 @@ proxy-groups:
       - 🏁Countries
   - name: ⚽eFootball.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1730,7 +1730,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🏡TheSims4.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1743,7 +1743,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🧱MinecraftJava.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1756,7 +1756,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🧱MinecraftBedrock.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1769,7 +1769,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🔫Rainbow6.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1782,7 +1782,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🔫Tarkov.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1795,7 +1795,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🛩️BF2042.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1808,7 +1808,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🛩️BFV.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1821,7 +1821,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🛩️BF1.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1834,7 +1834,7 @@ proxy-groups:
       - 🏁Countries
   - name: 👻RE4.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1847,7 +1847,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🏰REVillage.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1860,7 +1860,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🧟DeadByDaylight.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1873,7 +1873,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🧟TLouPC.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1886,7 +1886,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🦖ARK.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1899,7 +1899,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🌄DayZ.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1912,7 +1912,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🏙️RDR2.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1925,7 +1925,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🛡️ACValhalla.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1938,7 +1938,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🗡️ACOdyssey.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1951,7 +1951,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🪓ACMirage.exe🎯
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
@@ -1964,7 +1964,7 @@ proxy-groups:
       - 🏁Countries
   - name: 🎯Destinations
     type: select
-    icon: 
+    #icon 
     proxies:
       - 🖥️Lan
       - 🇮🇷IranWebsites
@@ -2063,280 +2063,280 @@ proxy-groups:
       - 🪓ACMirage.exe🎯
   - name: ♻️gstatic
     type: url-test
-    icon: 
+    #icon 
     url: https://www.gstatic.com/generate_204
     tolerance: 300
     proxies:
       - DIRECT
   - name: ☁️cloudflare
     type: url-test
-    icon: 
+    icon: https://www.svgrepo.com/show/353564/cloudflare.svg
     url: https://cp.cloudflare.com/generate_204
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇭🇰HongKong
     type: url-test
-    icon: 
+    icon: https://www.svgrepo.com/show/405507/flag-for-flag-hong-kong-sar-china.svg
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇯🇵Japan
     type: url-test
-    icon: 
+    icon: https://www.svgrepo.com/show/237297/japan.svg
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇺🇲USA
     type: url-test
-    icon: 
+    icon: https://www.svgrepo.com/show/365950/usa.svg
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇨🇳Taiwan
     type: url-test
-    icon: 
+    icon: https://www.svgrepo.com/show/405623/flag-for-flag-taiwan.svg
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇸🇬Singapore
     type: url-test
-    icon: 
+    icon: https://www.svgrepo.com/show/405601/flag-for-flag-singapore.svg
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇰🇷Korea
     type: url-test
-    icon: 
+    icon: https://www.svgrepo.com/show/237390/south-korea.svg
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇩🇪Germany
     type: url-test
-    icon: 
+    icon: https://www.svgrepo.com/show/405490/flag-for-flag-germany.svg
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇬🇧UK
     type: url-test
-    icon: 
+    icon: https://www.svgrepo.com/show/237419/united-kingdom.svg
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇫🇷France
     type: url-test
-    icon: 
+    icon: https://www.svgrepo.com/show/405485/flag-for-flag-france.svg
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇳🇱Netherlands
     type: url-test
-    icon: 
+    icon: https://www.svgrepo.com/show/405561/flag-for-flag-netherlands.svg
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇮🇳India
     type: url-test
-    icon: 
+    icon: https://www.svgrepo.com/show/405510/flag-for-flag-india.svg
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇨🇦Canada
     type: url-test
-    icon: 
+    icon: https://www.svgrepo.com/show/237219/canada.svg
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇷🇺Russia
     type: url-test
-    icon: 
+    icon: https://www.svgrepo.com/show/405590/flag-for-flag-russia.svg
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇦🇺Australia
     type: url-test
-    icon: 
+    icon: https://www.svgrepo.com/show/405417/flag-for-flag-australia.svg
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇲🇾Malaysia
     type: url-test
-    icon: 
+    icon: https://www.svgrepo.com/show/405539/flag-for-flag-malaysia.svg
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇹🇭Thailand
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇵🇭Philippines
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇻🇳Vietnam
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇹🇷Turkey
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇧🇷Brazil
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇸🇦SaudiArabia
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇿🇦SouthAfrica
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇦🇪UAE
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇲🇽Mexico
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇱🇹Lithuania
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇲🇩Moldova
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇵🇱Poland
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇸🇪Sweden
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇮🇷Iran
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇪🇸Spain
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇨🇳China
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇮🇸Iceland
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇩🇰Denmark
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🇺🇦Ukraine
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🏳️‍🌈RELAY
     type: url-test
-    icon: 
+    #icon 
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🌍Others
     type: url-test
-    icon: 
+    icon: https://www.svgrepo.com/show/230738/world-internet.svg
     url: https://www.facebook.com
     tolerance: 300
     proxies:
       - DIRECT
   - name: ⤵️FirstPing
     type: fallback
-    icon: 
+    #icon 
     url: https://cp.cloudflare.com/generate_204
     tolerance: 300
     proxies:
       - DIRECT
   - name: 🥸consistent-hashing
     type: load-balance
-    icon: 
+    #icon 
     strategy: consistent-hashing
     url: https://cp.cloudflare.com/generate_204
     tolerance: 300
@@ -2344,7 +2344,7 @@ proxy-groups:
       - DIRECT
   - name: 🥸round-robin
     type: load-balance
-    icon: 
+    #icon 
     strategy: round-robin
     url: https://cp.cloudflare.com/generate_204
     tolerance: 300
@@ -2352,7 +2352,7 @@ proxy-groups:
       - DIRECT
   - name: 🥸sticky-sessions
     type: load-balance
-    icon: 
+    #icon 
     strategy: sticky-sessions
     url: https://cp.cloudflare.com/generate_204
     tolerance: 300
@@ -2360,17 +2360,17 @@ proxy-groups:
       - DIRECT
   - name: 🔓Direct
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/253512/unlock.svg
     proxies:
       - DIRECT
   - name: 🚫Block
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/download/501832/stop.svg
     proxies:
       - REJECT
   - name: ⚡Online
     type: select
-    icon: 
+    icon: https://www.svgrepo.com/show/475302/online.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
