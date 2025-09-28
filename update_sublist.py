@@ -17,7 +17,7 @@ class ConfigProcessor:
         self.template_path = "mihomo_template.yml"
         self.output_dir = "Sublist"
         self.readme_path = "README.md"
-        self.base_url = "https://raw.githubusercontent.com/asgharkapk/MihomoSaz/main/Sublist/"
+        self.base_url = "https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/main/Sublist/"
         self.simple_list = "Simple_URL_List.txt"
         self.complex_list = "Complex_URL_list.txt"
 
@@ -128,7 +128,7 @@ class ConfigProcessor:
 
         for idx, (filename, url) in enumerate(entries):
             modified = self._replace_proxy_url(original_template, url)
-            new_path = f"./MihomoSaz_{subdir}_{idx + 1}.yaml"
+            new_path = f"./FCM_{subdir}_{idx + 1}.yaml"
             modified = self._replace_proxy_path(modified, new_path)
 
             output_path = os.path.join(output_subdir, filename)
