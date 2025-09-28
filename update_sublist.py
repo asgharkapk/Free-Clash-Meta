@@ -41,15 +41,19 @@ class ConfigProcessor:
         """بارگذاری لیست URLها"""
         entries = []
         try:
+            logging.info(f"🔍 شروع خواندن لیست: {file_path} (complex={is_complex})")
             with open(file_path, "r", encoding="utf-8") as f:
                 for line in f:
                     if "|" not in line:
+                        logging.info(f"⏭️ خط بی‌اعتبار در {file_path}: {line.strip()}")
                         continue
                     filename, url = line.strip().split("|", 1)
                     processed_url = self._process_url(url.strip(), is_complex)
                     entries.append((filename.strip(), processed_url))
+                    logging.info(f"📌 ورودی بارگذاری شد: {filename.strip()} -> {processed_url}")
+            logging.info(f"✅ تعداد {len(entries)} ورودی از {file_path} خوانده شد")
         except FileNotFoundError:
-            logging.error(f"فایل {file_path} یافت نشد!")
+            logging.info(f"❌ فایل {file_path} یافت نشد!")
         return entries
 
     def _replace_proxy_url(self, template: str, new_url: str) -> str:
@@ -70,6 +74,7 @@ class ConfigProcessor:
 
     def _generate_readme(self, simple_entries: List[Tuple[str, str]], complex_entries: List[Tuple[str, str]]) -> None:
         """تولید README به صورت جدول (Simple و Complex کنار هم با نام یکسان)"""
+        logging.info("📝 شروع تولید README.md ...")
         md_content = [
             "# 📂 لیست کانفیگ‌های کلش متا",
             "### با قوانین مخصوص ایران\n",
@@ -127,12 +132,13 @@ class ConfigProcessor:
     
         with open(self.readme_path, "w", encoding="utf-8") as f:
             f.write("\n".join(md_content))
-
+        logging.info(f"✅ README.md ساخته شد ({len(simple_entries)} Simple, {len(complex_entries)} Complex)")
     def _generate_configs_for_list(self, entries: List[Tuple[str, str]], subdir: str) -> None:
         """ساخت فایل‌های YAML برای یک لیست خاص"""
         if not entries:
+            logging.info(f"⚠️ لیست {subdir} خالی است، هیچ فایلی ساخته نشد")
             return
-
+        logging.info(f"📂 شروع تولید فایل‌ها برای {subdir} (تعداد: {len(entries)})")
         with open(self.template_path, "r", encoding="utf-8") as f:
             original_template = f.read()
 
@@ -151,9 +157,12 @@ class ConfigProcessor:
 
             with open(output_path, "w", encoding="utf-8") as f:
                 f.write(modified)
-
+            logging.info(f"📄 فایل ساخته شد: {output_path} (URL جایگزین شد)")
+        logging.info(f"✅ همه فایل‌های {subdir} ساخته شدند ({len(entries)} فایل)")
+        
     def generate_configs(self):
         """تولید فایل‌های پیکربندی برای Simple و Complex"""
+        logging.info("🚀 شروع پردازش کل پیکربندی‌ها")
         simple_entries = self._load_entries(self.simple_list, False)
         complex_entries = self._load_entries(self.complex_list, True)
 
@@ -163,7 +172,7 @@ class ConfigProcessor:
 
         # تولید README
         self._generate_readme(simple_entries, complex_entries)
-        logging.info("فایل‌ها با موفقیت ساخته شدند!")
+        logging.info("🎉 پردازش کامل شد: فایل‌ها و README ساخته شدند")
 
 
 if __name__ == "__main__":
@@ -172,4 +181,4 @@ if __name__ == "__main__":
         processor.generate_configs()
         logging.info("✅ پردازش با موفقیت انجام شد!")
     except Exception as e:
-        logging.critical(f"❌ خطا: {e}", exc_info=True)
+        logging.info(f"❌ خطا: {e}", exc_info=True)
