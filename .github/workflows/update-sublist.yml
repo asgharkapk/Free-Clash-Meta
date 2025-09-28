@@ -22,6 +22,12 @@ jobs:
       - name: 🚀 اجرای اسکریپت
         run: python3 update_sublist.py
 
+      - name: Upload log file
+        uses: actions/upload-artifact@v4
+        with:
+          name: update-log
+          path: update.log
+
       - name: 💾 ذخیره تغییرات
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
