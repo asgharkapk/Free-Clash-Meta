@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/amin_o__o_bitplatform.yaml
     interval: 7200
     include-all: true
-    path: ./MihomoSaz_Simple_62.yaml
+    path: ./FCM_Simple_62.yaml
 
 proxy-groups:
 

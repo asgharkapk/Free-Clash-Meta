@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ronghuaxueleng/get_v2/refs/heads/main/pub/cfmem.yaml
     interval: 7200
     include-all: true
-    path: ./MihomoSaz_Simple_53.yaml
+    path: ./FCM_Simple_53.yaml
 
 proxy-groups:
 

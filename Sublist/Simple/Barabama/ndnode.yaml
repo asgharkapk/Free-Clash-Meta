@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/ndnode.yaml
     interval: 7200
     include-all: true
-    path: ./MihomoSaz_Simple_5.yaml
+    path: ./FCM_Simple_5.yaml
 
 proxy-groups:
 

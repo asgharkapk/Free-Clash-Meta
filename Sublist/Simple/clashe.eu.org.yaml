@@ -691,7 +691,7 @@ proxy-providers:
       https://clashe.eu.org/clash/proxies
     interval: 7200
     include-all: true
-    path: ./MihomoSaz_Simple_15.yaml
+    path: ./FCM_Simple_15.yaml
 
 proxy-groups:
 

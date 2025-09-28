@@ -691,7 +691,7 @@ proxy-providers:
       https://url.v1.mk/sub?&url=https://raw.githubusercontent.com/ronghuaxueleng/get_v2/refs/heads/main/pub/pawdroid.yaml&target=clash&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead%2Fsubconverter-config%40master%2Fremote-config%2Funiversal%2Furltest.ini&emoji=false&append_type=true&append_info=true&scv=true&udp=true&list=true&sort=false&fdn=true&insert=false
     interval: 7200
     include-all: true
-    path: ./MihomoSaz_Complex_144.yaml
+    path: ./FCM_Complex_144.yaml
 
 proxy-groups:
 

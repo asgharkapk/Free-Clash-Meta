@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ronghuaxueleng/get_v2/refs/heads/main/pub/NoMoreWalls.yaml
     interval: 7200
     include-all: true
-    path: ./MihomoSaz_Simple_52.yaml
+    path: ./FCM_Simple_52.yaml
 
 proxy-groups:
 

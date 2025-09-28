@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/SnapdragonLee/SystemProxy/refs/heads/master/dist/clash_config_extra_US.yaml
     interval: 7200
     include-all: true
-    path: ./MihomoSaz_Simple_12.yaml
+    path: ./FCM_Simple_12.yaml
 
 proxy-groups:
 

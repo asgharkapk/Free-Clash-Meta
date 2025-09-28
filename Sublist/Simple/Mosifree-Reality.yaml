@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Mosifree/-FREE2CONFIG/refs/heads/main/Clash_Reality
     interval: 7200
     include-all: true
-    path: ./MihomoSaz_Simple_9.yaml
+    path: ./FCM_Simple_9.yaml
 
 proxy-groups:
 
