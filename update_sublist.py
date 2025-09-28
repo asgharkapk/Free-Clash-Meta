@@ -14,7 +14,7 @@ logging.basicConfig(
 
 class ConfigProcessor:
     def __init__(self):
-        self.template_path = "mihomo_template.txt"
+        self.template_path = "mihomo_template.yml"
         self.output_dir = "Sublist"
         self.readme_path = "README.md"
         self.base_url = "https://raw.githubusercontent.com/asgharkapk/MihomoSaz/main/Sublist/"
