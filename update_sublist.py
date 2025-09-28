@@ -8,15 +8,15 @@ from typing import List, Tuple
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-# File handler
-fh = logging.FileHandler("update.log", encoding="utf-8")
+# File handler (write logs into update.log)
+fh = logging.FileHandler("update.log", encoding="utf-8", mode="w")
 fh.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
 
-# Console handler
+# Console handler (still see logs in GitHub Actions)
 ch = logging.StreamHandler()
 ch.setFormatter(logging.Formatter("%(levelname)s - %(message)s"))
 
-# Clear old handlers (important if script re-runs in GitHub Actions / Jupyter)
+# Reset any old handlers (important in GitHub Actions/Jupyter)
 logger.handlers.clear()
 
 # Add both handlers
