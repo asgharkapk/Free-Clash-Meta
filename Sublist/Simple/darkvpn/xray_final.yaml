@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/darkvpn.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_17.yaml
+    path: ./FCM_Simple_171.yaml
 
 proxy-groups:
 

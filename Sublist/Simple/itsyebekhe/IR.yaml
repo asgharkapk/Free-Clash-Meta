@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/itsyebekhe_IR.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_27.yaml
+    path: ./FCM_Simple_181.yaml
 
 proxy-groups:
 

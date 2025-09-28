@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/darknessm427/WoW/refs/heads/main/clash-wg.yml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_16.yaml
+    path: ./FCM_Simple_170.yaml
 
 proxy-groups:
 

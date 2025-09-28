@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ermaozi/get_subscribe/refs/heads/main/subscribe/clash.yml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_18.yaml
+    path: ./FCM_Simple_172.yaml
 
 proxy-groups:
 
