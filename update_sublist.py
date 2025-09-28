@@ -4,14 +4,24 @@ import urllib.parse
 import logging
 from typing import List, Tuple
 
-# تنظیمات لاگ
-logging.basicConfig(
-    filename="update.log",
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    encoding="utf-8",
-    force=True   # 🔑 ensures our settings override previous ones
-)
+# --- Logging setup: file + console ---
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
+# File handler
+fh = logging.FileHandler("update.log", encoding="utf-8")
+fh.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
+
+# Console handler
+ch = logging.StreamHandler()
+ch.setFormatter(logging.Formatter("%(levelname)s - %(message)s"))
+
+# Clear old handlers (important if script re-runs in GitHub Actions / Jupyter)
+logger.handlers.clear()
+
+# Add both handlers
+logger.addHandler(fh)
+logger.addHandler(ch)
 
 class ConfigProcessor:
     def __init__(self):
