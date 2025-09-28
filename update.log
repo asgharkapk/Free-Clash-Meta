@@ -18,3 +18,7 @@ Traceback (most recent call last):
     with open(self.template_path, "r", encoding="utf-8") as f:
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: 'mihomo_template.txt'
+2025-09-28 12:33:14,560 - ERROR - فایل Simple_URL_List.txt یافت نشد!
+2025-09-28 12:33:14,560 - ERROR - فایل Complex_URL_list.txt یافت نشد!
+2025-09-28 12:33:14,561 - INFO - فایل‌ها با موفقیت ساخته شدند!
+2025-09-28 12:33:14,561 - INFO - ✅ پردازش با موفقیت انجام شد!
