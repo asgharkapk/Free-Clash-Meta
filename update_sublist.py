@@ -9,7 +9,8 @@ logging.basicConfig(
     filename="update.log",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
-    encoding="utf-8"
+    encoding="utf-8",
+    force=True   # 🔑 ensures our settings override previous ones
 )
 
 class ConfigProcessor:
