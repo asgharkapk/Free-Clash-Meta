@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/freedomnet25500_ss
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_120.yaml
+    path: ./FCM_Simple_297.yaml
 
 proxy-groups:
 

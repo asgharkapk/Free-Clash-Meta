@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/HDYOU/porxy/refs/heads/main/rules/github-clash-all.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_163.yaml
+    path: ./FCM_Simple_340.yaml
 
 proxy-groups:
 

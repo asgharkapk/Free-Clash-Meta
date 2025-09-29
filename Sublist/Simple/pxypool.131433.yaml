@@ -691,7 +691,7 @@ proxy-providers:
       https://pxypool.131433.xyz/clash/proxies
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_204.yaml
+    path: ./FCM_Simple_381.yaml
 
 proxy-groups:
 

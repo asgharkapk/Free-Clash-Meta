@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/V2Hub3/main/Split/Base64/reality
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_68.yaml
+    path: ./FCM_Simple_245.yaml
 
 proxy-groups:
 

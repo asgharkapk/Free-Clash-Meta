@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Leon406/SubCrawler/refs/heads/main/sub/share/hysteria2
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_93.yaml
+    path: ./FCM_Simple_270.yaml
 
 proxy-groups:
 

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ts-sf/fly/refs/heads/main/clash
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_214.yaml
+    path: ./FCM_Simple_391.yaml
 
 proxy-groups:
 
