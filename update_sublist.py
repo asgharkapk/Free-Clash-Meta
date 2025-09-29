@@ -14,10 +14,10 @@ logging.basicConfig(
 
 class ConfigProcessor:
     def __init__(self):
-        self.template_path = "mihomo_template.txt"
+        self.template_path = "mihomo_template.yml"
         self.output_dir = "Sublist"
         self.readme_path = "README.md"
-        self.base_url = "https://raw.githubusercontent.com/asgharkapk/MihomoSaz/main/Sublist/"
+        self.base_url = "https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/main/Sublist/"
         self.simple_list = "Simple_URL_List.txt"
         self.complex_list = "Complex_URL_list.txt"
 
