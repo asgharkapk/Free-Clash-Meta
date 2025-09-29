@@ -4,24 +4,13 @@ import urllib.parse
 import logging
 from typing import List, Tuple
 
-# --- Logging setup: file + console ---
-logger = logging.getLogger()
-logger.setLevel(logging.INFO)
-
-# File handler (write logs into update.log)
-fh = logging.FileHandler("update.log", encoding="utf-8", mode="w")
-fh.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
-
-# Console handler (still see logs in GitHub Actions)
-ch = logging.StreamHandler()
-ch.setFormatter(logging.Formatter("%(levelname)s - %(message)s"))
-
-# Reset any old handlers (important in GitHub Actions/Jupyter)
-logger.handlers.clear()
-
-# Add both handlers
-logger.addHandler(fh)
-logger.addHandler(ch)
+# تنظیمات لاگ
+logging.basicConfig(
+    filename="update.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    encoding="utf-8"
+)
 
 class ConfigProcessor:
     def __init__(self):
@@ -56,15 +45,15 @@ class ConfigProcessor:
             with open(file_path, "r", encoding="utf-8") as f:
                 for line in f:
                     if "|" not in line:
-                        logging.info(f"⏭️ خط بی‌اعتبار در {file_path}: {line.strip()}")
+                        logging.warning(f"⏭️ خط بی‌اعتبار در {file_path}: {line.strip()}")
                         continue
                     filename, url = line.strip().split("|", 1)
                     processed_url = self._process_url(url.strip(), is_complex)
                     entries.append((filename.strip(), processed_url))
-                    logging.info(f"📌 ورودی بارگذاری شد: {filename.strip()} -> {processed_url}")
+                    logging.debug(f"📌 ورودی بارگذاری شد: {filename.strip()} -> {processed_url}")
             logging.info(f"✅ تعداد {len(entries)} ورودی از {file_path} خوانده شد")
         except FileNotFoundError:
-            logging.info(f"❌ فایل {file_path} یافت نشد!")
+            logging.error(f"❌ فایل {file_path} یافت نشد!")
         return entries
 
     def _replace_proxy_url(self, template: str, new_url: str) -> str:
@@ -158,7 +147,7 @@ def _generate_readme(self, simple_entries: List[Tuple[str, str]], complex_entrie
     def _generate_configs_for_list(self, entries: List[Tuple[str, str]], subdir: str) -> None:
         """ساخت فایل‌های YAML برای یک لیست خاص"""
         if not entries:
-            logging.info(f"⚠️ لیست {subdir} خالی است، هیچ فایلی ساخته نشد")
+            logging.warning(f"⚠️ لیست {subdir} خالی است، هیچ فایلی ساخته نشد")
             return
         logging.info(f"📂 شروع تولید فایل‌ها برای {subdir} (تعداد: {len(entries)})")
         with open(self.template_path, "r", encoding="utf-8") as f:
@@ -203,4 +192,4 @@ if __name__ == "__main__":
         processor.generate_configs()
         logging.info("✅ پردازش با موفقیت انجام شد!")
     except Exception as e:
-        logging.info(f"❌ خطا: {e}", exc_info=True)
+        logging.critical(f"❌ خطا: {e}", exc_info=True)
