@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/refs/heads/main/encoded/ShadowsocksM-MCI-Wifi.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_108.yaml
+    path: ./FCM_Simple_109.yaml
 
 proxy-groups:
 

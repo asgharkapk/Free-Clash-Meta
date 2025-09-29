@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ripaojiedian/freenode/refs/heads/main/clash
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_205.yaml
+    path: ./FCM_Simple_206.yaml
 
 proxy-groups:
 

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Ruk1ng001/freeSub/refs/heads/main/clash.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_165.yaml
+    path: ./FCM_Simple_166.yaml
 
 proxy-groups:
 

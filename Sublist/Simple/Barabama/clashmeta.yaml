@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/clashmeta.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_158.yaml
+    path: ./FCM_Simple_159.yaml
 
 proxy-groups:
 

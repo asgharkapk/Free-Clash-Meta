@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/ResistalProxy_server.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_107.yaml
+    path: ./FCM_Simple_108.yaml
 
 proxy-groups:
 

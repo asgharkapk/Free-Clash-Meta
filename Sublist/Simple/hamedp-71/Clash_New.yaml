@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/hamedp-71/Clash_New/refs/heads/main/hp.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_176.yaml
+    path: ./FCM_Simple_177.yaml
 
 proxy-groups:
 

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/moneyfly1/chromego_merge/refs/heads/main/sub/merged_warp_proxies_new.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_199.yaml
+    path: ./FCM_Simple_200.yaml
 
 proxy-groups:
 
