@@ -83,67 +83,78 @@ class ConfigProcessor:
         )
         return pattern.sub(rf"\1{new_path}", template, count=1)
 
-    def _generate_readme(self, simple_entries: List[Tuple[str, str]], complex_entries: List[Tuple[str, str]]) -> None:
-        """تولید README به صورت جدول (Simple و Complex کنار هم با نام یکسان)"""
-        logging.info("📝 شروع تولید README.md ...")
-        md_content = [
-            "# 📂 لیست کانفیگ‌های کلش متا",
-            "### با قوانین مخصوص ایران\n",
-            "**فایل‌های پیکربندی آماده استفاده:**\n",
-            "",
-            "## 🔗 لینک‌ها (Simple ↔ Complex)\n",
-            "| Simple | Complex |",
-            "|--------|---------|"
-        ]
-    
-        emojis = ["🌐", "🚀", "🔒", "⚡", "🛡️"]
-    
-        # تبدیل لیست‌ها به دیکشنری (کلید: filename)
-        simple_dict = {fn: fn for fn, _ in simple_entries}
-        complex_dict = {fn: fn for fn, _ in complex_entries}
-    
-        # تمام نام‌های یکتا
-        all_filenames = sorted(set(simple_dict.keys()) | set(complex_dict.keys()))
-    
-        for idx, filename in enumerate(all_filenames):
+def _generate_readme(self, simple_entries: List[Tuple[str, str]], complex_entries: List[Tuple[str, str]]) -> None:
+    """تولید README به صورت جدول (Simple و Complex کنار هم با نام یکسان)"""
+    logging.info("📝 شروع تولید README.md ...")
+    md_content = [
+        "# 📂 لیست کانفیگ‌های کلش متا",
+        "### با قوانین مخصوص ایران\n",
+        "**فایل‌های پیکربندی آماده استفاده:**\n",
+        ""
+    ]
+
+    emojis = ["🌐", "🚀", "🔒", "⚡", "🛡️"]
+
+    # تبدیل لیست‌ها به دیکشنری (کلید: filename)
+    simple_dict = {fn: fn for fn, _ in simple_entries}
+    complex_dict = {fn: fn for fn, _ in complex_entries}
+
+    # تمام نام‌ها
+    all_filenames = sorted(set(simple_dict.keys()) | set(complex_dict.keys()))
+
+    # ۱. فایل‌هایی که در هر دو دسته هستند (Simple ↔ Complex)
+    paired_files = [fn for fn in all_filenames if fn in simple_dict and fn in complex_dict]
+
+    if paired_files:
+        md_content.append("## 🔗 لینک‌ها (Simple ↔ Complex)\n")
+        md_content.append("| Simple | Complex |")
+        md_content.append("|--------|---------|")
+
+        for idx, filename in enumerate(paired_files):
             emoji = emojis[idx % len(emojis)]
-    
-            # Simple link
-            if filename in simple_dict:
-                s_file_url = f"{self.base_url}Simple/{urllib.parse.quote(filename)}"
-                simple_cell = f"{emoji} [{filename}]({s_file_url})"
-            else:
-                simple_cell = "—"
-    
-            # Complex link
-            if filename in complex_dict:
-                c_file_url = f"{self.base_url}Complex/{urllib.parse.quote(filename)}"
-                complex_cell = f"{emoji} [{filename}]({c_file_url})"
-            else:
-                complex_cell = "—"
-    
-            md_content.append(f"| {simple_cell} | {complex_cell} |")
-    
-        # Footer
-        md_content.extend([
-            "\n## 📖 راهنمای استفاده",
-            "1. روی لینک مورد نظر **کلیک راست** کنید",
-            "2. گزینه **«کپی لینک»** را انتخاب کنید",
-            "3. لینک را در کلش متا **وارد کنید**\n",
-            "## ⭐ ویژگی‌ها",
-            "- 🚀 بهینه‌شده برای ایران",
-            "- 🔄 فعال و غیر فعال کردن راحت قوانین",
-            "- 📆 آپدیت روزانه\n",
-            "## 📥 دریافت کلاینت",
-            "### ویندوز",
-            "[Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases)",
-            "### اندروید",
-            "[ClashMeta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)"
-        ])
-    
-        with open(self.readme_path, "w", encoding="utf-8") as f:
-            f.write("\n".join(md_content))
-        logging.info(f"✅ README.md ساخته شد ({len(simple_entries)} Simple, {len(complex_entries)} Complex)")
+            s_file_url = f"{self.base_url}Simple/{urllib.parse.quote(filename)}"
+            c_file_url = f"{self.base_url}Complex/{urllib.parse.quote(filename)}"
+            md_content.append(f"| {emoji} [{filename}]({s_file_url}) | {emoji} [{filename}]({c_file_url}) |")
+
+    # ۲. فایل‌های یکتا در Simple
+    unique_simple = [fn for fn in simple_dict.keys() if fn not in complex_dict]
+    if unique_simple:
+        md_content.append("\n## 🔹 فقط Simple\n")
+        for idx, filename in enumerate(unique_simple):
+            emoji = emojis[idx % len(emojis)]
+            s_file_url = f"{self.base_url}Simple/{urllib.parse.quote(filename)}"
+            md_content.append(f"- {emoji} [{filename}]({s_file_url})")
+
+    # ۳. فایل‌های یکتا در Complex
+    unique_complex = [fn for fn in complex_dict.keys() if fn not in simple_dict]
+    if unique_complex:
+        md_content.append("\n## 🔹 فقط Complex\n")
+        for idx, filename in enumerate(unique_complex):
+            emoji = emojis[idx % len(emojis)]
+            c_file_url = f"{self.base_url}Complex/{urllib.parse.quote(filename)}"
+            md_content.append(f"- {emoji} [{filename}]({c_file_url})")
+
+    # Footer
+    md_content.extend([
+        "\n## 📖 راهنمای استفاده",
+        "1. روی لینک مورد نظر **کلیک راست** کنید",
+        "2. گزینه **«کپی لینک»** را انتخاب کنید",
+        "3. لینک را در کلش متا **وارد کنید**\n",
+        "## ⭐ ویژگی‌ها",
+        "- 🚀 بهینه‌شده برای ایران",
+        "- 🔄 فعال و غیر فعال کردن راحت قوانین",
+        "- 📆 آپدیت روزانه\n",
+        "## 📥 دریافت کلاینت",
+        "### ویندوز",
+        "[Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases)",
+        "### اندروید",
+        "[ClashMeta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)"
+    ])
+
+    with open(self.readme_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(md_content))
+    logging.info(f"✅ README.md ساخته شد ({len(simple_entries)} Simple, {len(complex_entries)} Complex)")
+        
     def _generate_configs_for_list(self, entries: List[Tuple[str, str]], subdir: str) -> None:
         """ساخت فایل‌های YAML برای یک لیست خاص"""
         if not entries:
