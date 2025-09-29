@@ -688,7 +688,7 @@ proxy-providers:
   proxylist1:
     type: http
     url: >-
-      https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/itsyebekhe_reality.yaml
+      https://raw.githubusercontent.com/vpnclashfa-backup/Sub-Config-Extractor/refs/heads/main/output_configs/clash/itsyebekhe_reality.yaml
     interval: 7200
     include-all: true
     path: ./FCM_Simple_184.yaml
