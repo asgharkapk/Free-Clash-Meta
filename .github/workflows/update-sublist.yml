@@ -30,9 +30,3 @@ jobs:
             Sublist/*
             README.md
             update.log
-
-      - name: Upload log file
-        uses: actions/upload-artifact@v4
-        with:
-          name: update-log
-          path: update.log
