@@ -176,7 +176,6 @@ rayan_proxy.yaml|https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extract
 roosterkid.yaml|https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/surfboard/roosterkid.yaml
 4n0nymou3_ss_anita.yaml|https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/v2ray/4n0nymou3_ss_anita.yaml
 maimengmeng_custom.yaml|https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/v2ray/maimengmeng_custom.yaml
-
 10ium/V2RayAggregator-Eternity.yml|https://raw.githubusercontent.com/10ium/V2RayAggregator/refs/heads/master/Eternity.yml
 10ium/hin-vpn-mix.yaml|https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/base64/mix
 66.42.50.118.yaml|http://66.42.50.118:12580/clash/proxies
