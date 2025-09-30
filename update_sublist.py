@@ -170,7 +170,22 @@ class ConfigProcessor:
                 f.write(modified)
             logging.info(f"📄 فایل ساخته شد: {output_path} (URL جایگزین شد)")
         logging.info(f"✅ همه فایل‌های {subdir} ساخته شدند ({len(entries)} فایل)")
-        
+
+    def _save_complex_urls(self, complex_entries: List[Tuple[str, str]]) -> None:
+        """ذخیره لیست URLهای پردازش‌شده Complex در یک فایل جداگانه"""
+        if not complex_entries:
+            logging.warning("⚠️ لیست Complex خالی است، خروجی URL ساخته نشد")
+            return
+
+        output_file = "Complex_Processed_URLs.txt"
+        try:
+            with open(output_file, "w", encoding="utf-8") as f:
+                for filename, url in complex_entries:
+                    f.write(f"{url},{filename}\n")
+            logging.info(f"✅ فایل {output_file} ساخته شد ({len(complex_entries)} URL)")
+        except Exception as e:
+            logging.error(f"❌ خطا در نوشتن فایل Complex URLs: {e}")
+    
     def generate_configs(self):
         """تولید فایل‌های پیکربندی برای Simple و Complex"""
         logging.info("🚀 شروع پردازش کل پیکربندی‌ها")
@@ -181,10 +196,12 @@ class ConfigProcessor:
         self._generate_configs_for_list(simple_entries, "Simple")
         self._generate_configs_for_list(complex_entries, "Complex")
 
+        # ذخیره لیست پردازش‌شده Complex
+        self._save_complex_urls(complex_entries)
+
         # تولید README
         self._generate_readme(simple_entries, complex_entries)
         logging.info("🎉 پردازش کامل شد: فایل‌ها و README ساخته شدند")
-
 
 if __name__ == "__main__":
     try:
