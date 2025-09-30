@@ -30,7 +30,7 @@ class ConfigProcessor:
                 f"{encoded}&target=clash&config="
                 "https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead"
                 "%2Fsubconverter-config%40master%2Fremote-config"
-                "%2Funiversal%2Furltest.ini&emoji=false"
+                "%2Funiversal%2Furltest.ini&add_emoji=true"
                 "&append_type=true&append_info=true&scv=true"
                 "&udp=true&list=true&sort=false&fdn=true"
                 "&insert=false"
