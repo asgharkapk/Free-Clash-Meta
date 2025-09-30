@@ -722,7 +722,7 @@ proxy-groups:
       - 🇬🇧UK
       - 🇭🇰HongKong
       - 🇯🇵Japan
-      - 🇺🇲USA
+      - 🇺🇸USA
       - 🇨🇳Taiwan
       - 🇸🇬Singapore
       - 🇰🇷Korea
@@ -2104,13 +2104,13 @@ proxy-groups:
     use:
       - proxylist1
     filter: "🇯🇵|日本|东京|大阪|JP|Japan"
-  - name: 🇺🇲USA
+  - name: 🇺🇸USA
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "🇺🇲|美|US|USA|UnitedStates|洛杉矶|圣何塞|西雅图|芝加哥|达拉斯|凤凰城|硅谷|Portland|Seattle|Chicago|Dallas"
+    filter: "🇺🇸|美|US|USA|UnitedStates|洛杉矶|圣何塞|西雅图|芝加哥|达拉斯|凤凰城|硅谷|Portland|Seattle|Chicago|Dallas"
   - name: 🇨🇳Taiwan
     type: url-test
     url: https://www.facebook.com
