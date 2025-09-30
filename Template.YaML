@@ -2336,6 +2336,77 @@ proxy-groups:
       - proxylist1
     filter: "RELAY"
 
+  - name: 🇨🇭Switzerland
+    type: url-test
+    url: https://www.facebook.com
+    tolerance: 300
+    use:
+      - proxylist1
+    filter: "🇨🇭|CH|Switzerland|瑞士|苏黎世|Zurich|Geneva"
+  - name: 🇳🇴Norway
+    type: url-test
+    url: https://www.facebook.com
+    tolerance: 300
+    use:
+      - proxylist1
+    filter: "🇳🇴|NO|Norway|挪威|奥斯陆|Oslo"
+  - name: 🇫🇮Finland
+    type: url-test
+    url: https://www.facebook.com
+    tolerance: 300
+    use:
+      - proxylist1
+    filter: "🇫🇮|FI|Finland|芬兰|赫尔辛基|Helsinki"
+  - name: 🇧🇪Belgium
+    type: url-test
+    url: https://www.facebook.com
+    tolerance: 300
+    use:
+      - proxylist1
+    filter: "🇧🇪|BE|Belgium|比利时|布鲁塞尔|Brussels"
+  - name: 🇵🇹Portugal
+    type: url-test
+    url: https://www.facebook.com
+    tolerance: 300
+    use:
+      - proxylist1
+    filter: "🇵🇹|PT|Portugal|葡萄牙|里斯本|Lisbon|Porto"
+  - name: 🇮🇹Italy
+    type: url-test
+    url: https://www.facebook.com
+    tolerance: 300
+    use:
+      - proxylist1
+    filter: "🇮🇹|IT|Italy|意大利|米兰|罗马|Milan|Rome"
+  - name: 🇨🇱Chile
+    type: url-test
+    url: https://www.facebook.com
+    tolerance: 300
+    use:
+      - proxylist1
+    filter: "🇨🇱|CL|Chile|智利|圣地亚哥|Santiago"
+  - name: 🇦🇷Argentina
+    type: url-test
+    url: https://www.facebook.com
+    tolerance: 300
+    use:
+      - proxylist1
+    filter: "🇦🇷|AR|Argentina|阿根廷|布宜诺斯艾利斯|BuenosAires"
+  - name: 🇳🇿NewZealand
+    type: url-test
+    url: https://www.facebook.com
+    tolerance: 300
+    use:
+      - proxylist1
+    filter: "🇳🇿|NZ|NewZealand|新西兰|奥克兰|Auckland|Wellington"
+  - name: 🇮🇩Indonesia
+    type: url-test
+    url: https://www.facebook.com
+    tolerance: 300
+    use:
+      - proxylist1
+    filter: "🇮🇩|ID|Indonesia|印尼|雅加达|Jakarta|Bali"
+
 - name: 🌍Others
     type: url-test
     url: https://www.facebook.com
