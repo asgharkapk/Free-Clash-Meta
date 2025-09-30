@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/vpnclashfa-backup/Sub-Config-Extractor/refs/heads/main/output_configs/clash/the3rf_com_sub_php.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_395.yaml
+    path: ./FCM_Simple_690.yaml
 
 proxy-groups:
 

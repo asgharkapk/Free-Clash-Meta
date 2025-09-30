@@ -691,7 +691,7 @@ proxy-providers:
       https://qiaomenzhuanfx.netlify.app
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_314.yaml
+    path: ./FCM_Simple_609.yaml
 
 proxy-groups:
 

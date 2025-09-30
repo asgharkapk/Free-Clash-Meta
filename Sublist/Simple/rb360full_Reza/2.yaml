@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/rb360full_Reza-2
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_315.yaml
+    path: ./FCM_Simple_610.yaml
 
 proxy-groups:
 

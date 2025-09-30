@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Everyday-VPN_main.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_269.yaml
+    path: ./FCM_Simple_564.yaml
 
 proxy-groups:
 

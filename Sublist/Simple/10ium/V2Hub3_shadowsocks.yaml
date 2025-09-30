@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/V2Hub3/main/Split/Base64/shadowsocks
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_246.yaml
+    path: ./FCM_Simple_541.yaml
 
 proxy-groups:
 

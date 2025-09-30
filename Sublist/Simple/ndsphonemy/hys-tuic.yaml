@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/ndsphonemy_hys-tuic.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_310.yaml
+    path: ./FCM_Simple_605.yaml
 
 proxy-groups:
 

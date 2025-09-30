@@ -691,7 +691,7 @@ proxy-providers:
       https://fast.lycorisrecoil.org/link/At3FWhPqhfOAvPOL?clash=1
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_351.yaml
+    path: ./FCM_Simple_646.yaml
 
 proxy-groups:
 
