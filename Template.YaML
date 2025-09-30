@@ -2407,7 +2407,7 @@ proxy-groups:
       - proxylist1
     filter: "🇮🇩|ID|Indonesia|印尼|雅加达|Jakarta|Bali"
 
-- name: 🌍Others
+  - name: 🌍Others
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
