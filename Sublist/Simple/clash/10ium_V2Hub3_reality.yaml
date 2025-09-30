@@ -2097,238 +2097,238 @@ proxy-groups:
     tolerance: 300
     use:
       - proxylist1
-    filter: "港|HK|hk|HongKong|hongkong"
+    filter: "🇭🇰|港|HK|hk|HongKong|hongkong"
   - name: 🇯🇵Japan
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "日本|东京|大阪|JP|Japan"
+    filter: "🇯🇵|日本|东京|大阪|JP|Japan"
   - name: 🇺🇲USA
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "美|US|USA|UnitedStates|洛杉矶|圣何塞|西雅图|芝加哥|达拉斯|凤凰城|硅谷|Portland|Seattle|Chicago|Dallas"
+    filter: "🇺🇲|美|US|USA|UnitedStates|洛杉矶|圣何塞|西雅图|芝加哥|达拉斯|凤凰城|硅谷|Portland|Seattle|Chicago|Dallas"
   - name: 🇨🇳Taiwan
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "TW|Taiwan|台|台北"
+    filter: "🇹🇼|TW|Taiwan|台|台北"
   - name: 🇸🇬Singapore
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "SG|Singapore|新加坡|狮城"
+    filter: "🇸🇬|SG|Singapore|新加坡|狮城"
   - name: 🇰🇷Korea
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "KR|Korea|韩国|首尔|Seoul"
+    filter: "🇰🇷|KR|Korea|韩国|首尔|Seoul"
   - name: 🇩🇪Germany
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "DE|Germany|德国|法兰克福|慕尼黑|柏林|Frankfurt|Berlin|Munich"
+    filter: "🇩🇪|DE|Germany|德国|法兰克福|慕尼黑|柏林|Frankfurt|Berlin|Munich"
   - name: 🇬🇧UK
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "GB|UK|England|英国|伦敦|London"
+    filter: "🇬🇧|GB|UK|England|英国|伦敦|London"
   - name: 🇫🇷France
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "FR|France|法国|巴黎|Marseille|Lyon"
+    filter: "🇫🇷|FR|France|法国|巴黎|Marseille|Lyon"
   - name: 🇳🇱Netherlands
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "NL|Netherlands|荷兰|阿姆斯特丹|Amsterdam"
+    filter: "🇳🇱|NL|Netherlands|荷兰|阿姆斯特丹|Amsterdam"
   - name: 🇮🇳India
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "IN|India|印度|孟买|Mumbai|Delhi|班加罗尔|Bangalore"
+    filter: "🇮🇳|IN|India|印度|孟买|Mumbai|Delhi|班加罗尔|Bangalore"
   - name: 🇨🇦Canada
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "CA|Canada|加拿大|Toronto|温哥华|Vancouver|Montreal"
+    filter: "🇨🇦|CA|Canada|加拿大|Toronto|温哥华|Vancouver|Montreal"
   - name: 🇷🇺Russia
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "RU|Russia|俄罗斯|莫斯科|Moscow|圣彼得堡|StPetersburg"
+    filter: "🇷🇺|RU|Russia|俄罗斯|莫斯科|Moscow|圣彼得堡|StPetersburg"
   - name: 🇦🇺Australia
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "AU|Australia|澳大利亚|悉尼|墨尔本|Sydney|Melbourne"
+    filter: "🇦🇺|AU|Australia|澳大利亚|悉尼|墨尔本|Sydney|Melbourne"
   - name: 🇲🇾Malaysia
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "MY|Malaysia|马来西亚|吉隆坡|KualaLumpur"
+    filter: "🇲🇾|MY|Malaysia|马来西亚|吉隆坡|KualaLumpur"
   - name: 🇹🇭Thailand
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "TH|Thailand|泰国|曼谷|Bangkok"
+    filter: "🇹🇭|TH|Thailand|泰国|曼谷|Bangkok"
   - name: 🇵🇭Philippines
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "PH|Philippines|菲律宾|马尼拉|Manila"
+    filter: "🇵🇭|PH|Philippines|菲律宾|马尼拉|Manila"
   - name: 🇻🇳Vietnam
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "VN|Vietnam|越南|胡志明|Hanoi|HoChiMinh"
+    filter: "🇻🇳|VN|Vietnam|越南|胡志明|Hanoi|HoChiMinh"
   - name: 🇹🇷Turkey
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "TR|Turkey|土耳其|伊斯坦布尔|Istanbul|Ankara"
+    filter: "🇹🇷|TR|Turkey|土耳其|伊斯坦布尔|Istanbul|Ankara"
   - name: 🇧🇷Brazil
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "BR|Brazil|巴西|圣保罗|SaoPaulo|Rio"
+    filter: "🇧🇷|BR|Brazil|巴西|圣保罗|SaoPaulo|Rio"
   - name: 🇸🇦SaudiArabia
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "SA|Saudi|阿拉伯|利雅得|Riyadh|Jeddah"
+    filter: "🇸🇦|SA|Saudi|阿拉伯|利雅得|Riyadh|Jeddah"
   - name: 🇿🇦SouthAfrica
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "ZA|SouthAfrica|南非|约翰内斯堡|开普敦|CapeTown"
+    filter: "🇿🇦|ZA|SouthAfrica|南非|约翰内斯堡|开普敦|CapeTown"
   - name: 🇦🇪UAE
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "AE|UAE|阿联酋|迪拜|Dubai|AbuDhabi"
+    filter: "🇦🇪|AE|UAE|阿联酋|迪拜|Dubai|AbuDhabi"
   - name: 🇲🇽Mexico
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "MX|Mexico|墨西哥|墨西哥城|CDMX"
+    filter: "🇲🇽|MX|Mexico|墨西哥|墨西哥城|CDMX"
   - name: 🇱🇹Lithuania
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "LT|Lithuania|立陶宛|Vilnius"
+    filter: "🇱🇹|LT|Lithuania|立陶宛|Vilnius"
   - name: 🇲🇩Moldova
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "MD|Moldova|摩尔多瓦|Chisinau"
+    filter: "🇲🇩|MD|Moldova|摩尔多瓦|Chisinau"
   - name: 🇵🇱Poland
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "PL|Poland|波兰|华沙|Warsaw"
+    filter: "🇵🇱|PL|Poland|波兰|华沙|Warsaw"
   - name: 🇸🇪Sweden
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "SE|Sweden|瑞典|斯德哥尔摩|Stockholm"
+    filter: "🇸🇪|SE|Sweden|瑞典|斯德哥尔摩|Stockholm"
   - name: 🇮🇷Iran
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "IR|Iran|ایران|Tehran|تهران"
+    filter: "🇮🇷|IR|Iran|ایران|Tehran|تهران"
   - name: 🇪🇸Spain
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "ES|Spain|西班牙|马德里|Madrid|巴塞罗那|Barcelona"
+    filter: "🇪🇸|ES|Spain|西班牙|马德里|Madrid|巴塞罗那|Barcelona"
   - name: 🇨🇳China
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "CN|China|中国|大陆|上海|北京|广州|深圳"
+    filter: "🇨🇳|CN|China|中国|大陆|上海|北京|广州|深圳"
   - name: 🇮🇸Iceland
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "IS|Iceland"
+    filter: "🇮🇸|IS|Iceland"
   - name: 🇩🇰Denmark
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "DK|Denmark"
+    filter: "🇩🇰|DK|Denmark"
   - name: 🇺🇦Ukraine
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "UA|Ukraine"
+    filter: "🇺🇦|UA|Ukraine"
   - name: 🏳️‍🌈RELAY
     type: url-test
     url: https://www.facebook.com
@@ -2336,13 +2336,14 @@ proxy-groups:
     use:
       - proxylist1
     filter: "RELAY"
+  
   - name: 🌍Others
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
     use:
       - proxylist1
-    filter: "^(?!.*(US|GB|JP|HK|TW|SG|KR|DE|FR|NL|IN|CA|RU|AU|MY|TH|PH|VN|TR|BR|SA|ZA|AE|MX|LT|MD|PL|SE|IR|ES|CN|IS|DK|UA|RELAY)).*"
+    filter: "^(?!.*(US|🇺🇸|GB|🇬🇧|JP|🇯🇵|HK|🇭🇰|TW|🇹🇼|SG|🇸🇬|KR|🇰🇷|DE|🇩🇪|FR|🇫🇷|NL|🇳🇱|IN|🇮🇳|CA|🇨🇦|RU|🇷🇺|AU|🇦🇺|MY|🇲🇾|TH|🇹🇭|PH|🇵🇭|VN|🇻🇳|TR|🇹🇷|BR|🇧🇷|SA|🇸🇦|ZA|🇿🇦|AE|🇦🇪|MX|🇲🇽|LT|🇱🇹|MD|🇲🇩|PL|🇵🇱|SE|🇸🇪|IR|🇮🇷|ES|🇪🇸|CN|🇨🇳|IS|🇮🇸|DK|🇩🇰|UA|🇺🇦|RELAY)).*"
 
   - name: ⤵️FirstPing
     type: fallback
