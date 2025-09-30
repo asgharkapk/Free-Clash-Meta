@@ -2406,7 +2406,6 @@ proxy-groups:
     use:
       - proxylist1
     filter: "🇮🇩|ID|Indonesia|印尼|雅加达|Jakarta|Bali"
-
   - name: 🌍Others
     type: url-test
     url: https://www.facebook.com
