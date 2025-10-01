@@ -752,6 +752,18 @@ proxy-groups:
       - 🇨🇳China
       - 🇩🇰Denmark
       - 🇮🇸Iceland
+      - 🇺🇦Ukraine
+      - 🏳️‍🌈RELAY
+      - 🇨🇭Switzerland
+      - 🇳🇴Norway
+      - 🇫🇮Finland
+      - 🇧🇪Belgium
+      - 🇵🇹Portugal
+      - 🇮🇹Italy
+      - 🇨🇱Chile
+      - 🇦🇷Argentina
+      - 🇳🇿NewZealand
+      - 🇮🇩Indonesia
       - 🌍Others
 
   - name: 📘Facebook🎯
@@ -888,8 +900,8 @@ proxy-groups:
     type: select
     icon: https://www.svgrepo.com/show/400887/videogame.svg
     proxies:
-      - 🔓Direct
       - 🌐Proxy
+      - 🔓Direct
       - 🚫Block
       - ⤵️FirstPing
       - 🦽Manual
@@ -2412,7 +2424,7 @@ proxy-groups:
     tolerance: 300
     use:
       - proxylist1
-    filter: "^(?!.*(US|🇺🇸|GB|🇬🇧|JP|🇯🇵|HK|🇭🇰|TW|🇹🇼|SG|🇸🇬|KR|🇰🇷|DE|🇩🇪|FR|🇫🇷|NL|🇳🇱|IN|🇮🇳|CA|🇨🇦|RU|🇷🇺|AU|🇦🇺|MY|🇲🇾|TH|🇹🇭|PH|🇵🇭|VN|🇻🇳|TR|🇹🇷|BR|🇧🇷|SA|🇸🇦|ZA|🇿🇦|AE|🇦🇪|MX|🇲🇽|LT|🇱🇹|MD|🇲🇩|PL|🇵🇱|SE|🇸🇪|IR|🇮🇷|ES|🇪🇸|CN|🇨🇳|IS|🇮🇸|DK|🇩🇰|UA|🇺🇦|RELAY)).*"
+    filter: "^(?!.*(US|🇺🇸|GB|🇬🇧|JP|🇯🇵|HK|🇭🇰|TW|🇹🇼|SG|🇸🇬|KR|🇰🇷|DE|🇩🇪|FR|🇫🇷|NL|🇳🇱|IN|🇮🇳|CA|🇨🇦|RU|🇷🇺|AU|🇦🇺|MY|🇲🇾|TH|🇹🇭|PH|🇵🇭|VN|🇻🇳|TR|🇹🇷|BR|🇧🇷|SA|🇸🇦|ZA|🇿🇦|AE|🇦🇪|MX|🇲🇽|LT|🇱🇹|MD|🇲🇩|PL|🇵🇱|SE|🇸🇪|IR|🇮🇷|ES|🇪🇸|CN|🇨🇳|IS|🇮🇸|DK|🇩🇰|UA|🇺🇦|🇨🇭|CH|🇳🇴|NO|🇫🇮|FI|🇧🇪|BE|🇵🇹|PT|🇮🇹|IT|🇨🇱|CL|🇦🇷|AR|🇳🇿|NZ|🇮🇩|ID|RELAY)).*"
 
   - name: ⤵️FirstPing
     type: fallback
