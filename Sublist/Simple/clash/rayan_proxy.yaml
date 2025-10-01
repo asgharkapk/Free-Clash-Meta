@@ -2415,6 +2415,9 @@ proxy-groups:
     type: url-test
     url: https://www.facebook.com
     tolerance: 300
+    use:
+        - proxylist1
+    filter: "🇮🇩|ID|Indonesia"
   - name: 🌍Others
     type: url-test
     url: https://www.facebook.com
