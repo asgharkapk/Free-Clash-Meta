@@ -486,8 +486,8 @@ v2ray/shatakvpn.yaml|https://raw.githubusercontent.com/asgharkapk/Sub-Config-Ext
 v2ray/v2nodes.yaml|https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/v2ray/v2nodes.yaml
 v2ray/v2ray_hidify.yaml|https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/v2ray/v2ray_hidify.yaml
 v2ray/wudongdefeng_list_raw.yaml|https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/v2ray/wudongdefeng_list_raw.yaml
-v2ray/yebekhe_vpn-fail.yaml|https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/v2ray/yebekhe_vpn-fail.yaml10ium/V2RayAggregator-
-Eternity.yml|https://raw.githubusercontent.com/10ium/V2RayAggregator/refs/heads/master/Eternity.yml
+v2ray/yebekhe_vpn-fail.yaml|https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/v2ray/yebekhe_vpn-fail.yaml
+10ium/V2RayAggregator-Eternity.yml|https://raw.githubusercontent.com/10ium/V2RayAggregator/refs/heads/master/Eternity.yml
 10ium/hin-vpn-mix.yaml|https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/base64/mix
 66.42.50.118.yaml|http://66.42.50.118:12580/clash/proxies
 Barabama/clashmeta.yaml|https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/clashmeta.yaml
