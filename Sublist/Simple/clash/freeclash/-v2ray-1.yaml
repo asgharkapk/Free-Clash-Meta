@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/freeclash/-v2ray-1.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_113.yaml
+    path: ./FCM_Simple_66.yaml
 
 proxy-groups:
 

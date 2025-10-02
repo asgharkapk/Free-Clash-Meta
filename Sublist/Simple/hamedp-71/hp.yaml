@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/hamedp-71_hp.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_693.yaml
+    path: ./FCM_Simple_609.yaml
 
 proxy-groups:
 

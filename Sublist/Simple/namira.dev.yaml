@@ -691,7 +691,7 @@ proxy-providers:
       https://www.namira.dev/api/subscription
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_651.yaml
+    path: ./FCM_Simple_567.yaml
 
 proxy-groups:
 

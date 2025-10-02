@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/roosterkid-V2RAY_BASE64.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_204.yaml
+    path: ./FCM_Simple_128.yaml
 
 proxy-groups:
 

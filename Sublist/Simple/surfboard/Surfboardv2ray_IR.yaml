@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/surfboard/Surfboardv2ray_IR.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_430.yaml
+    path: ./FCM_Simple_347.yaml
 
 proxy-groups:
 

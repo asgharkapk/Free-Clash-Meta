@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/v2ray/SnapdragonLee_clash_config_extra_US.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_533.yaml
+    path: ./FCM_Simple_450.yaml
 
 proxy-groups:
 

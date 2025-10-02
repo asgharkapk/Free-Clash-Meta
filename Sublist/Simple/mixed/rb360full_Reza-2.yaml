@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/rb360full_Reza-2.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_304.yaml
+    path: ./FCM_Simple_221.yaml
 
 proxy-groups:
 

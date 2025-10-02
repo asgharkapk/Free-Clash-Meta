@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/moeinkey_ssh.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_184.yaml
+    path: ./FCM_Simple_113.yaml
 
 proxy-groups:
 

@@ -691,7 +691,7 @@ proxy-providers:
       https://zaya.io/Xs_Unlimite
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_725.yaml
+    path: ./FCM_Simple_641.yaml
 
 proxy-groups:
 

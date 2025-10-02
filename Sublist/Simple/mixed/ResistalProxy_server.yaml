@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/ResistalProxy_server.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_253.yaml
+    path: ./FCM_Simple_170.yaml
 
 proxy-groups:
 

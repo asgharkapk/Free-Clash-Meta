@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/NiREvil_SSTime
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_671.yaml
+    path: ./FCM_Simple_587.yaml
 
 proxy-groups:
 

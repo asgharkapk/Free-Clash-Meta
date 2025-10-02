@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/ss/shatakvpn.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_378.yaml
+    path: ./FCM_Simple_295.yaml
 
 proxy-groups:
 

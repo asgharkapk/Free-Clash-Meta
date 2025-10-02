@@ -691,7 +691,7 @@ proxy-providers:
       http://66.42.50.118:12580/clash/proxies
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_729.yaml
+    path: ./FCM_Simple_645.yaml
 
 proxy-groups:
 

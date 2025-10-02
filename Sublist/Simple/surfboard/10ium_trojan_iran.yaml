@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/surfboard/10ium_trojan_iran.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_400.yaml
+    path: ./FCM_Simple_317.yaml
 
 proxy-groups:
 
