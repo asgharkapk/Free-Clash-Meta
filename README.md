@@ -751,75 +751,72 @@
 
 ## 📥 دریافت کلاینت‌های Clash.Meta / Mihomo
 ### ویندوز
-- [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases)
-- [Clash Verge](https://github.com/clash-verge/clash-verge/releases)
-- [Clash Nyanpasu](https://github.com/LibNyanpasu/clash-nyanpasu/releases)
-- [Clash N](https://github.com/2dust/clashN/releases)
-- [Clash.Mini](https://github.com/MetaCubeX/Clash.Mini/releases)
-- [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta/releases)
-- [Clash for Windows](https://en.clashforwindows.org/)
-- [HiddifyClashDesktop](https://github.com/hiddify/HiddifyClashDesktop)
-- [FlClash](https://github.com/chen08209/FlClash/releases)
-- [FlClashX](https://github.com/pluralplay/FlClashX)
-- [Mihomo Party](https://github.com/mihomo-party-org/clash-party)
-- [Pandora Box](https://github.com/LibNyanpasu/pandora-box)
-- [AnyPortal](https://github.com/AnyPortal)
-- [Clash Mi Desktop](https://github.com/KaringX/clashmi-desktop)
-### مک‌اواس
-- [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases)
-- [Clash Verge](https://github.com/clash-verge/clash-verge/releases)
-- [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta/releases)
-- [Clash.Mini](https://github.com/MetaCubeX/Clash.Mini/releases)
-- [HiddifyClashDesktop](https://github.com/hiddify/HiddifyClashDesktop)
-- [FlClash](https://github.com/chen08209/FlClash/releases)
-- [FlClashX](https://github.com/pluralplay/FlClashX)
-- [Mihomo Party](https://github.com/mihomo-party-org/clash-party)
-- [Pandora Box](https://github.com/LibNyanpasu/pandora-box)
-- [AnyPortal](https://github.com/AnyPortal)
-- [Clash Mi Desktop](https://github.com/KaringX/clashmi-desktop)
+- [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) : Modern Tauri-based cross-platform GUI, lightweight, supports advanced routing and DNS over HTTPS, occasional minor UI bugs. Pros: fast, simple setup, stable updates. Cons: fewer themes, small learning curve for advanced routing. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Clash Verge](https://github.com/clash-verge/clash-verge/releases) : Stable cross-platform client, simple interface, supports basic proxy management. Pros: stable, lightweight. Cons: fewer advanced features than Verge Rev. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks
+- [Clash Nyanpasu](https://github.com/LibNyanpasu/clash-nyanpasu/releases) : Minimalist design, lightweight, easy to use, focused on essential features. Pros: fast, low resource usage. Cons: lacks advanced routing and load balancing. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5
+- [Clash N](https://github.com/2dust/clashN/releases) : Clean GUI, user-friendly, supports basic rules and subscription updates. Pros: simple, stable. Cons: limited customization, fewer advanced features. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks
+- [Clash.Mini](https://github.com/MetaCubeX/Clash.Mini/releases) : Minimalistic client for essential routing, low resource usage. Pros: fast, portable. Cons: no advanced GUI, limited proxy management. Supported cores: Clash.Meta. Supported agents: HTTP, HTTPS, SOCKS5
+- [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta/releases) : macOS style interface on Windows, rich feature set including rule-based routing, DNS over HTTPS. Pros: advanced features, cross-platform compatibility. Cons: occasional UI glitches, slightly higher resource usage. Supported cores: Clash.Meta. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Clash for Windows](https://en.clashforwindows.org/) : Full-featured GUI, popular among Windows users, supports subscriptions, rules, and multiple proxies. Pros: rich GUI, stable, frequent updates. Cons: slightly heavier, may require manual updates. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [HiddifyClashDesktop](https://github.com/hiddify/HiddifyClashDesktop) : Optimized for speed, lightweight, supports load balancing and DNS features. Pros: fast, optimized, lightweight. Cons: less documentation, fewer GUI customization options. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess
+- [FlClash](https://github.com/chen08209/FlClash/releases) : Multi-platform, open-source, ad-free, supports advanced rules and proxies. Pros: simple, ad-free, stable. Cons: limited GUI customization. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [FlClashX](https://github.com/pluralplay/FlClashX) : Enhanced FlClash with extra features, better stability, added proxy management tools. Pros: more features, active updates. Cons: slightly higher resource usage. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Mihomo Party](https://github.com/mihomo-party-org/clash-party) : Community-driven, supports multiple protocols and subscriptions, rich features. Pros: frequent updates, community support. Cons: complex for beginners. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Pandora Box](https://github.com/LibNyanpasu/pandora-box) : Advanced features, supports multiple proxies, rule management, DNS over HTTPS. Pros: robust features. Cons: heavier than most clients. Supported cores: Clash.Meta. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [AnyPortal](https://github.com/AnyPortal) : Versatile client, supports various protocols, active development. Pros: flexible, protocol-rich. Cons: less user-friendly. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Clash Mi Desktop](https://github.com/KaringX/clashmi-desktop) : User-friendly, minimalistic, supports basic proxy management and subscriptions. Pros: simple, portable. Cons: lacks advanced features. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks
+### MacOS
+- [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) : Modern Tauri-based cross-platform GUI, lightweight, advanced routing and DNS support. Pros: stable, fast. Cons: minor UI bugs. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Clash Verge](https://github.com/clash-verge/clash-verge/releases) : Stable, simple interface, supports basic proxies. Pros: lightweight, stable. Cons: lacks advanced features. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks
+- [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta/releases) : macOS-focused, advanced routing, rule-based proxy management. Pros: full-featured, stable. Cons: higher resource usage. Supported cores: Clash.Meta. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Clash.Mini](https://github.com/MetaCubeX/Clash.Mini/releases) : Minimalistic, lightweight, essential features. Pros: fast, portable. Cons: lacks GUI, limited advanced options. Supported cores: Clash.Meta. Supported agents: HTTP, HTTPS, SOCKS5
+- [HiddifyClashDesktop](https://github.com/hiddify/HiddifyClashDesktop) : Optimized, fast, supports DNS and load balancing. Pros: lightweight, fast. Cons: less documentation. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess
+- [FlClash](https://github.com/chen08209/FlClash/releases) : Open-source, ad-free, multi-platform, rule support. Pros: simple, ad-free. Cons: limited GUI customization. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [FlClashX](https://github.com/pluralplay/FlClashX) : Enhanced FlClash with extra features and stability. Pros: more features, active updates. Cons: higher resource usage. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Mihomo Party](https://github.com/mihomo-party-org/clash-party) : Community-driven, protocol-rich, subscription support. Pros: active updates, community support. Cons: complex for beginners. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Pandora Box](https://github.com/LibNyanpasu/pandora-box) : Advanced proxy and DNS management. Pros: feature-rich. Cons: heavier, complex. Supported cores: Clash.Meta. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [AnyPortal](https://github.com/AnyPortal) : Flexible, multi-protocol support. Pros: versatile. Cons: less beginner-friendly. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Clash Mi Desktop](https://github.com/KaringX/clashmi-desktop) : User-friendly, lightweight. Pros: simple, portable. Cons: lacks advanced routing. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks
 ### لینوکس
-- [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases)
-- [Clash Verge](https://github.com/clash-verge/clash-verge/releases)
-- [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta/releases)
-- [Clash.Mini](https://github.com/MetaCubeX/Clash.Mini/releases)
-- [HiddifyClashDesktop](https://github.com/hiddify/HiddifyClashDesktop)
-- [FlClash](https://github.com/chen08209/FlClash/releases)
-- [FlClashX](https://github.com/pluralplay/FlClashX)
-- [Mihomo Party](https://github.com/mihomo-party-org/clash-party)
-- [Mihoro](https://github.com/spencerwooo/mihoro)
-- [Pandora Box](https://github.com/LibNyanpasu/pandora-box)
-- [AnyPortal](https://github.com/AnyPortal/AnyPortal)
-- [Clash Mi Desktop](https://github.com/KaringX/clashmi-desktop)
-### اندروید
-- [ClashMeta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)
-- [FlClash](https://github.com/chen08209/FlClash/releases)
-- [FlClashX](https://github.com/pluralplay/FlClashX)
-- [Karing](https://github.com/KaringX/karing/releases)
-- [Surfboard](https://github.com/MetaCubeX/Surfboard/releases)
-- [ClashMi](https://github.com/KaringX/clashmi)
-- [Clash Mi Android Fork](https://github.com/KaringX/clashmi-android)
-- [Mihomo Party](https://github.com/mihomo-party-org/clash-party)
-- [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)
-- [Hiddify](https://github.com/hiddify/hiddify-app/releases)
-- [AnyPortal](https://github.com/AnyPortal/AnyPortal)
-- [Pandora Box](https://github.com/LibNyanpasu/pandora-box)
-### iOS
-- [FlClash (iOS)](https://github.com/chen08209/FlClash/releases)
-- [FlClashX](https://github.com/pluralplay/FlClashX)
-- [Stash](https://apps.apple.com/app/stash/id1596063349)
-- [Clash iOS](https://bestclash.net/en/products/ios)
-- [Clash Mi (TestFlight)](https://testflight.apple.com/join/bjHXktB3)
-- [ClashMi](https://apps.apple.com/us/app/clash-mi/id6744321968)
-- [Shadowrocket](https://apps.apple.com/us/app/shadowrocket/id932747118)
-- [Quantumult X](https://apps.apple.com/us/app/quantumult-x/id1443988620)
-- [Surge](https://apps.apple.com/us/app/surge/id1228589927)
-- [AnyPortal](https://github.com/AnyPortal/AnyPortal)
-- [Pandora Box](https://github.com/LibNyanpasu/pandora-box)
-### سایر پلتفرم‌ها
-- [OpenWrt‑nikki](https://github.com/nikkinikki-org/OpenWrt-nikki)
-- [Mihomo Transparent Proxy (Docker)](https://github.com/scenery/mihomo-tproxy-docker)
-- [Mihomo Party](https://github.com/mihomo-party-org/clash-party)
-- [FlClashX](https://github.com/pluralplay/FlClashX)
-- [AnyPortal](https://github.com/AnyPortal)
-- [Pandora Box](https://github.com/LibNyanpasu/pandora-box)
-- [Clash Mi Desktop](https://github.com/KaringX/clashmi-desktop)
+- [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) : Lightweight, cross-platform Tauri GUI. Pros: stable, fast. Cons: minor UI bugs. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Clash Verge](https://github.com/clash-verge/clash-verge/releases) : Stable, minimal interface. Pros: fast, simple. Cons: fewer advanced features. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks
+- [Clash.Mini](https://github.com/MetaCubeX/Clash.Mini/releases) : Minimal, essential features. Pros: lightweight, fast. Cons: limited advanced options. Supported cores: Clash.Meta. Supported agents: HTTP, HTTPS, SOCKS5
+- [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta/releases) : Feature-rich GUI. Pros: advanced features. Cons: higher resources. Supported cores: Clash.Meta. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [HiddifyClashDesktop](https://github.com/hiddify/HiddifyClashDesktop) : Optimized for speed. Pros: lightweight. Cons: less documentation. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess
+- [FlClash](https://github.com/chen08209/FlClash/releases) : Open-source, ad-free, multi-platform. Pros: simple, stable. Cons: limited GUI customization. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [FlClashX](https://github.com/pluralplay/FlClashX) : Enhanced FlClash. Pros: extra features. Cons: higher resource usage. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Mihomo Party](https://github.com/mihomo-party-org/clash-party) : Protocol-rich, subscription support. Pros: active community. Cons: complex for beginners. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Mihoro](https://github.com/spencerwooo/mihoro) : Lightweight, fast. Pros: minimal, efficient. Cons: lacks GUI features. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks
+- [Pandora Box](https://github.com/LibNyanpasu/pandora-box) : Feature-rich. Pros: advanced. Cons: heavy. Supported cores: Clash.Meta. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [AnyPortal](https://github.com/AnyPortal/AnyPortal) : Versatile. Pros: multi-protocol. Cons: less user-friendly. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Clash Mi Desktop](https://github.com/KaringX/clashmi-desktop) : Lightweight, user-friendly. Pros: simple. Cons: lacks advanced routing. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks### اندروید
+- [ClashMeta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) : Official Android client, rule-based routing, supports subscriptions, DNS over HTTPS. Pros: stable, regular updates. Cons: UI less customizable. Supported cores: Clash.Meta. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [FlClash](https://github.com/chen08209/FlClash/releases) : Multi-platform, ad-free, optimized for Android. Pros: simple, lightweight, open-source. Cons: limited GUI customization. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [FlClashX](https://github.com/pluralplay/FlClashX) : Enhanced FlClash for Android, more features and stability. Pros: feature-rich, actively updated. Cons: slightly higher resource usage. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Karing](https://github.com/KaringX/karing/releases) : User-friendly, minimalistic, supports rule-based routing. Pros: easy to use, lightweight. Cons: fewer advanced features. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks
+- [Surfboard](https://github.com/MetaCubeX/Surfboard/releases) : Lightweight, stable, supports multiple proxies. Pros: fast, simple. Cons: limited advanced features. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks
+- [ClashMi](https://github.com/KaringX/clashmi) : Minimalistic Android client, supports subscriptions. Pros: simple, fast. Cons: lacks advanced routing options. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks
+- [Clash Mi Android Fork](https://github.com/KaringX/clashmi-android) : Android-specific enhancements, updated forks. Pros: additional features. Cons: may be less stable. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks
+- [Mihomo Party](https://github.com/mihomo-party-org/clash-party) : Community-driven, supports multiple protocols. Pros: active updates. Cons: complex for beginners. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases) : Feature-rich, subscription management, advanced rules. Pros: versatile. Cons: slightly heavier. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Hiddify](https://github.com/hiddify/hiddify-app/releases) : Optimized Android client, supports load balancing. Pros: lightweight, fast. Cons: less documentation. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess
+- [AnyPortal](https://github.com/AnyPortal/AnyPortal) : Multi-protocol Android client. Pros: flexible. Cons: less beginner-friendly. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Pandora Box](https://github.com/LibNyanpasu/pandora-box) : Advanced features and rules on Android. Pros: rich features. Cons: heavier. Supported cores: Clash.Meta. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS### iOS
+- [FlClash (iOS)](https://github.com/chen08209/FlClash/releases) : Multi-platform, ad-free, supports rules and proxies. Pros: simple, stable. Cons: limited GUI customization. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [FlClashX](https://github.com/pluralplay/FlClashX) : Enhanced FlClash for iOS, more features and stability. Pros: actively updated, feature-rich. Cons: higher resource usage. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Stash](https://apps.apple.com/app/stash/id1596063349) : Professional iOS client, rule-based routing, subscription support. Pros: stable, advanced features. Cons: paid, complex for beginners. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Clash iOS](https://bestclash.net/en/products/ios) : User-friendly iOS client, GUI-based configuration. Pros: easy to use. Cons: fewer advanced features. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks
+- [Clash Mi (TestFlight)](https://testflight.apple.com/join/bjHXktB3) : Beta version, experimental features. Pros: cutting-edge, early access. Cons: may be unstable. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [ClashMi](https://apps.apple.com/us/app/clash-mi/id6744321968) : Minimalistic iOS client, simple proxy management. Pros: lightweight, simple. Cons: lacks advanced routing. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks
+- [Shadowrocket](https://apps.apple.com/us/app/shadowrocket/id932747118) : Advanced client, supports multiple protocols. Pros: stable, feature-rich. Cons: paid. Supported cores: Clash.Meta, Clash, V2Ray. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Quantumult X](https://apps.apple.com/us/app/quantumult-x/id1443988620) : Feature-rich, rule-based proxy client. Pros: advanced rules, automation. Cons: paid, complex for beginners. Supported cores: Clash.Meta, Clash, V2Ray. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Surge](https://apps.apple.com/us/app/surge/id1228589927) : Professional proxy client, automation features. Pros: robust, advanced. Cons: paid, heavier learning curve. Supported cores: Clash.Meta, Clash, V2Ray. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [AnyPortal](https://github.com/AnyPortal/AnyPortal) : iOS multi-protocol client. Pros: versatile. Cons: less beginner-friendly. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Pandora Box](https://github.com/LibNyanpasu/pandora-box) : Advanced iOS client. Pros: rich features. Cons: heavier. Supported cores: Clash.Meta. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS### سایر پلتفرم‌ها
+- [Clash Web Dashboard](https://github.com/Dreamacro/clash-dashboard) : Web-based GUI for Clash running on any platform with a web server. Pros: cross-platform, no installation needed. Cons: requires existing Clash core. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Clash on OpenWRT](https://github.com/vernesong/OpenClash) : Router-based Clash client for OpenWRT firmware. Pros: runs on routers, automatic routing, ad blocking. Cons: setup more technical, resource-limited. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Clash on Raspberry Pi](https://github.com/Dreamacro/clash) : Lightweight Clash core running on ARM Linux. Pros: low power, portable. Cons: CLI-based, no GUI. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Clash on ASUSWRT/Merlin](https://github.com/MetaCubeX/Clash-for-Routers) : Router client for ASUS firmware. Pros: runs on home routers, stable. Cons: limited UI, technical setup. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Clash CLI (Linux/BSD)](https://github.com/Dreamacro/clash) : Command-line interface for advanced users. Pros: lightweight, scriptable. Cons: no GUI, requires configuration files. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Clash on Tomato / Mikrotik](https://github.com/MetaCubeX/Clash-for-Routers) : Embedded router solution. Pros: centralized routing for home network. Cons: firmware-specific, advanced setup. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS- [OpenWrt‑nikki](https://github.com/nikkinikki-org/OpenWrt-nikki) : OpenWRT router client for Clash.Meta, supports rule-based routing. Pros: stable on routers, centralized proxy. Cons: requires router with OpenWRT. Supported cores: Clash.Meta. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
+- [Mihomo Transparent Proxy (Docker)](https://github.com/scenery/mihomo-tproxy-docker) : Dockerized transparent proxy for any platform, easy deployment. Pros: portable, cross-platform. Cons: requires Docker knowledge. Supported cores: Clash.Meta, Clash. Supported agents: HTTP, HTTPS, SOCKS5, Shadowsocks, VMess, VLESS
