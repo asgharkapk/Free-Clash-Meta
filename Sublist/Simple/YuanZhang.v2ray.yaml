@@ -691,7 +691,7 @@ proxy-providers:
       https://sub.vip.sd/JPa6vvFgygVtNP2sGJ2r/download/YuanZhang?target=v2ray
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_604.yaml
+    path: ./FCM_Simple_605.yaml
 
 proxy-groups:
 

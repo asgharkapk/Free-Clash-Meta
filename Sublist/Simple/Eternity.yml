@@ -688,10 +688,10 @@ proxy-providers:
   proxylist1:
     type: http
     url: >-
-      https://raw.githubusercontent.com/hamedp-71/Clash_New/refs/heads/main/hp.yaml
+      https://raw.githubusercontent.com/10ium/V2RayAggregator/refs/heads/master/Eternity.yml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_665.yaml
+    path: ./FCM_Simple_490.yaml
 
 proxy-groups:
 

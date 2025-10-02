@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ronghuaxueleng/get_v2/refs/heads/main/pub/pawdroid.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_697.yaml
+    path: ./FCM_Simple_698.yaml
 
 proxy-groups:
 

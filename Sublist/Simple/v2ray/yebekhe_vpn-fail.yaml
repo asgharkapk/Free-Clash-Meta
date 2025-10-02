@@ -688,7 +688,7 @@ proxy-providers:
   proxylist1:
     type: http
     url: >-
-      https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/v2ray/yebekhe_vpn-fail.yaml10ium/V2RayAggregator-Eternity.yml|https://raw.githubusercontent.com/10ium/V2RayAggregator/refs/heads/master/Eternity.yml
+      https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/v2ray/yebekhe_vpn-fail.yaml10ium/V2RayAggregator-
     interval: 7200
     include-all: true
     path: ./FCM_Simple_489.yaml

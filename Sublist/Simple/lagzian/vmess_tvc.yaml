@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/lagzian/SS-Collector/refs/heads/main/vmess_tvc_clash.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_678.yaml
+    path: ./FCM_Simple_679.yaml
 
 proxy-groups:
 

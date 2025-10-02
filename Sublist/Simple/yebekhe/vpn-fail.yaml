@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/yebekhe/vpn-fail/refs/heads/main/sub-link.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_568.yaml
+    path: ./FCM_Simple_569.yaml
 
 proxy-groups:
 

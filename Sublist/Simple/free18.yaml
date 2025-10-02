@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_663.yaml
+    path: ./FCM_Simple_664.yaml
 
 proxy-groups:
 

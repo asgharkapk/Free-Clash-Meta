@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/lagzian/SS-Collector/refs/heads/main/SS/trinity_clash.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_676.yaml
+    path: ./FCM_Simple_677.yaml
 
 proxy-groups:
 

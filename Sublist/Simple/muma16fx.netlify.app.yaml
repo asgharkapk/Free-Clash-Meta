@@ -691,7 +691,7 @@ proxy-providers:
       https://muma16fx.netlify.app
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_618.yaml
+    path: ./FCM_Simple_619.yaml
 
 proxy-groups:
 

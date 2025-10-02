@@ -655,6 +655,7 @@
 - 🚀 [v2ray/v2ray_hidify.yaml](https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/main/Sublist/Simple/v2ray/v2ray_hidify.yaml)
 - 🔒 [v2ray/wudongdefeng_list_raw.yaml](https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/main/Sublist/Simple/v2ray/wudongdefeng_list_raw.yaml)
 - ⚡ [v2ray/yebekhe_vpn-fail.yaml](https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/main/Sublist/Simple/v2ray/yebekhe_vpn-fail.yaml)
+- 🛡️ [Eternity.yml](https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/main/Sublist/Simple/Eternity.yml)
 
 ## 📖 راهنمای استفاده
 1. روی لینک مورد نظر **کلیک راست** کنید

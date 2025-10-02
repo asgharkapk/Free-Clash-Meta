@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/b64/merged.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_631.yaml
+    path: ./FCM_Simple_632.yaml
 
 proxy-groups:
 

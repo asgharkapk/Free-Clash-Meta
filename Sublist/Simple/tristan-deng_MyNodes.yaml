@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/tristan-deng_MyNodes.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_637.yaml
+    path: ./FCM_Simple_638.yaml
 
 proxy-groups:
 

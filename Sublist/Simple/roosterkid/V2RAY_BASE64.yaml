@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/V2RAY_BASE64.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_628.yaml
+    path: ./FCM_Simple_629.yaml
 
 proxy-groups:
 

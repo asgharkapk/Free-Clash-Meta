@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/liketolivefree/kobabi/refs/heads/main/prov_clash.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_679.yaml
+    path: ./FCM_Simple_680.yaml
 
 proxy-groups:
 
