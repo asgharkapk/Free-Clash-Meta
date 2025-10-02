@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/V2Hub3/main/Split/Base64/vmess
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_543.yaml
+    path: ./FCM_Simple_642.yaml
 
 proxy-groups:
 

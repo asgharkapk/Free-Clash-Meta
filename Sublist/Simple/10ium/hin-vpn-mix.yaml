@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/base64/mix
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_629.yaml
+    path: ./FCM_Simple_728.yaml
 
 proxy-groups:
 

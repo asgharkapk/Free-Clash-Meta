@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/mahsanet_mtn_sub_3.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_87.yaml
+    path: ./FCM_Simple_172.yaml
 
 proxy-groups:
 

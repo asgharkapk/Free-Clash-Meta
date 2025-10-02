@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/voken100g/AutoSSR/master/online
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_623.yaml
+    path: ./FCM_Simple_722.yaml
 
 proxy-groups:
 

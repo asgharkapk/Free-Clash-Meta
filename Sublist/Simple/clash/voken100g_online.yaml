@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/voken100g_online.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_121.yaml
+    path: ./FCM_Simple_224.yaml
 
 proxy-groups:
 

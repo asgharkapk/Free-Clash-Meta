@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/lagzian_trinity.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_177.yaml
+    path: ./FCM_Simple_280.yaml
 
 proxy-groups:
 

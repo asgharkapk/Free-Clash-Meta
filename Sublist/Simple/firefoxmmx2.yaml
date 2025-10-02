@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/clash_sub.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_647.yaml
+    path: ./FCM_Simple_746.yaml
 
 proxy-groups:
 

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/surfboard/the3rf_com_sub_php.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_407.yaml
+    path: ./FCM_Simple_507.yaml
 
 proxy-groups:
 

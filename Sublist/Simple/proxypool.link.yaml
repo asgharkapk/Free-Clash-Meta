@@ -691,7 +691,7 @@ proxy-providers:
       https://proxypool.link/clash/proxies
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_675.yaml
+    path: ./FCM_Simple_774.yaml
 
 proxy-groups:
 

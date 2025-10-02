@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/list.yml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_674.yaml
+    path: ./FCM_Simple_773.yaml
 
 proxy-groups:
 

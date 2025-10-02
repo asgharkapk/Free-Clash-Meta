@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/v2ray/Mosifree_Vmess.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_428.yaml
+    path: ./FCM_Simple_528.yaml
 
 proxy-groups:
 

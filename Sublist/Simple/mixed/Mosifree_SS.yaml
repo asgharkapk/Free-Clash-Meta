@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/Mosifree_SS.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_144.yaml
+    path: ./FCM_Simple_247.yaml
 
 proxy-groups:
 

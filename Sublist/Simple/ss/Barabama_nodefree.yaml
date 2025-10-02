@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/ss/Barabama_nodefree.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_223.yaml
+    path: ./FCM_Simple_326.yaml
 
 proxy-groups:
 

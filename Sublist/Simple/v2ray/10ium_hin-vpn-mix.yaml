@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/v2ray/10ium_hin-vpn-mix.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_418.yaml
+    path: ./FCM_Simple_518.yaml
 
 proxy-groups:
 
