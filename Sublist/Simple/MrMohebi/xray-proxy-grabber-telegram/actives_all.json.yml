@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/refs/heads/master/collected-proxies/xray-json-full/actives_all.json
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_937.yml
+    path: ./FCM_Simple_1073.yml
 
 proxy-groups:
 

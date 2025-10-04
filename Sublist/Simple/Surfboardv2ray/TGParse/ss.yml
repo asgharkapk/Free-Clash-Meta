@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/ss
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_890.yml
+    path: ./FCM_Simple_1026.yml
 
 proxy-groups:
 

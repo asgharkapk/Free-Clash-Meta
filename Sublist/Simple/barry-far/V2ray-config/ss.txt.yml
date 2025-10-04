@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/barry-far/V2ray-config/main/Splitted-By-Protocol/ss.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_848.yml
+    path: ./FCM_Simple_984.yml
 
 proxy-groups:
 

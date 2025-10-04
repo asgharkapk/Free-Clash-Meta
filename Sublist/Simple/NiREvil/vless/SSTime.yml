@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/NiREvil/vless/refs/heads/main/sub/SSTime
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_846.yml
+    path: ./FCM_Simple_982.yml
 
 proxy-groups:
 

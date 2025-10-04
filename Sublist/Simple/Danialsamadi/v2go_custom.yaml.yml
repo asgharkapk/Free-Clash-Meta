@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/vpnclashfa-backup/MirrorMan/main/base64/Danialsamadi_v2go_custom.b64
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_570.yml
+    path: ./FCM_Simple_706.yml
 
 proxy-groups:
 

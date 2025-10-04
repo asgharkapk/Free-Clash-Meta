@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/HosseinKoofi/GO_V2rayCollector/main/ss_iran.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_896.yml
+    path: ./FCM_Simple_1032.yml
 
 proxy-groups:
 

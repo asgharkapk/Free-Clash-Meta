@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/ebrasha_lite.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_57.yml
+    path: ./FCM_Simple_90.yml
 
 proxy-groups:
 

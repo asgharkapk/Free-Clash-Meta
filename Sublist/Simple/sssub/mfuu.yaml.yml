@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/sssub/mfuu.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_302.yml
+    path: ./FCM_Simple_439.yml
 
 proxy-groups:
 

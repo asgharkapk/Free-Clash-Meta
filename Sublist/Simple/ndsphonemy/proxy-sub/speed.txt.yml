@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ndsphonemy/proxy-sub/refs/heads/main/speed.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_930.yml
+    path: ./FCM_Simple_1066.yml
 
 proxy-groups:
 

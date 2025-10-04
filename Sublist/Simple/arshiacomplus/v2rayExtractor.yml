@@ -691,7 +691,7 @@ proxy-providers:
       https://github.com/arshiacomplus/v2rayExtractor
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_828.yml
+    path: ./FCM_Simple_964.yml
 
 proxy-groups:
 

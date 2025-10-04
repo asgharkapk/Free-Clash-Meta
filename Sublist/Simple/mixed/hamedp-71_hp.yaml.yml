@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/hamedp-71_hp.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_189.yml
+    path: ./FCM_Simple_290.yml
 
 proxy-groups:
 

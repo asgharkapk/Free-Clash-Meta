@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Rayan-Config_H-II
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_591.yml
+    path: ./FCM_Simple_727.yml
 
 proxy-groups:
 

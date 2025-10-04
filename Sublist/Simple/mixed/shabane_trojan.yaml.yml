@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/shabane_trojan.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_228.yml
+    path: ./FCM_Simple_362.yml
 
 proxy-groups:
 

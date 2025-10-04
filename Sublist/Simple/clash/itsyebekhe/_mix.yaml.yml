@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/itsyebekhe/_mix.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_86.yml
+    path: ./FCM_Simple_119.yml
 
 proxy-groups:
 

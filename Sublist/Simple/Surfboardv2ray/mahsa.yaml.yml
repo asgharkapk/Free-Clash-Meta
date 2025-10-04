@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Surfboardv2ray_mahsa.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_602.yml
+    path: ./FCM_Simple_738.yml
 
 proxy-groups:
 

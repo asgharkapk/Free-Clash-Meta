@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/rango-cfs/NewCollector/main/vless_links.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_946.yml
+    path: ./FCM_Simple_1082.yml
 
 proxy-groups:
 

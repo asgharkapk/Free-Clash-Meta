@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/vmess.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_866.yml
+    path: ./FCM_Simple_1002.yml
 
 proxy-groups:
 

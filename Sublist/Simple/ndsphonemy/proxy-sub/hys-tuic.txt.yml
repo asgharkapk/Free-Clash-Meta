@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ndsphonemy/proxy-sub/refs/heads/main/hys-tuic.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_931.yml
+    path: ./FCM_Simple_1067.yml
 
 proxy-groups:
 

@@ -691,7 +691,7 @@ proxy-providers:
       https://robin.victoriacross.ir
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_844.yml
+    path: ./FCM_Simple_980.yml
 
 proxy-groups:
 

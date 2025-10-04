@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/trojan
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_891.yml
+    path: ./FCM_Simple_1027.yml
 
 proxy-groups:
 

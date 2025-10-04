@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/v2rayshare.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_650.yml
+    path: ./FCM_Simple_786.yml
 
 proxy-groups:
 

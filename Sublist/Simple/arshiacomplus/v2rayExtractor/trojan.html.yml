@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/trojan.html
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_832.yml
+    path: ./FCM_Simple_968.yml
 
 proxy-groups:
 

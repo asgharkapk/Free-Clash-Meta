@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/clash-meta/actives_under_1500ms.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_653.yml
+    path: ./FCM_Simple_789.yml
 
 proxy-groups:
 

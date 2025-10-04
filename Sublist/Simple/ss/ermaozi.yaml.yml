@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/ss/ermaozi.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_261.yml
+    path: ./FCM_Simple_398.yml
 
 proxy-groups:
 

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/V2rayCollectorForFree/F-Collector/refs/heads/main/F-Collector
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_949.yml
+    path: ./FCM_Simple_1085.yml
 
 proxy-groups:
 

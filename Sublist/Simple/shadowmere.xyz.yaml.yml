@@ -691,7 +691,7 @@ proxy-providers:
       https://shadowmere.xyz/api/b64sub
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_636.yml
+    path: ./FCM_Simple_772.yml
 
 proxy-groups:
 

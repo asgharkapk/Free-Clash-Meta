@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/Surfboardv2ray_ipv6.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_174.yml
+    path: ./FCM_Simple_263.yml
 
 proxy-groups:
 

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/10ium_ss_iran.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_561.yml
+    path: ./FCM_Simple_697.yml
 
 proxy-groups:
 

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_874.yml
+    path: ./FCM_Simple_1010.yml
 
 proxy-groups:
 

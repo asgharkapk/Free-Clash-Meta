@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Mahdi0024/ProxyCollector/master/sub/proxies.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_868.yml
+    path: ./FCM_Simple_1004.yml
 
 proxy-groups:
 

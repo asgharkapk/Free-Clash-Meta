@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/lagzian/SS-Collector/refs/heads/main/reality_clash.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_676.yml
+    path: ./FCM_Simple_812.yml
 
 proxy-groups:
 

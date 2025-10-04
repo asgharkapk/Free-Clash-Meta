@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/STR97/STRUGOV/refs/heads/main/Vless
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_845.yml
+    path: ./FCM_Simple_981.yml
 
 proxy-groups:
 

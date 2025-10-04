@@ -691,7 +691,7 @@ proxy-providers:
       https://v2.alicivil.workers.dev
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_852.yml
+    path: ./FCM_Simple_988.yml
 
 proxy-groups:
 

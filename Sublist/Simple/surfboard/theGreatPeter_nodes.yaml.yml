@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/surfboard/theGreatPeter_nodes.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_425.yml
+    path: ./FCM_Simple_562.yml
 
 proxy-groups:
 

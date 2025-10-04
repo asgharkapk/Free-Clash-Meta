@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/surfboard/DarkVPNpro2.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_325.yml
+    path: ./FCM_Simple_462.yml
 
 proxy-groups:
 

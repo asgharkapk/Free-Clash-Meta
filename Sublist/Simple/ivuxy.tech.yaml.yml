@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/ivuxy.tech.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_614.yml
+    path: ./FCM_Simple_750.yml
 
 proxy-groups:
 

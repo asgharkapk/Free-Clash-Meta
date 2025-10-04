@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/hamedp-71/N_warp/refs/heads/main/HP.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_666.yml
+    path: ./FCM_Simple_802.yml
 
 proxy-groups:
 

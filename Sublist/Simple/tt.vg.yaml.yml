@@ -691,7 +691,7 @@ proxy-providers:
       https://tt.vg/freeclash
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_703.yml
+    path: ./FCM_Simple_839.yml
 
 proxy-groups:
 

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/v2ray_hidify.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_231.yml
+    path: ./FCM_Simple_366.yml
 
 proxy-groups:
 

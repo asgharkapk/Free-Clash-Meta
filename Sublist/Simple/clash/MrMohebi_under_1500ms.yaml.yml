@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/MrMohebi_under_1500ms.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_36.yml
+    path: ./FCM_Simple_63.yml
 
 proxy-groups:
 

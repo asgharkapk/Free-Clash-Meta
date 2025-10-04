@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/refs/heads/main/vmess_configs.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_899.yml
+    path: ./FCM_Simple_1035.yml
 
 proxy-groups:
 

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/amirparsaxs/Vip-s/refs/heads/main/Sub.vip
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_943.yml
+    path: ./FCM_Simple_1079.yml
 
 proxy-groups:
 

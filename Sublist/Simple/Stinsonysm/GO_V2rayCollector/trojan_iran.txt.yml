@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Stinsonysm/GO_V2rayCollector/refs/heads/main/trojan_iran.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_903.yml
+    path: ./FCM_Simple_1039.yml
 
 proxy-groups:
 

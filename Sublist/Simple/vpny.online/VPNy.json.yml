@@ -691,7 +691,7 @@ proxy-providers:
       https://vpny.online/VPNy.json
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_835.yml
+    path: ./FCM_Simple_971.yml
 
 proxy-groups:
 

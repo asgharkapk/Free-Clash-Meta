@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/lagzian/TVC/refs/heads/main/subscriptions/meta/mix
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_674.yml
+    path: ./FCM_Simple_810.yml
 
 proxy-groups:
 

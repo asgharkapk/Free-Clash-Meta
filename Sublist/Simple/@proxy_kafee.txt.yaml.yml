@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/refs/heads/main/encoded/%40proxy_kafee.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_574.yml
+    path: ./FCM_Simple_710.yml
 
 proxy-groups:
 
