@@ -324,7 +324,12 @@ class ConfigProcessor:
     
             # مسیر کامل فایل خروجی
             output_path = os.path.join(output_subdir, filename)
-    
+
+            # اگر مسیر یک پوشه است، آن را رد کن
+            if os.path.isdir(output_path):
+                logging.debug(f"⚠️ {output_path} یک پوشه است، فایل ساخته نشد")
+                continue
+
             # اطمینان از پسوند .yml فقط اگر فایل فاقد پسوند باشد
             basename = os.path.basename(output_path)  # فقط نام فایل بدون مسیر
             if not os.path.splitext(basename)[1]:
