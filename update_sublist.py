@@ -6,15 +6,6 @@ import time
 import logging
 from typing import List, Tuple
 
-# تنظیم سطح لاگ و فرمت
-logging.basicConfig(
-    filename="update.log",
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    encoding="utf-8",
-    handlers=[logging.StreamHandler(sys.stdout)]
-)
-
 class ConfigProcessor:
     def __init__(self):
         self.template_path = "mihomo_template.yml"
@@ -377,6 +368,15 @@ class ConfigProcessor:
         logging.info("🎉 پردازش کامل شد: همه فایل‌ها و README ساخته شدند")
 
 if __name__ == "__main__":
+    # تنظیم سطح لاگ و فرمت
+    logging.basicConfig(
+        filename="update.log",
+        level=logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s",
+        encoding="utf-8",
+        handlers=[logging.StreamHandler(sys.stdout)]
+    )
+
     logging.info("🚀 شروع اجرای اسکریپت اصلی")
     start_time = time.time()
 
