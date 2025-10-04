@@ -43,11 +43,14 @@ class ConfigProcessor:
         try:
             logging.info(f"🔍 شروع خواندن لیست: {file_path} (complex={is_complex})")
             with open(file_path, "r", encoding="utf-8") as f:
-                for line in f:
-                    if "|" not in line:
-                        logging.warning(f"⏭️ خط بی‌اعتبار در {file_path}: {line.strip()}")
+                for line_number, line in enumerate(f, start=1):
+                    stripped = line.strip()
+                    if "|" not in stripped or not stripped:
+                        logging.warning(
+                            f"⏭️ خط بی‌اعتبار در {file_path} (شماره خط {line_number}): {repr(stripped)}"
+                        )
                         continue
-                    filename, url = line.strip().split("|", 1)
+                    filename, url = stripped.split("|", 1)
                     processed_url = self._process_url(url.strip(), is_complex)
                     entries.append((filename.strip(), processed_url))
                     logging.debug(f"📌 ورودی بارگذاری شد: {filename.strip()} -> {processed_url}")
@@ -234,23 +237,35 @@ class ConfigProcessor:
         logging.info(f"📂 شروع تولید فایل‌ها برای {subdir} (تعداد: {len(entries)})")
         with open(self.template_path, "r", encoding="utf-8") as f:
             original_template = f.read()
-
+    
         output_subdir = os.path.join(self.output_dir, subdir)
         os.makedirs(output_subdir, exist_ok=True)
-
+    
         for idx, (filename, url) in enumerate(entries):
+            # جایگزینی URL
             modified = self._replace_proxy_url(original_template, url)
-            new_path = f"./FCM_{subdir}_{idx + 1}.yaml"
+            new_path = f"./FCM_{subdir}_{idx + 1}.yml"
             modified = self._replace_proxy_path(modified, new_path)
-
+    
+            # مسیر کامل فایل خروجی
             output_path = os.path.join(output_subdir, filename)
-            dir_path = os.path.dirname(output_path)
-            if dir_path:
-                os.makedirs(dir_path, exist_ok=True)
-
+    
+            # اطمینان از پسوند .yml
+            if not output_path.endswith(".yml"):
+                output_path += ".yml"
+    
+            # ایجاد پوشه والد در صورت نیاز و رفع تداخل با فایل
+            parent_dir = os.path.dirname(output_path)
+            if parent_dir:
+                if os.path.isfile(parent_dir):
+                    os.remove(parent_dir)  # حذف فایل برای ایجاد دایرکتوری
+                os.makedirs(parent_dir, exist_ok=True)
+    
+            # نوشتن فایل
             with open(output_path, "w", encoding="utf-8") as f:
                 f.write(modified)
             logging.info(f"📄 فایل ساخته شد: {output_path} (URL جایگزین شد)")
+    
         logging.info(f"✅ همه فایل‌های {subdir} ساخته شدند ({len(entries)} فایل)")
 
     def _save_complex_urls(self, complex_entries: List[Tuple[str, str]]) -> None:
