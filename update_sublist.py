@@ -128,15 +128,23 @@ class ConfigProcessor:
             "🧨", "💫", "🕹️", "📌", "🎁", "⚡️", "🎯", "🏆", "🥇", "🌊"
         ]
 
-        def list_yml_files(folder_path: str) -> list[str]:
-            """لیست تمام فایل‌های .yml موجود در پوشه و زیرپوشه‌ها"""
+        def list_all_files(folder_path: str) -> list[str]:
+            """لیست تمام فایل‌ها در پوشه و زیرپوشه‌ها بدون فیلتر پسوند، با لاگ"""
             files = []
-            if os.path.exists(folder_path):
-                for root, _, filenames in os.walk(folder_path):
-                    for f in filenames:
-                        if f.endswith(".yml"):
-                            rel_path = os.path.relpath(os.path.join(root, f), folder_path)
-                            files.append(rel_path.replace("\\", "/"))  # cross-platform
+            if not os.path.exists(folder_path):
+                logging.warning(f"⚠️ پوشه وجود ندارد: {folder_path}")
+                return files
+        
+            logging.info(f"📂 شروع جستجوی فایل‌ها در پوشه: {folder_path}")
+            for root, _, filenames in os.walk(folder_path):
+                logging.debug(f"🔍 بررسی پوشه: {root} (تعداد فایل‌ها: {len(filenames)})")
+                for f in filenames:
+                    full_path = os.path.join(root, f)
+                    rel_path = os.path.relpath(full_path, folder_path).replace("\\", "/")
+                    files.append(rel_path)
+                    logging.debug(f"➕ فایل پیدا شد: {rel_path}")
+            
+            logging.info(f"✅ تعداد کل فایل‌های پیدا شده در {folder_path}: {len(files)}")
             return sorted(files)
 
         # تبدیل لیست‌ها به دیکشنری (کلید: filename)
@@ -317,12 +325,12 @@ class ConfigProcessor:
             # مسیر کامل فایل خروجی
             output_path = os.path.join(output_subdir, filename)
     
-            # اطمینان از پسوند .yml
-            if not output_path.endswith(".yml"):
-                logging.debug(f"⚠️ فایل {output_path} فاقد پسوند .yml است، اضافه شد")
+            # اطمینان از پسوند .yml فقط اگر فاقد پسوند باشد
+            if not os.path.splitext(output_path)[1]:
+                logging.info(f"⚠️ فایل {output_path} فاقد پسوند است، پسوند .yml اضافه شد")
                 output_path += ".yml"
             else:
-                logging.debug(f"✅ فایل {output_path} دارای پسوند .yml است")
+                logging.debug(f"✅ فایل {output_path} دارای پسوند است: {os.path.splitext(output_path)[1]}")
             
             # بررسی و ساخت پوشه والد
             parent_dir = os.path.dirname(output_path)
