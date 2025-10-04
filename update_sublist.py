@@ -156,8 +156,8 @@ class ConfigProcessor:
         logging.info("✅ دیکشنری Simple ساخته شد (تعداد: %d)", len(simple_path))
         logging.info("✅ دیکشنری Complex ساخته شد (تعداد: %d)", len(complex_path))
 
-        simple_files = list_yml_files(simple_path)
-        complex_files = list_yml_files(complex_path)
+        simple_files = list_all_files(simple_path)
+        complex_files = list_all_files(complex_path)
 
         logging.info("🔹 فایل‌های موجود در Simple: %d", len(simple_files))
         logging.info("🔹 فایل‌های موجود در Complex: %d", len(complex_files))
