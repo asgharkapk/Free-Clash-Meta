@@ -1,36 +1,0 @@
-2025-10-04 14:31:43,700 - INFO - 🚀 شروع اجرای اسکریپت اصلی
-2025-10-04 14:31:43,700 - INFO - 🛠️ ایجاد شیء ConfigProcessor ...
-2025-10-04 14:31:43,700 - INFO - ⚙️ تنظیمات اولیه کلاس بارگذاری شد.
-2025-10-04 14:31:43,700 - INFO - ✅ شیء ConfigProcessor با موفقیت ساخته شد.
-2025-10-04 14:31:43,700 - INFO - ⚙️ شروع فراخوانی generate_configs() ...
-2025-10-04 14:31:43,700 - INFO - 🚀 شروع پردازش کل پیکربندی‌ها
-2025-10-04 14:31:43,700 - INFO - 📥 در حال بارگذاری ورودی‌های Simple از Simple_URL_List.txt
-2025-10-04 14:31:43,700 - INFO - 🔍 شروع خواندن لیست: Simple_URL_List.txt (complex=False)
-2025-10-04 14:31:43,702 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 626): ''
-2025-10-04 14:31:43,703 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 847): ''
-2025-10-04 14:31:43,703 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 858): ''
-2025-10-04 14:31:43,703 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 967): ''
-2025-10-04 14:31:43,703 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 1091): ''
-2025-10-04 14:31:43,703 - INFO - ✅ تعداد 1086 ورودی از Simple_URL_List.txt خوانده شد
-2025-10-04 14:31:43,703 - INFO - ✅ تعداد ورودی‌های Simple بارگذاری شد: 1086
-2025-10-04 14:31:43,704 - INFO - 📥 در حال بارگذاری ورودی‌های Complex از Complex_URL_list.txt
-2025-10-04 14:31:43,704 - INFO - 🔍 شروع خواندن لیست: Complex_URL_list.txt (complex=True)
-2025-10-04 14:31:43,706 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 376): ''
-2025-10-04 14:31:43,706 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 387): ''
-2025-10-04 14:31:43,706 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 496): ''
-2025-10-04 14:31:43,707 - INFO - ✅ تعداد 616 ورودی از Complex_URL_list.txt خوانده شد
-2025-10-04 14:31:43,707 - INFO - ✅ تعداد ورودی‌های Complex بارگذاری شد: 616
-2025-10-04 14:31:43,707 - INFO - 🛠️ شروع تولید فایل‌ها برای Simple ...
-2025-10-04 14:31:43,707 - INFO - 📂 شروع تولید فایل‌ها برای Simple (تعداد: 1086)
-2025-10-04 14:31:45,471 - CRITICAL - ❌ خطای بحرانی در اجرای برنامه: [Errno 21] Is a directory: 'Sublist/Simple/v2.alicivil.workers.dev'
-Traceback (most recent call last):
-  File "/home/runner/work/Free-Clash-Meta/Free-Clash-Meta/update_sublist.py", line 414, in <module>
-    processor.generate_configs()
-  File "/home/runner/work/Free-Clash-Meta/Free-Clash-Meta/update_sublist.py", line 385, in generate_configs
-    self._generate_configs_for_list(simple_entries, "Simple")
-  File "/home/runner/work/Free-Clash-Meta/Free-Clash-Meta/update_sublist.py", line 349, in _generate_configs_for_list
-    with open(output_path, "w", encoding="utf-8") as f:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-IsADirectoryError: [Errno 21] Is a directory: 'Sublist/Simple/v2.alicivil.workers.dev'
-2025-10-04 14:31:45,475 - INFO - ⏱️ مدت زمان اجرای کل اسکریپت: 1.77 ثانیه
-2025-10-04 14:31:45,475 - INFO - 🏁 پایان اجرای اسکریپت
