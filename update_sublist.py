@@ -96,29 +96,29 @@ class ConfigProcessor:
     
         # فایل‌های مشترک
         paired_files = [fn for fn in simple_files if fn in complex_files]
-    
+        
         if paired_files:
             md_content.append("## 🔗 لینک‌ها (Simple ↔ Complex)\n")
             md_content.append("| Simple | Complex |")
             md_content.append("|--------|---------|")
-    
+        
             for idx, filename in enumerate(paired_files):
                 emoji = emojis[idx % len(emojis)]
                 s_file_url = f"{self.base_url}Simple/{urllib.parse.quote(filename)}"
                 c_file_url = f"{self.base_url}Complex/{urllib.parse.quote(filename)}"
                 md_content.append(f"| {emoji} [{filename}]({s_file_url}) | {emoji} [{filename}]({c_file_url}) |")
-    
+        
         # ۲. فایل‌های یکتا در Simple
-        unique_simple = [fn for fn in simple_dict.keys() if fn not in complex_dict]
+        unique_simple = [fn for fn in simple_files if fn not in complex_files]
         if unique_simple:
             md_content.append("\n## 🔹 فقط Simple\n")
             for idx, filename in enumerate(unique_simple):
                 emoji = emojis[idx % len(emojis)]
                 s_file_url = f"{self.base_url}Simple/{urllib.parse.quote(filename)}"
                 md_content.append(f"- {emoji} [{filename}]({s_file_url})")
-    
+        
         # ۳. فایل‌های یکتا در Complex
-        unique_complex = [fn for fn in complex_dict.keys() if fn not in simple_dict]
+        unique_complex = [fn for fn in complex_files if fn not in simple_files]
         if unique_complex:
             md_content.append("\n## 🔹 فقط Complex\n")
             for idx, filename in enumerate(unique_complex):
