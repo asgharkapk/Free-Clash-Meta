@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/V2RayAggregator/refs/heads/master/Eternity.yml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_644.yaml
+    path: ./FCM_Simple_644.yml
 
 proxy-groups:
 
