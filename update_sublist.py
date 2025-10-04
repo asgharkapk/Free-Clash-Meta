@@ -90,72 +90,45 @@ class ConfigProcessor:
             "⚙️", "📡", "📌", "🧩", "🎵", "🌈", "💡", "🏹", "🛠️", "🧭",
             "🧨", "💫", "🕹️", "📌", "🎁", "⚡️", "🎯", "🏆", "🥇", "🌊"
         ]
-
-        # فقط نام فایل بدون مسیر و مسیر نسبی نسبت به فولدر اصلی
-        def list_files_recursive(folder):
-            all_files = []
-            for root, _, files in os.walk(folder):
-                for f in files:
-                    # مسیر نسبی نسبت به فولدر اصلی
-                    rel_path = os.path.relpath(os.path.join(root, f), folder)
-                    all_files.append(rel_path)
-            return sorted(all_files) if os.path.exists(folder) else []
-        
-        # خواندن تمام فایل‌ها از فولدرهای خروجی
-        simple_files = list_files_recursive(simple_folder)
-        complex_files = list_files_recursive(complex_folder)
-        logging.info(f"🔍 بررسی فولدر Simple: {simple_folder}")
-        logging.info(f"🔍 بررسی فولدر Complex: {complex_folder}")
-                
-        # فقط نام فایل بدون مسیر
-        simple_files = sorted(f for f in os.listdir(simple_folder) if os.path.isfile(os.path.join(simple_folder, f))) if os.path.exists(simple_folder) else []
-        complex_files = sorted(f for f in os.listdir(complex_folder) if os.path.isfile(os.path.join(complex_folder, f))) if os.path.exists(complex_folder) else []
-        logging.info(f"📄 تعداد فایل‌های Simple: {len(simple_files)} -> {simple_files}")
-        logging.info(f"📄 تعداد فایل‌های Complex: {len(complex_files)} -> {complex_files}")
-            
-        # فایل‌های یکتا
-        simple_map = {f: f for f in simple_files}
-        complex_map = {f: f for f in complex_files}
-
-        unique_simple = [simple_map[n] for n in simple_map if n not in complex_map]
-        unique_complex = [complex_map[n] for n in complex_map if n not in simple_map]
-        paired_files = [simple_map[n] for n in simple_map if n in complex_map]
-        
-        logging.info(f"🌟 فایل‌های یکتا در Simple ({len(unique_simple)}): {unique_simple}")
-        logging.info(f"🌟 فایل‌های یکتا در Complex ({len(unique_complex)}): {unique_complex}")
-
-        # فایل‌های مشترک
-        paired_files = [simple_map[n] for n in simple_map if n in complex_map]
-        logging.info(f"🔗 فایل‌های مشترک ({len(paired_files)}): {paired_files}")
-        
+    
+        # تبدیل لیست‌ها به دیکشنری (کلید: filename)
+        simple_dict = {fn: fn for fn, _ in simple_entries}
+        complex_dict = {fn: fn for fn, _ in complex_entries}
+    
+        # تمام نام‌ها
+        all_filenames = sorted(set(simple_dict.keys()) | set(complex_dict.keys()))
+    
+        # ۱. فایل‌هایی که در هر دو دسته هستند (Simple ↔ Complex)
+        paired_files = [fn for fn in all_filenames if fn in simple_dict and fn in complex_dict]
+    
         if paired_files:
             md_content.append("## 🔗 لینک‌ها (Simple ↔ Complex)\n")
             md_content.append("| Simple | Complex |")
             md_content.append("|--------|---------|")
-            for idx, filepath in enumerate(paired_files):
+    
+            for idx, filename in enumerate(paired_files):
                 emoji = emojis[idx % len(emojis)]
-                url_path = filepath.replace(os.sep, '/')
-                s_file_url = f"{self.base_url}Simple/{urllib.parse.quote(url_path)}"
-                c_file_url = f"{self.base_url}Complex/{urllib.parse.quote(url_path)}"
-                md_content.append(f"| {emoji} [{filepath}]({s_file_url}) | {emoji} [{filepath}]({c_file_url}) |")
-        
+                s_file_url = f"{self.base_url}Simple/{urllib.parse.quote(filename)}"
+                c_file_url = f"{self.base_url}Complex/{urllib.parse.quote(filename)}"
+                md_content.append(f"| {emoji} [{filename}]({s_file_url}) | {emoji} [{filename}]({c_file_url}) |")
+    
         # ۲. فایل‌های یکتا در Simple
+        unique_simple = [fn for fn in simple_dict.keys() if fn not in complex_dict]
         if unique_simple:
             md_content.append("\n## 🔹 فقط Simple\n")
-            for idx, filepath in enumerate(unique_simple):
+            for idx, filename in enumerate(unique_simple):
                 emoji = emojis[idx % len(emojis)]
-                url_path = filepath.replace(os.sep, '/')
-                s_file_url = f"{self.base_url}Simple/{urllib.parse.quote(url_path)}"
-                md_content.append(f"- {emoji} [{filepath}]({s_file_url})")
-        
+                s_file_url = f"{self.base_url}Simple/{urllib.parse.quote(filename)}"
+                md_content.append(f"- {emoji} [{filename}]({s_file_url})")
+    
         # ۳. فایل‌های یکتا در Complex
+        unique_complex = [fn for fn in complex_dict.keys() if fn not in simple_dict]
         if unique_complex:
             md_content.append("\n## 🔹 فقط Complex\n")
-            for idx, filepath in enumerate(unique_complex):
+            for idx, filename in enumerate(unique_complex):
                 emoji = emojis[idx % len(emojis)]
-                url_path = filepath.replace(os.sep, '/')
-                c_file_url = f"{self.base_url}Complex/{urllib.parse.quote(url_path)}"
-                md_content.append(f"- {emoji} [{filepath}]({c_file_url})")
+                c_file_url = f"{self.base_url}Complex/{urllib.parse.quote(filename)}"
+                md_content.append(f"- {emoji} [{filename}]({c_file_url})")
     
         # Footer
         md_content.extend([
