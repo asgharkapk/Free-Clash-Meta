@@ -56,9 +56,6 @@ class ConfigProcessor:
         logging.info("✅ URL ساده بدون تغییر بازگردانده شد.")
         return url
 
-    logging.info("✅ URL ساده بدون تغییر بازگردانده شد.")
-    return url
-
     def _load_entries(self, file_path: str, is_complex: bool) -> List[Tuple[str, str]]:
         """بارگذاری لیست URLها"""
         entries = []
