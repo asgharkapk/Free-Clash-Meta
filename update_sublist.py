@@ -34,7 +34,7 @@ class ConfigProcessor:
     def _process_url(self, url: str, is_complex: bool) -> str:
         """پردازش URL بر اساس نوع لیست"""
         list_type = "Complex" if is_complex else "Simple"
-        logging.info("🔍 پردازش URL شروع شد. نوع: %s", list_type)
+        logging.debug("🔍 پردازش URL شروع شد. نوع: %s", list_type)
         logging.debug("🌐 ورودی URL: %s", url)
         if is_complex:
             encoded = urllib.parse.quote(url, safe=':/?&=')
@@ -49,10 +49,10 @@ class ConfigProcessor:
                 "&udp=true&list=true&sort=false&fdn=true"
                 "&insert=false"
             )
-            logging.info("✅ URL برای لیست Complex ساخته شد.")
+            logging.debug("✅ URL برای لیست Complex ساخته شد.")
             logging.debug("🔗 خروجی URL: %s", result)
             return result
-        logging.info("✅ URL ساده بدون تغییر بازگردانده شد.")
+        logging.debug("✅ URL ساده بدون تغییر بازگردانده شد.")
         return url
 
     def _load_entries(self, file_path: str, is_complex: bool) -> List[Tuple[str, str]]:
