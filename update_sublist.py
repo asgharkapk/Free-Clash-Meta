@@ -79,7 +79,7 @@ class ConfigProcessor:
 
     def _replace_proxy_url(self, template: str, new_url: str) -> str:
         """جایگزینی URL در بخش proxy-providers"""
-        logging.info("🌐 شروع جایگزینی URL در proxy-providers ...")
+        logging.debug("🌐 شروع جایگزینی URL در proxy-providers ...")
         logging.debug("🔎 مقدار جدید URL: %s", new_url)
         pattern = re.compile(
             r"(url:\s*(?:>-\s*|\|-\s*)?\n\s*)([^\n]+)",
@@ -91,7 +91,7 @@ class ConfigProcessor:
             return template
     
         result = pattern.sub(rf"\1{new_url}", template, count=1)
-        logging.info("✅ URL با موفقیت جایگزین شد.")
+        logging.debug("✅ URL با موفقیت جایگزین شد.")
         return result
         #return pattern.sub(rf"\1{new_url}", template, count=1)
     
