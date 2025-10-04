@@ -127,20 +127,30 @@ class ConfigProcessor:
             "⚙️", "📡", "📌", "🧩", "🎵", "🌈", "💡", "🏹", "🛠️", "🧭",
             "🧨", "💫", "🕹️", "📌", "🎁", "⚡️", "🎯", "🏆", "🥇", "🌊"
         ]
-    
+
+        def list_yml_files(folder_path: str) -> list[str]:
+            """لیست تمام فایل‌های .yml موجود در پوشه و زیرپوشه‌ها"""
+            files = []
+            if os.path.exists(folder_path):
+                for root, _, filenames in os.walk(folder_path):
+                    for f in filenames:
+                        if f.endswith(".yml"):
+                            rel_path = os.path.relpath(os.path.join(root, f), folder_path)
+                            files.append(rel_path.replace("\\", "/"))  # cross-platform
+            return sorted(files)
+
         # تبدیل لیست‌ها به دیکشنری (کلید: filename)
         logging.info("📂 شروع ساخت دیکشنری‌ها از ورودی‌ها ...")
+
         simple_path = os.path.join(self.output_dir, "Simple")
         complex_path = os.path.join(self.output_dir, "Complex")
+        
         logging.info("✅ دیکشنری Simple ساخته شد (تعداد: %d)", len(simple_path))
         logging.info("✅ دیکشنری Complex ساخته شد (تعداد: %d)", len(complex_path))
 
-        simple_files = sorted(
-            f for f in os.listdir(simple_path) if os.path.isfile(os.path.join(simple_path, f)) and f.endswith(".yml")
-        ) if os.path.exists(simple_path) else []
-        complex_files = sorted(
-            f for f in os.listdir(complex_path) if os.path.isfile(os.path.join(complex_path, f)) and f.endswith(".yml")
-        ) if os.path.exists(complex_path) else []
+        simple_files = list_yml_files(simple_path)
+        complex_files = list_yml_files(complex_path)
+
         logging.info("🔹 فایل‌های موجود در Simple: %d", len(simple_files))
         logging.info("🔹 فایل‌های موجود در Complex: %d", len(complex_files))
 
