@@ -84,15 +84,15 @@ class ConfigProcessor:
     
         emojis = ["🌐", "🚀", "🔒", "⚡", "🛡️"]
     
-        # تبدیل لیست‌ها به دیکشنری (کلید: filename)
-        simple_dict = {fn: fn for fn, _ in simple_entries}
-        complex_dict = {fn: fn for fn, _ in complex_entries}
+        # خواندن تمام فایل‌ها از فولدرهای خروجی
+        simple_folder = os.path.join(self.output_dir, "Simple")
+        complex_folder = os.path.join(self.output_dir, "Complex")
     
-        # تمام نام‌ها
-        all_filenames = sorted(set(simple_dict.keys()) | set(complex_dict.keys()))
+        simple_files = sorted(os.listdir(simple_folder)) if os.path.exists(simple_folder) else []
+        complex_files = sorted(os.listdir(complex_folder)) if os.path.exists(complex_folder) else []
     
-        # ۱. فایل‌هایی که در هر دو دسته هستند (Simple ↔ Complex)
-        paired_files = [fn for fn in all_filenames if fn in simple_dict and fn in complex_dict]
+        # فایل‌های مشترک
+        paired_files = [fn for fn in simple_files if fn in complex_files]
     
         if paired_files:
             md_content.append("## 🔗 لینک‌ها (Simple ↔ Complex)\n")
