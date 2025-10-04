@@ -90,10 +90,20 @@ class ConfigProcessor:
             "⚙️", "📡", "📌", "🧩", "🎵", "🌈", "💡", "🏹", "🛠️", "🧭",
             "🧨", "💫", "🕹️", "📌", "🎁", "⚡️", "🎯", "🏆", "🥇", "🌊"
         ]
-    
+
+        # فقط نام فایل بدون مسیر و مسیر نسبی نسبت به فولدر اصلی
+        def list_files_recursive(folder):
+            all_files = []
+            for root, _, files in os.walk(folder):
+                for f in files:
+                    # مسیر نسبی نسبت به فولدر اصلی
+                    rel_path = os.path.relpath(os.path.join(root, f), folder)
+                    all_files.append(rel_path)
+            return sorted(all_files) if os.path.exists(folder) else []
+        
         # خواندن تمام فایل‌ها از فولدرهای خروجی
-        simple_folder = os.path.join(self.output_dir, "Simple")
-        complex_folder = os.path.join(self.output_dir, "Complex")
+        simple_files = list_files_recursive(simple_folder)
+        complex_files = list_files_recursive(complex_folder)
         logging.info(f"🔍 بررسی فولدر Simple: {simple_folder}")
         logging.info(f"🔍 بررسی فولدر Complex: {complex_folder}")
                 
