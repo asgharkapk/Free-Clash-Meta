@@ -85,45 +85,49 @@ class ConfigProcessor:
             ""
         ]
     
-        emojis = ["🌐", "🚀", "🔒", "⚡", "🛡️"]
+        emojis = [
+            "🌐", "🚀", "🔒", "⚡", "🛡️", "🔥", "💎", "🎯", "🌀", "🌟",
+            "⚙️", "📡", "📌", "🧩", "🎵", "🌈", "💡", "🏹", "🛠️", "🧭",
+            "🧨", "💫", "🕹️", "📌", "🎁", "⚡️", "🎯", "🏆", "🥇", "🌊"
+        ]
     
         # خواندن تمام فایل‌ها از فولدرهای خروجی
         simple_folder = os.path.join(self.output_dir, "Simple")
         complex_folder = os.path.join(self.output_dir, "Complex")
-        
         logging.info(f"🔍 بررسی فولدر Simple: {simple_folder}")
         logging.info(f"🔍 بررسی فولدر Complex: {complex_folder}")
-        
-        # لیست فایل‌ها بدون دایرکتوری و فقط با نام فایل
-        simple_files = sorted(
-            [f for f in os.listdir(simple_folder) if os.path.isfile(os.path.join(simple_folder, f))]
-        ) if os.path.exists(simple_folder) else []
-        logging.info(f"📄 تعداد فایل‌های Simple: {len(simple_files)} -> {simple_files}")
-        
-        complex_files = sorted(
-            [f for f in os.listdir(complex_folder) if os.path.isfile(os.path.join(complex_folder, f))]
-        ) if os.path.exists(complex_folder) else []
-        logging.info(f"📄 تعداد فایل‌های Complex: {len(complex_files)} -> {complex_files}")
-        
+                
         # فقط نام فایل بدون مسیر
-        simple_basenames = [os.path.basename(f) for f in simple_files]
-        complex_basenames = [os.path.basename(f) for f in complex_files]
-        
+        simple_files = sorted(f for f in os.listdir(simple_folder) if os.path.isfile(os.path.join(simple_folder, f))) if os.path.exists(simple_folder) else []
+        complex_files = sorted(f for f in os.listdir(complex_folder) if os.path.isfile(os.path.join(complex_folder, f))) if os.path.exists(complex_folder) else []
+        logging.info(f"📄 تعداد فایل‌های Simple: {len(simple_files)} -> {simple_files}")
+        logging.info(f"📄 تعداد فایل‌های Complex: {len(complex_files)} -> {complex_files}")
+
+        # normalize names for comparison
+        def normalize_name(filename):
+            # remove all extra extensions and lowercase
+            name = filename.lower()
+            for ext in [".yaml.yml", ".txt.yaml.yml", ".yaml", ".yml", ".txt"]:
+                if name.endswith(ext):
+                    name = name[: -len(ext)]
+            return name
+            
         # فایل‌های یکتا
-        unique_simple = [fn for fn in simple_files if fn not in complex_files]
-        unique_complex = [fn for fn in complex_files if fn not in simple_files]
+        simple_map = {normalize_name(f): f for f in simple_files}
+        complex_map = {normalize_name(f): f for f in complex_files}
+        unique_simple = [simple_map[n] for n in simple_map if n not in complex_map]
+        unique_complex = [complex_map[n] for n in complex_map if n not in simple_map]
         logging.info(f"🌟 فایل‌های یکتا در Simple ({len(unique_simple)}): {unique_simple}")
         logging.info(f"🌟 فایل‌های یکتا در Complex ({len(unique_complex)}): {unique_complex}")
-        
+
         # فایل‌های مشترک
-        paired_files = [fn for fn in simple_files if fn in complex_files]
+        paired_files = [simple_map[n] for n in simple_map if n in complex_map]
         logging.info(f"🔗 فایل‌های مشترک ({len(paired_files)}): {paired_files}")
         
         if paired_files:
             md_content.append("## 🔗 لینک‌ها (Simple ↔ Complex)\n")
             md_content.append("| Simple | Complex |")
             md_content.append("|--------|---------|")
-        
             for idx, filename in enumerate(paired_files):
                 emoji = emojis[idx % len(emojis)]
                 s_file_url = f"{self.base_url}Simple/{urllib.parse.quote(filename)}"
