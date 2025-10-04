@@ -1062,3 +1062,306 @@ Traceback (most recent call last):
 IsADirectoryError: [Errno 21] Is a directory: 'Sublist/Simple/v2.alicivil.workers.dev'
 2025-10-04 14:28:06,117 - INFO - ⏱️ مدت زمان اجرای کل اسکریپت: 1.76 ثانیه
 2025-10-04 14:28:06,117 - INFO - 🏁 پایان اجرای اسکریپت
+2025-10-04 14:28:39,750 - INFO - 🚀 شروع اجرای اسکریپت اصلی
+2025-10-04 14:28:39,750 - INFO - 🛠️ ایجاد شیء ConfigProcessor ...
+2025-10-04 14:28:39,750 - INFO - ⚙️ تنظیمات اولیه کلاس بارگذاری شد.
+2025-10-04 14:28:39,750 - INFO - ✅ شیء ConfigProcessor با موفقیت ساخته شد.
+2025-10-04 14:28:39,750 - INFO - ⚙️ شروع فراخوانی generate_configs() ...
+2025-10-04 14:28:39,750 - INFO - 🚀 شروع پردازش کل پیکربندی‌ها
+2025-10-04 14:28:39,750 - INFO - 📥 در حال بارگذاری ورودی‌های Simple از Simple_URL_List.txt
+2025-10-04 14:28:39,750 - INFO - 🔍 شروع خواندن لیست: Simple_URL_List.txt (complex=False)
+2025-10-04 14:28:39,752 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 626): ''
+2025-10-04 14:28:39,752 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 847): ''
+2025-10-04 14:28:39,753 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 858): ''
+2025-10-04 14:28:39,753 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 967): ''
+2025-10-04 14:28:39,753 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 1091): ''
+2025-10-04 14:28:39,753 - INFO - ✅ تعداد 1086 ورودی از Simple_URL_List.txt خوانده شد
+2025-10-04 14:28:39,753 - INFO - ✅ تعداد ورودی‌های Simple بارگذاری شد: 1086
+2025-10-04 14:28:39,753 - INFO - 📥 در حال بارگذاری ورودی‌های Complex از Complex_URL_list.txt
+2025-10-04 14:28:39,753 - INFO - 🔍 شروع خواندن لیست: Complex_URL_list.txt (complex=True)
+2025-10-04 14:28:39,755 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 376): ''
+2025-10-04 14:28:39,755 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 387): ''
+2025-10-04 14:28:39,756 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 496): ''
+2025-10-04 14:28:39,757 - INFO - ✅ تعداد 616 ورودی از Complex_URL_list.txt خوانده شد
+2025-10-04 14:28:39,757 - INFO - ✅ تعداد ورودی‌های Complex بارگذاری شد: 616
+2025-10-04 14:28:39,757 - INFO - 🛠️ شروع تولید فایل‌ها برای Simple ...
+2025-10-04 14:28:39,757 - INFO - 📂 شروع تولید فایل‌ها برای Simple (تعداد: 1086)
+2025-10-04 14:28:39,760 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/10ium/V2Hub3
+2025-10-04 14:28:39,761 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/10ium/V2ray-Config/Splitted-By-Protocol
+2025-10-04 14:28:39,781 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/10ium/base64-encoder/encoded
+2025-10-04 14:28:39,783 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/10ium/free-config
+2025-10-04 14:28:39,786 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/ALIILAPRO/v2rayNG-Config
+2025-10-04 14:28:39,788 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/AzadNet
+2025-10-04 14:28:39,791 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/AzadNetCH/Clash
+2025-10-04 14:28:39,804 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/DarkVPN
+2025-10-04 14:28:39,805 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/Epodonios
+2025-10-04 14:28:39,809 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/Epodonios/v2ray-configs
+2025-10-04 14:28:39,811 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/Epodonios/v2ray-configs/Splitted-By-Protocol
+2025-10-04 14:28:39,821 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/FreedomGuard
+2025-10-04 14:28:39,823 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/Joker-funland/V2ray-configs
+2025-10-04 14:28:39,835 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/Leon406/SubCrawler/sub/share
+2025-10-04 14:28:39,837 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/MahsaNet
+2025-10-04 14:28:39,840 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/MatinGhanbari
+2025-10-04 14:28:39,844 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/MatinGhanbari/v2ray-configs
+2025-10-04 14:28:39,846 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/MatinGhanbari/v2ray-configs/subscriptions/filtered/subs
+2025-10-04 14:28:39,851 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/MatinGhanbari/v2ray-configs/subscriptions/v2ray
+2025-10-04 14:28:39,858 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/Mosifree
+2025-10-04 14:28:39,872 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/Pawdroid/Free-servers
+2025-10-04 14:28:39,873 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/Rayan
+2025-10-04 14:28:39,884 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/Surfboardv2ray/TGParse
+2025-10-04 14:28:39,885 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/Surfboardv2ray/TGParse/splitted
+2025-10-04 14:28:39,909 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/darkvpn
+2025-10-04 14:28:39,913 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/ebrasha
+2025-10-04 14:28:39,922 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/freeclash
+2025-10-04 14:28:39,942 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/hamedp-71
+2025-10-04 14:28:39,960 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/itsyebekhe
+2025-10-04 14:28:39,970 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/lagzian/IranConfigCollector
+2025-10-04 14:28:39,986 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/mahdibland/ShadowsocksAggregator
+2025-10-04 14:28:39,993 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/mahsanet
+2025-10-04 14:28:40,007 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/maimengmeng
+2025-10-04 14:28:40,026 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/ndsphonemy
+2025-10-04 14:28:40,038 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/rayan
+2025-10-04 14:28:40,048 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/roosterkid
+2025-10-04 14:28:40,052 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/roosterkid/openproxylist
+2025-10-04 14:28:40,054 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/shabane
+2025-10-04 14:28:40,066 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/trojanvmess.pages.dev
+2025-10-04 14:28:40,071 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/clash/voken100g
+2025-10-04 14:28:40,078 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/10ium/V2Hub3
+2025-10-04 14:28:40,094 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/10ium/base64-encoder/encoded
+2025-10-04 14:28:40,111 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/ALIILAPRO/v2rayNG-Config
+2025-10-04 14:28:40,113 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/AzadNet
+2025-10-04 14:28:40,115 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/AzadNetCH/Clash
+2025-10-04 14:28:40,127 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/DarkVPN
+2025-10-04 14:28:40,132 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/Epodonios
+2025-10-04 14:28:40,136 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/Epodonios/v2ray-configs
+2025-10-04 14:28:40,137 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/Epodonios/v2ray-configs/Splitted-By-Protocol
+2025-10-04 14:28:40,144 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/FreedomGuard
+2025-10-04 14:28:40,148 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/Joker-funland/V2ray-configs
+2025-10-04 14:28:40,155 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/Leon406/SubCrawler/sub/share
+2025-10-04 14:28:40,157 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/MahsaNet
+2025-10-04 14:28:40,161 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/MatinGhanbari
+2025-10-04 14:28:40,164 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/MatinGhanbari/v2ray-configs
+2025-10-04 14:28:40,166 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/MatinGhanbari/v2ray-configs/subscriptions/filtered/subs
+2025-10-04 14:28:40,170 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/MatinGhanbari/v2ray-configs/subscriptions/v2ray
+2025-10-04 14:28:40,177 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/Mosifree
+2025-10-04 14:28:40,185 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/Pawdroid/Free-servers
+2025-10-04 14:28:40,192 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/Rayan
+2025-10-04 14:28:40,202 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/Surfboardv2ray/TGParse
+2025-10-04 14:28:40,204 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/Surfboardv2ray/TGParse/splitted
+2025-10-04 14:28:40,225 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/darkvpn
+2025-10-04 14:28:40,230 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/ebrasha
+2025-10-04 14:28:40,239 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/freeclash
+2025-10-04 14:28:40,259 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/hamedp-71
+2025-10-04 14:28:40,268 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/itsyebekhe
+2025-10-04 14:28:40,278 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/lagzian/IranConfigCollector
+2025-10-04 14:28:40,300 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/mahdibland/ShadowsocksAggregator
+2025-10-04 14:28:40,307 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/mahsanet
+2025-10-04 14:28:40,326 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/maimengmeng
+2025-10-04 14:28:40,344 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/ndsphonemy
+2025-10-04 14:28:40,357 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/rayan
+2025-10-04 14:28:40,369 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/roosterkid
+2025-10-04 14:28:40,373 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/roosterkid/openproxylist
+2025-10-04 14:28:40,378 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/shabane
+2025-10-04 14:28:40,390 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/trojanvmess.pages.dev
+2025-10-04 14:28:40,396 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mixed/voken100g
+2025-10-04 14:28:40,406 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/ss
+2025-10-04 14:28:40,518 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/ssd
+2025-10-04 14:28:40,520 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/sssub
+2025-10-04 14:28:40,521 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/surfboard
+2025-10-04 14:28:40,748 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/v2ray
+2025-10-04 14:28:40,844 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium
+2025-10-04 14:28:40,849 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Barabama
+2025-10-04 14:28:40,870 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/darknessm427
+2025-10-04 14:28:40,871 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/darkvpn
+2025-10-04 14:28:40,880 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/hamedp-71
+2025-10-04 14:28:40,889 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/itsyebekhe
+2025-10-04 14:28:40,896 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/lagzian
+2025-10-04 14:28:40,907 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/maimengmeng
+2025-10-04 14:28:40,914 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/moneyfly1
+2025-10-04 14:28:40,921 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/peasoft.list
+2025-10-04 14:28:40,931 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/ronghuaxueleng
+2025-10-04 14:28:40,940 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/snakem982-clash
+2025-10-04 14:28:40,970 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/darkvpnapp
+2025-10-04 14:28:40,972 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/FreedomGuard
+2025-10-04 14:28:40,974 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/ebrasha
+2025-10-04 14:28:40,976 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/amin_o__o
+2025-10-04 14:28:40,979 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/yebekhe
+2025-10-04 14:28:40,981 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Danialsamadi
+2025-10-04 14:28:41,003 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Mosifree
+2025-10-04 14:28:41,013 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Rayan-Config
+2025-10-04 14:28:41,029 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Surfboardv2ray
+2025-10-04 14:28:41,044 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/freedomnet25500
+2025-10-04 14:28:41,053 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/iPsycho1
+2025-10-04 14:28:41,066 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/ndsphonemy
+2025-10-04 14:28:41,077 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/rb360full_Reza
+2025-10-04 14:28:41,082 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/roosterkid
+2025-10-04 14:28:41,088 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/shabane
+2025-10-04 14:28:41,099 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/voken100g
+2025-10-04 14:28:41,222 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/arshiacomplus
+2025-10-04 14:28:41,240 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/arshiacomplus/v2rayExtractor/mix
+2025-10-04 14:28:41,251 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/vpny.online
+2025-10-04 14:28:41,252 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Epodonios/v2ray-configs
+2025-10-04 14:28:41,258 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/MatinGhanbari/v2ray-configs
+2025-10-04 14:28:41,266 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/STR97/STRUGOV
+2025-10-04 14:28:41,268 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/NiREvil/vless
+2025-10-04 14:28:41,270 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/darkvpnapp/CloudflarePlus
+2025-10-04 14:28:41,272 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/barry-far/V2ray-config
+2025-10-04 14:28:41,277 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mahdibland/ShadowsocksAggregator
+2025-10-04 14:28:41,282 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/F0rc3Run/F0rc3Run
+2025-10-04 14:28:41,287 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Surfboardv2ray/TGParse
+2025-10-04 14:28:41,291 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/SoliSpirit/v2ray-configs
+2025-10-04 14:28:41,296 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Mahdi0024/ProxyCollector
+2025-10-04 14:28:41,298 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/free-config
+2025-10-04 14:28:41,300 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/DarknessShade/Sub
+2025-10-04 14:28:41,303 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/nscl5/5
+2025-10-04 14:28:41,307 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/youfoundamin/V2rayCollector
+2025-10-04 14:28:41,312 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/itsyebekhe/PSG
+2025-10-04 14:28:41,317 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/lagzian/IranConfigCollector
+2025-10-04 14:28:41,319 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/lagzian/SS-Collector
+2025-10-04 14:28:41,321 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/MahsaNetConfigTopic/config
+2025-10-04 14:28:41,322 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/hamedcode/port-based-v2ray-configs
+2025-10-04 14:28:41,328 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/AzadNetCH/Clash
+2025-10-04 14:28:41,329 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Leon406/SubCrawler
+2025-10-04 14:28:41,331 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/imalrzai/ExclaveVirtual
+2025-10-04 14:28:41,333 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Pawdroid/Free-servers
+2025-10-04 14:28:41,340 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/roosterkid/openproxylist
+2025-10-04 14:28:41,342 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/HosseinKoofi/GO_V2rayCollector
+2025-10-04 14:28:41,347 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/ebrasha/free-v2ray-public-list
+2025-10-04 14:28:41,352 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Argh94/V2RayAutoConfig
+2025-10-04 14:28:41,357 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Stinsonysm/GO_V2rayCollector
+2025-10-04 14:28:41,359 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/MhdiTaheri/V2rayCollector_Py
+2025-10-04 14:28:41,363 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/liketolivefree/kobabi
+2025-10-04 14:28:41,366 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/ScrapeAndCategorize
+2025-10-04 14:28:41,368 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/V2ray-Config
+2025-10-04 14:28:41,370 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/V2Hub3
+2025-10-04 14:28:41,372 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/base64-encoder
+2025-10-04 14:28:41,392 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/aqayerez/MatnOfficial-VPN
+2025-10-04 14:28:41,394 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/V2RAYCONFIGSPOOL/V2RAY_SUB
+2025-10-04 14:28:41,396 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/bamdad23/JavidnamanIran
+2025-10-04 14:28:41,397 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mshojaei77/v2rayAuto
+2025-10-04 14:28:41,404 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/ndsphonemy/proxy-sub
+2025-10-04 14:28:41,408 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Mosifree/-FREE2CONFIG
+2025-10-04 14:28:41,413 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Proxydaemitelegram/Proxydaemi44
+2025-10-04 14:28:41,415 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/MrMohebi/xray-proxy-grabber-telegram
+2025-10-04 14:28:41,422 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/barry-far/V2ray-Configs
+2025-10-04 14:28:41,423 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/amirparsaxs/Vip-s
+2025-10-04 14:28:41,425 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/rango-cfs/NewCollector
+2025-10-04 14:28:41,470 - WARNING - ⚠️ یک فایل با نام پوشه وجود دارد و حذف می‌شود: Sublist/Simple/v2.alicivil.workers.dev
+2025-10-04 14:28:41,470 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/v2.alicivil.workers.dev
+2025-10-04 14:28:41,486 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/shadowmere.xyz/api
+2025-10-04 14:28:41,488 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/openproxylist.com
+2025-10-04 14:28:41,607 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/trojanvmess.pages.dev
+2025-10-04 14:28:41,624 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/azadnet05.pages.dev
+2025-10-04 14:28:41,636 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/V2rayCollectorForFree/F-Collector
+2025-10-04 14:28:41,638 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/imanmirzadeh/v2rayng_config
+2025-10-04 14:28:41,639 - INFO - ✅ همه فایل‌های Simple ساخته شدند (1086 فایل)
+2025-10-04 14:28:41,639 - INFO - ✅ تولید فایل‌های Simple تکمیل شد.
+2025-10-04 14:28:41,639 - INFO - 🛠️ شروع تولید فایل‌ها برای Complex ...
+2025-10-04 14:28:41,639 - INFO - 📂 شروع تولید فایل‌ها برای Complex (تعداد: 616)
+2025-10-04 14:28:41,641 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/10ium
+2025-10-04 14:28:41,657 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/darkvpnapp
+2025-10-04 14:28:41,659 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/FreedomGuard
+2025-10-04 14:28:41,661 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/ebrasha
+2025-10-04 14:28:41,663 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/amin_o__o
+2025-10-04 14:28:41,667 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/yebekhe
+2025-10-04 14:28:41,669 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Danialsamadi
+2025-10-04 14:28:41,692 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Mosifree
+2025-10-04 14:28:41,703 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Rayan-Config
+2025-10-04 14:28:41,718 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Surfboardv2ray
+2025-10-04 14:28:41,734 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/freedomnet25500
+2025-10-04 14:28:41,738 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/hamedp-71
+2025-10-04 14:28:41,743 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/iPsycho1
+2025-10-04 14:28:41,757 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/ndsphonemy
+2025-10-04 14:28:41,768 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/rb360full_Reza
+2025-10-04 14:28:41,773 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/roosterkid
+2025-10-04 14:28:41,779 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/shabane
+2025-10-04 14:28:41,791 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/voken100g
+2025-10-04 14:28:41,805 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Barabama
+2025-10-04 14:28:41,826 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/darknessm427
+2025-10-04 14:28:41,828 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/darkvpn
+2025-10-04 14:28:41,846 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/itsyebekhe
+2025-10-04 14:28:41,853 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/lagzian
+2025-10-04 14:28:41,865 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/maimengmeng
+2025-10-04 14:28:41,872 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/moneyfly1
+2025-10-04 14:28:41,879 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/peasoft.list
+2025-10-04 14:28:41,890 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/ronghuaxueleng
+2025-10-04 14:28:41,898 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/snakem982-clash
+2025-10-04 14:28:42,299 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/arshiacomplus
+2025-10-04 14:28:42,319 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/arshiacomplus/v2rayExtractor/mix
+2025-10-04 14:28:42,329 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/vpny.online
+2025-10-04 14:28:42,331 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Epodonios/v2ray-configs
+2025-10-04 14:28:42,337 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/MatinGhanbari/v2ray-configs
+2025-10-04 14:28:42,346 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/STR97/STRUGOV
+2025-10-04 14:28:42,347 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/NiREvil/vless
+2025-10-04 14:28:42,349 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/darkvpnapp/CloudflarePlus
+2025-10-04 14:28:42,351 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/barry-far/V2ray-config
+2025-10-04 14:28:42,357 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/mahdibland/ShadowsocksAggregator
+2025-10-04 14:28:42,362 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/F0rc3Run/F0rc3Run
+2025-10-04 14:28:42,367 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Surfboardv2ray/TGParse
+2025-10-04 14:28:42,371 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/SoliSpirit/v2ray-configs
+2025-10-04 14:28:42,376 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Mahdi0024/ProxyCollector
+2025-10-04 14:28:42,378 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/10ium/free-config
+2025-10-04 14:28:42,380 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/DarknessShade/Sub
+2025-10-04 14:28:42,384 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/nscl5/5
+2025-10-04 14:28:42,387 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/youfoundamin/V2rayCollector
+2025-10-04 14:28:42,393 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/itsyebekhe/PSG
+2025-10-04 14:28:42,398 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/lagzian/IranConfigCollector
+2025-10-04 14:28:42,400 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/lagzian/SS-Collector
+2025-10-04 14:28:42,402 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/MahsaNetConfigTopic/config
+2025-10-04 14:28:42,404 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/hamedcode/port-based-v2ray-configs
+2025-10-04 14:28:42,409 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/AzadNetCH/Clash
+2025-10-04 14:28:42,411 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Leon406/SubCrawler
+2025-10-04 14:28:42,413 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/imalrzai/ExclaveVirtual
+2025-10-04 14:28:42,415 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Pawdroid/Free-servers
+2025-10-04 14:28:42,422 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/roosterkid/openproxylist
+2025-10-04 14:28:42,424 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/HosseinKoofi/GO_V2rayCollector
+2025-10-04 14:28:42,429 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/ebrasha/free-v2ray-public-list
+2025-10-04 14:28:42,434 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Argh94/V2RayAutoConfig
+2025-10-04 14:28:42,440 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Stinsonysm/GO_V2rayCollector
+2025-10-04 14:28:42,442 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/MhdiTaheri/V2rayCollector_Py
+2025-10-04 14:28:42,445 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/liketolivefree/kobabi
+2025-10-04 14:28:42,449 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/10ium/ScrapeAndCategorize
+2025-10-04 14:28:42,451 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/10ium/V2ray-Config
+2025-10-04 14:28:42,453 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/10ium/V2Hub3
+2025-10-04 14:28:42,455 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/10ium/base64-encoder
+2025-10-04 14:28:42,476 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/aqayerez/MatnOfficial-VPN
+2025-10-04 14:28:42,478 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/V2RAYCONFIGSPOOL/V2RAY_SUB
+2025-10-04 14:28:42,480 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/bamdad23/JavidnamanIran
+2025-10-04 14:28:42,482 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/mshojaei77/v2rayAuto
+2025-10-04 14:28:42,489 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/ndsphonemy/proxy-sub
+2025-10-04 14:28:42,492 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Mosifree/-FREE2CONFIG
+2025-10-04 14:28:42,498 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Proxydaemitelegram/Proxydaemi44
+2025-10-04 14:28:42,500 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/MrMohebi/xray-proxy-grabber-telegram
+2025-10-04 14:28:42,507 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/barry-far/V2ray-Configs
+2025-10-04 14:28:42,509 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/amirparsaxs/Vip-s
+2025-10-04 14:28:42,511 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/rango-cfs/NewCollector
+2025-10-04 14:28:42,556 - WARNING - ⚠️ یک فایل با نام پوشه وجود دارد و حذف می‌شود: Sublist/Complex/v2.alicivil.workers.dev
+2025-10-04 14:28:42,556 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/v2.alicivil.workers.dev
+2025-10-04 14:28:42,572 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/shadowmere.xyz/api
+2025-10-04 14:28:42,574 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/openproxylist.com
+2025-10-04 14:28:42,694 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/trojanvmess.pages.dev
+2025-10-04 14:28:42,712 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/azadnet05.pages.dev
+2025-10-04 14:28:42,724 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/V2rayCollectorForFree/F-Collector
+2025-10-04 14:28:42,726 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/imanmirzadeh/v2rayng_config
+2025-10-04 14:28:42,727 - INFO - ✅ همه فایل‌های Complex ساخته شدند (616 فایل)
+2025-10-04 14:28:42,727 - INFO - ✅ تولید فایل‌های Complex تکمیل شد.
+2025-10-04 14:28:42,727 - INFO - 💾 در حال ذخیره لیست پردازش‌شده Complex ...
+2025-10-04 14:28:42,727 - INFO - ✅ فایل Complex_Processed_URLs.txt ساخته شد (616 URL)
+2025-10-04 14:28:42,727 - INFO - ✅ لیست Complex ذخیره شد.
+2025-10-04 14:28:42,727 - INFO - 📄 شروع تولید README.md ...
+2025-10-04 14:28:42,727 - INFO - 📝 شروع تولید README.md ...
+2025-10-04 14:28:42,727 - INFO - 📂 شروع ساخت دیکشنری‌ها از ورودی‌ها ...
+2025-10-04 14:28:42,727 - INFO - ✅ دیکشنری Simple ساخته شد (تعداد: 14)
+2025-10-04 14:28:42,728 - INFO - ✅ دیکشنری Complex ساخته شد (تعداد: 15)
+2025-10-04 14:28:42,728 - CRITICAL - ❌ خطای بحرانی در اجرای برنامه: name 'list_yml_files' is not defined
+Traceback (most recent call last):
+  File "/home/runner/work/Free-Clash-Meta/Free-Clash-Meta/update_sublist.py", line 414, in <module>
+    processor.generate_configs()
+  File "/home/runner/work/Free-Clash-Meta/Free-Clash-Meta/update_sublist.py", line 399, in generate_configs
+    self._generate_readme(simple_entries, complex_entries)
+  File "/home/runner/work/Free-Clash-Meta/Free-Clash-Meta/update_sublist.py", line 159, in _generate_readme
+    simple_files = list_yml_files(simple_path)
+                   ^^^^^^^^^^^^^^
+NameError: name 'list_yml_files' is not defined. Did you mean: 'list_all_files'?
+2025-10-04 14:28:42,731 - INFO - ⏱️ مدت زمان اجرای کل اسکریپت: 2.98 ثانیه
+2025-10-04 14:28:42,732 - INFO - 🏁 پایان اجرای اسکریپت
