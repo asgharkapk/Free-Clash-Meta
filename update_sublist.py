@@ -110,13 +110,13 @@ class ConfigProcessor:
         complex_basenames = [os.path.basename(f) for f in complex_files]
         
         # فایل‌های یکتا
-        unique_simple = [fn for fn in simple_basenames if fn not in complex_basenames]
-        unique_complex = [fn for fn in complex_basenames if fn not in simple_basenames]
+        unique_simple = [fn for fn in simple_files if fn not in complex_files]
+        unique_complex = [fn for fn in complex_files if fn not in simple_files]
         logging.info(f"🌟 فایل‌های یکتا در Simple ({len(unique_simple)}): {unique_simple}")
         logging.info(f"🌟 فایل‌های یکتا در Complex ({len(unique_complex)}): {unique_complex}")
         
         # فایل‌های مشترک
-        paired_files = [fn for fn in simple_basenames if fn in complex_basenames]
+        paired_files = [fn for fn in simple_files if fn in complex_files]
         logging.info(f"🔗 فایل‌های مشترک ({len(paired_files)}): {paired_files}")
         
         if paired_files:
