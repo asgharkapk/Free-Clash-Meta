@@ -91,6 +91,7 @@ class ConfigProcessor:
         simple_folder = os.path.join(self.output_dir, "Simple")
         complex_folder = os.path.join(self.output_dir, "Complex")
     
+        # لیست فایل‌ها بدون دایرکتوری و فقط با نام فایل
         simple_files = sorted(
             [f for f in os.listdir(simple_folder) if os.path.isfile(os.path.join(simple_folder, f))]
         ) if os.path.exists(simple_folder) else []
@@ -98,6 +99,14 @@ class ConfigProcessor:
         complex_files = sorted(
             [f for f in os.listdir(complex_folder) if os.path.isfile(os.path.join(complex_folder, f))]
         ) if os.path.exists(complex_folder) else []
+        
+        # فقط نام فایل بدون مسیر
+        simple_basenames = [os.path.basename(f) for f in simple_files]
+        complex_basenames = [os.path.basename(f) for f in complex_files]
+        
+        # فایل‌های یکتا
+        unique_simple = [fn for fn in simple_basenames if fn not in complex_basenames]
+        unique_complex = [fn for fn in complex_basenames if fn not in simple_basenames]
     
         # فایل‌های مشترک
         paired_files = [fn for fn in simple_files if fn in complex_files]
