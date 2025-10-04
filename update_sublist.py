@@ -90,15 +90,20 @@ class ConfigProcessor:
         # خواندن تمام فایل‌ها از فولدرهای خروجی
         simple_folder = os.path.join(self.output_dir, "Simple")
         complex_folder = os.path.join(self.output_dir, "Complex")
-    
+        
+        logging.info(f"🔍 بررسی فولدر Simple: {simple_folder}")
+        logging.info(f"🔍 بررسی فولدر Complex: {complex_folder}")
+        
         # لیست فایل‌ها بدون دایرکتوری و فقط با نام فایل
         simple_files = sorted(
             [f for f in os.listdir(simple_folder) if os.path.isfile(os.path.join(simple_folder, f))]
         ) if os.path.exists(simple_folder) else []
+        logging.info(f"📄 تعداد فایل‌های Simple: {len(simple_files)} -> {simple_files}")
         
         complex_files = sorted(
             [f for f in os.listdir(complex_folder) if os.path.isfile(os.path.join(complex_folder, f))]
         ) if os.path.exists(complex_folder) else []
+        logging.info(f"📄 تعداد فایل‌های Complex: {len(complex_files)} -> {complex_files}")
         
         # فقط نام فایل بدون مسیر
         simple_basenames = [os.path.basename(f) for f in simple_files]
@@ -107,9 +112,12 @@ class ConfigProcessor:
         # فایل‌های یکتا
         unique_simple = [fn for fn in simple_basenames if fn not in complex_basenames]
         unique_complex = [fn for fn in complex_basenames if fn not in simple_basenames]
-    
+        logging.info(f"🌟 فایل‌های یکتا در Simple ({len(unique_simple)}): {unique_simple}")
+        logging.info(f"🌟 فایل‌های یکتا در Complex ({len(unique_complex)}): {unique_complex}")
+        
         # فایل‌های مشترک
-        paired_files = [fn for fn in simple_files if fn in complex_files]
+        paired_files = [fn for fn in simple_basenames if fn in complex_basenames]
+        logging.info(f"🔗 فایل‌های مشترک ({len(paired_files)}): {paired_files}")
         
         if paired_files:
             md_content.append("## 🔗 لینک‌ها (Simple ↔ Complex)\n")
@@ -123,7 +131,6 @@ class ConfigProcessor:
                 md_content.append(f"| {emoji} [{filename}]({s_file_url}) | {emoji} [{filename}]({c_file_url}) |")
         
         # ۲. فایل‌های یکتا در Simple
-        unique_simple = [fn for fn in simple_files if fn not in complex_files]
         if unique_simple:
             md_content.append("\n## 🔹 فقط Simple\n")
             for idx, filename in enumerate(unique_simple):
@@ -132,7 +139,6 @@ class ConfigProcessor:
                 md_content.append(f"- {emoji} [{filename}]({s_file_url})")
         
         # ۳. فایل‌های یکتا در Complex
-        unique_complex = [fn for fn in complex_files if fn not in simple_files]
         if unique_complex:
             md_content.append("\n## 🔹 فقط Complex\n")
             for idx, filename in enumerate(unique_complex):
@@ -266,20 +272,27 @@ class ConfigProcessor:
     
             # اطمینان از پسوند .yml
             if not output_path.endswith(".yml"):
+                logging.debug(f"⚠️ فایل {output_path} فاقد پسوند .yml است، اضافه شد")
                 output_path += ".yml"
+            else:
+                logging.debug(f"✅ فایل {output_path} دارای پسوند .yml است")
             
             # بررسی و ساخت پوشه والد
             parent_dir = os.path.dirname(output_path)
             if parent_dir:
-                # اگر یک فایل با نام پوشه وجود دارد، حذفش کن
                 if os.path.isfile(parent_dir):
+                    logging.warning(f"⚠️ یک فایل با نام پوشه وجود دارد و حذف می‌شود: {parent_dir}")
                     os.remove(parent_dir)
+                if not os.path.exists(parent_dir):
+                    logging.info(f"📂 ساخت پوشه والد: {parent_dir}")
+                else:
+                    logging.debug(f"✅ پوشه والد از قبل موجود است: {parent_dir}")
                 os.makedirs(parent_dir, exist_ok=True)
         
             # نوشتن فایل
             with open(output_path, "w", encoding="utf-8") as f:
                 f.write(modified)
-            logging.info(f"📄 فایل ساخته شد: {output_path} (URL جایگزین شد)")
+            logging.debug(f"📄 فایل ساخته شد: {output_path} (URL جایگزین شد)")
     
         logging.info(f"✅ همه فایل‌های {subdir} ساخته شدند ({len(entries)} فایل)")
 
