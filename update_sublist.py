@@ -1,16 +1,10 @@
 import os
 import re
 import urllib.parse
+import sys
+import time
 import logging
 from typing import List, Tuple
-
-# تنظیمات لاگ
-logging.basicConfig(
-    filename="update.log",
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    encoding="utf-8"
-)
 
 class ConfigProcessor:
     def __init__(self):
@@ -20,12 +14,24 @@ class ConfigProcessor:
         self.base_url = "https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/main/Sublist/"
         self.simple_list = "Simple_URL_List.txt"
         self.complex_list = "Complex_URL_list.txt"
+        
+        logging.info("⚙️ تنظیمات اولیه کلاس بارگذاری شد.")
+        logging.debug("📂 template_path = %s", self.template_path)
+        logging.debug("📂 output_dir = %s", self.output_dir)
+        logging.debug("📄 readme_path = %s", self.readme_path)
+        logging.debug("🔗 base_url = %s", self.base_url)
+        logging.debug("📄 simple_list = %s", self.simple_list)
+        logging.debug("📄 complex_list = %s", self.complex_list)
 
     def _process_url(self, url: str, is_complex: bool) -> str:
         """پردازش URL بر اساس نوع لیست"""
+        list_type = "Complex" if is_complex else "Simple"
+        logging.info("🔍 پردازش URL شروع شد. نوع: %s", list_type)
+        logging.debug("🌐 ورودی URL: %s", url)
         if is_complex:
             encoded = urllib.parse.quote(url, safe=':/?&=')
-            return (
+            logging.debug("🧩 URL پس از encode: %s", encoded)
+            result = (
                 "https://url.v1.mk/sub?&url="
                 f"{encoded}&target=clash&config="
                 "https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead"
@@ -35,7 +41,14 @@ class ConfigProcessor:
                 "&udp=true&list=true&sort=false&fdn=true"
                 "&insert=false"
             )
+            logging.info("✅ URL برای لیست Complex ساخته شد.")
+            logging.debug("🔗 خروجی URL: %s", result)
+            return result
+        logging.info("✅ URL ساده بدون تغییر بازگردانده شد.")
         return url
+
+    logging.info("✅ URL ساده بدون تغییر بازگردانده شد.")
+    return url
 
     def _load_entries(self, file_path: str, is_complex: bool) -> List[Tuple[str, str]]:
         """بارگذاری لیست URLها"""
@@ -61,19 +74,38 @@ class ConfigProcessor:
 
     def _replace_proxy_url(self, template: str, new_url: str) -> str:
         """جایگزینی URL در بخش proxy-providers"""
+        logging.info("🌐 شروع جایگزینی URL در proxy-providers ...")
+        logging.debug("🔎 مقدار جدید URL: %s", new_url)
         pattern = re.compile(
             r"(url:\s*(?:>-\s*|\|-\s*)?\n\s*)([^\n]+)",
             re.IGNORECASE
         )
-        return pattern.sub(rf"\1{new_url}", template, count=1)
+        # بررسی وجود match قبل از جایگزینی
+        if not pattern.search(template):
+            logging.warning("⚠️ هیچ URL قبلی برای جایگزینی پیدا نشد.")
+            return template
+    
+        result = pattern.sub(rf"\1{new_url}", template, count=1)
+        logging.info("✅ URL با موفقیت جایگزین شد.")
+        return result
+        #return pattern.sub(rf"\1{new_url}", template, count=1)
     
     def _replace_proxy_path(self, template: str, new_path: str) -> str:
         """جایگزینی path در بخش proxy-providers با دقت"""
+        logging.info("📂 شروع جایگزینی path در proxy-providers ...")
+        logging.debug("🔎 مقدار جدید Path: %s", new_path)
         pattern = re.compile(
             r"(include-all:\s*(?:true|false)\s*\n\s*path:\s*)([^\n]+)",
             re.IGNORECASE
         )
-        return pattern.sub(rf"\1{new_path}", template, count=1)
+        if not pattern.search(template):
+            logging.warning("⚠️ هیچ path قبلی برای جایگزینی پیدا نشد.")
+            return template
+    
+        result = pattern.sub(rf"\1{new_path}", template, count=1)
+        logging.info("✅ Path با موفقیت جایگزین شد.")
+        return result
+        #return pattern.sub(rf"\1{new_path}", template, count=1)
 
     def _generate_readme(self, simple_entries: List[Tuple[str, str]], complex_entries: List[Tuple[str, str]]) -> None:
         """تولید README به صورت جدول (Simple و Complex کنار هم با نام یکسان)"""
@@ -92,15 +124,20 @@ class ConfigProcessor:
         ]
     
         # تبدیل لیست‌ها به دیکشنری (کلید: filename)
+        logging.info("📂 شروع ساخت دیکشنری‌ها از ورودی‌ها ...")
         simple_dict = {fn: fn for fn, _ in simple_entries}
         complex_dict = {fn: fn for fn, _ in complex_entries}
+        logging.info("✅ دیکشنری Simple ساخته شد (تعداد: %d)", len(simple_dict))
+        logging.info("✅ دیکشنری Complex ساخته شد (تعداد: %d)", len(complex_dict))
     
         # تمام نام‌ها
         all_filenames = sorted(set(simple_dict.keys()) | set(complex_dict.keys()))
-    
+        logging.info("🔎 تعداد کل فایل‌ها (یونیون Simple و Complex): %d", len(all_filenames))
+
         # ۱. فایل‌هایی که در هر دو دسته هستند (Simple ↔ Complex)
         paired_files = [fn for fn in all_filenames if fn in simple_dict and fn in complex_dict]
-    
+        logging.info("🔗 تعداد فایل‌های مشترک (Simple ↔ Complex): %d", len(paired_files))
+
         if paired_files:
             md_content.append("## 🔗 لینک‌ها (Simple ↔ Complex)\n")
             md_content.append("| Simple | Complex |")
@@ -111,15 +148,18 @@ class ConfigProcessor:
                 s_file_url = f"{self.base_url}Simple/{urllib.parse.quote(filename)}"
                 c_file_url = f"{self.base_url}Complex/{urllib.parse.quote(filename)}"
                 md_content.append(f"| {emoji} [{filename}]({s_file_url}) | {emoji} [{filename}]({c_file_url}) |")
-    
+                logging.debug("➕ اضافه شد: مشترک %s", filename)
+
         # ۲. فایل‌های یکتا در Simple
         unique_simple = [fn for fn in simple_dict.keys() if fn not in complex_dict]
+        logging.info("🔹 تعداد فایل‌های فقط در Simple: %d", len(unique_simple))
         if unique_simple:
             md_content.append("\n## 🔹 فقط Simple\n")
             for idx, filename in enumerate(unique_simple):
                 emoji = emojis[idx % len(emojis)]
                 s_file_url = f"{self.base_url}Simple/{urllib.parse.quote(filename)}"
                 md_content.append(f"- {emoji} [{filename}]({s_file_url})")
+                logging.debug("➕ اضافه شد: فقط در Simple → %s", filename)
     
         # ۳. فایل‌های یکتا در Complex
         unique_complex = [fn for fn in complex_dict.keys() if fn not in simple_dict]
@@ -129,6 +169,7 @@ class ConfigProcessor:
                 emoji = emojis[idx % len(emojis)]
                 c_file_url = f"{self.base_url}Complex/{urllib.parse.quote(filename)}"
                 md_content.append(f"- {emoji} [{filename}]({c_file_url})")
+                logging.debug("➕ اضافه شد: فقط در Complex → %s", filename)
     
         # Footer
         md_content.extend([
@@ -298,24 +339,61 @@ class ConfigProcessor:
     def generate_configs(self):
         """تولید فایل‌های پیکربندی برای Simple و Complex"""
         logging.info("🚀 شروع پردازش کل پیکربندی‌ها")
+    
+        # بارگذاری ورودی‌ها
+        logging.info("📥 در حال بارگذاری ورودی‌های Simple از %s", self.simple_list)
         simple_entries = self._load_entries(self.simple_list, False)
+        logging.info("✅ تعداد ورودی‌های Simple بارگذاری شد: %d", len(simple_entries))
+    
+        logging.info("📥 در حال بارگذاری ورودی‌های Complex از %s", self.complex_list)
         complex_entries = self._load_entries(self.complex_list, True)
-
+        logging.info("✅ تعداد ورودی‌های Complex بارگذاری شد: %d", len(complex_entries))
+    
         # تولید فایل‌ها
+        logging.info("🛠️ شروع تولید فایل‌ها برای Simple ...")
         self._generate_configs_for_list(simple_entries, "Simple")
+        logging.info("✅ تولید فایل‌های Simple تکمیل شد.")
+    
+        logging.info("🛠️ شروع تولید فایل‌ها برای Complex ...")
         self._generate_configs_for_list(complex_entries, "Complex")
-
+        logging.info("✅ تولید فایل‌های Complex تکمیل شد.")
+    
         # ذخیره لیست پردازش‌شده Complex
+        logging.info("💾 در حال ذخیره لیست پردازش‌شده Complex ...")
         self._save_complex_urls(complex_entries)
-
+        logging.info("✅ لیست Complex ذخیره شد.")
+    
         # تولید README
+        logging.info("📄 شروع تولید README.md ...")
         self._generate_readme(simple_entries, complex_entries)
-        logging.info("🎉 پردازش کامل شد: فایل‌ها و README ساخته شدند")
+        logging.info("✅ README.md ساخته شد.")
+    
+        logging.info("🎉 پردازش کامل شد: همه فایل‌ها و README ساخته شدند")
 
 if __name__ == "__main__":
+    # تنظیم سطح لاگ و فرمت
+    logging.basicConfig(
+        filename="update.log",
+        level=logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s",
+        encoding="utf-8"
+        handlers=[logging.StreamHandler(sys.stdout)]
+    )
+    logging.info("🚀 شروع اجرای اسکریپت اصلی")
+    start_time = time.time()
+
     try:
+        logging.info("🛠️ ایجاد شیء ConfigProcessor ...")
         processor = ConfigProcessor()
+        logging.info("✅ شیء ConfigProcessor با موفقیت ساخته شد.")
+
+        logging.info("⚙️ شروع فراخوانی generate_configs() ...")
         processor.generate_configs()
         logging.info("✅ پردازش با موفقیت انجام شد!")
+
     except Exception as e:
-        logging.critical(f"❌ خطا: {e}", exc_info=True)
+        logging.critical("❌ خطای بحرانی در اجرای برنامه: %s", e, exc_info=True)
+    finally:
+        elapsed = time.time() - start_time
+        logging.info("⏱️ مدت زمان اجرای کل اسکریپت: %.2f ثانیه", elapsed)
+        logging.info("🏁 پایان اجرای اسکریپت")
