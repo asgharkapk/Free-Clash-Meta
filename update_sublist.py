@@ -253,14 +253,15 @@ class ConfigProcessor:
             # اطمینان از پسوند .yml
             if not output_path.endswith(".yml"):
                 output_path += ".yml"
-    
-            # ایجاد پوشه والد در صورت نیاز و رفع تداخل با فایل
+            
+            # بررسی و ساخت پوشه والد
             parent_dir = os.path.dirname(output_path)
             if parent_dir:
+                # اگر یک فایل با نام پوشه وجود دارد، حذفش کن
                 if os.path.isfile(parent_dir):
-                    os.remove(parent_dir)  # حذف فایل برای ایجاد دایرکتوری
+                    os.remove(parent_dir)
                 os.makedirs(parent_dir, exist_ok=True)
-    
+        
             # نوشتن فایل
             with open(output_path, "w", encoding="utf-8") as f:
                 f.write(modified)
