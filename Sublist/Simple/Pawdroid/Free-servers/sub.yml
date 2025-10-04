@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_1025.yml
+    path: ./FCM_Simple_910.yml
 
 proxy-groups:
 

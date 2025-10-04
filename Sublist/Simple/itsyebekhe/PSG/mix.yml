@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/itsyebekhe/PSG/main/lite/subscriptions/xray/normal/mix
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_1013.yml
+    path: ./FCM_Simple_898.yml
 
 proxy-groups:
 

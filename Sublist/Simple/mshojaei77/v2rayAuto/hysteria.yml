@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/mshojaei77/v2rayAuto/refs/heads/main/subs/hysteria
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_1064.yml
+    path: ./FCM_Simple_949.yml
 
 proxy-groups:
 
