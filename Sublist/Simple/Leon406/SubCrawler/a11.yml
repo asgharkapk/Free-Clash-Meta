@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Leon406/SubCrawler/refs/heads/main/sub/share/a11
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_Leon406/SubCrawler/a11_1023.yml
+    path: ./FCM_Simple_Leon406/SubCrawler/a11_908.yml
 
 proxy-groups:
 

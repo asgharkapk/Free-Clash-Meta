@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/mshojaei77/v2rayAuto/refs/heads/main/subs/hy2
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_mshojaei77/v2rayAuto/hy2_1065.yml
+    path: ./FCM_Simple_mshojaei77/v2rayAuto/hy2_950.yml
 
 proxy-groups:
 

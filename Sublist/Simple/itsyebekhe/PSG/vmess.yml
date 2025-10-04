@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/normal/vmess
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_itsyebekhe/PSG/vmess_1015.yml
+    path: ./FCM_Simple_itsyebekhe/PSG/vmess_900.yml
 
 proxy-groups:
 

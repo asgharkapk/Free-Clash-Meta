@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub2.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_Epodonios/v2ray-configs/Sub2.txt_1052.yml
+    path: ./FCM_Simple_Epodonios/v2ray-configs/Sub2.txt_937.yml
 
 proxy-groups:
 

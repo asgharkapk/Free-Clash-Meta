@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/liketolivefree/kobabi/main/sub.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_liketolivefree/kobabi/sub.txt_1042.yml
+    path: ./FCM_Simple_liketolivefree/kobabi/sub.txt_927.yml
 
 proxy-groups:
 

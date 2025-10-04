@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub4.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_barry-far/V2ray-config/Sub4.txt_1058.yml
+    path: ./FCM_Simple_barry-far/V2ray-config/Sub4.txt_943.yml
 
 proxy-groups:
 

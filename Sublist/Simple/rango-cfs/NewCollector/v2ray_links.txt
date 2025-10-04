@@ -688,10 +688,10 @@ proxy-providers:
   proxylist1:
     type: http
     url: >-
-      https://raw.githubusercontent.com/rango-cfs/NewCollector/main/v2ray_links.txt
+      https://raw.githubusercontent.com/rango-cfs/NewCollector/refs/heads/main/v2ray_links.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_rango-cfs/NewCollector/v2ray_links.txt_1080.yml
+    path: ./FCM_Simple_rango-cfs/NewCollector/v2ray_links.txt_963.yml
 
 proxy-groups:
 
