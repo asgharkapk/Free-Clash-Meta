@@ -97,7 +97,7 @@ class ConfigProcessor:
     
     def _replace_proxy_path(self, template: str, new_path: str) -> str:
         """جایگزینی path در بخش proxy-providers با دقت"""
-        logging.info("📂 شروع جایگزینی path در proxy-providers ...")
+        logging.debug("📂 شروع جایگزینی path در proxy-providers ...")
         logging.debug("🔎 مقدار جدید Path: %s", new_path)
         pattern = re.compile(
             r"(include-all:\s*(?:true|false)\s*\n\s*path:\s*)([^\n]+)",
@@ -108,7 +108,7 @@ class ConfigProcessor:
             return template
     
         result = pattern.sub(rf"\1{new_path}", template, count=1)
-        logging.info("✅ Path با موفقیت جایگزین شد.")
+        logging.debug("✅ Path با موفقیت جایگزین شد.")
         return result
         #return pattern.sub(rf"\1{new_path}", template, count=1)
 
