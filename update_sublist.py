@@ -91,8 +91,13 @@ class ConfigProcessor:
         simple_folder = os.path.join(self.output_dir, "Simple")
         complex_folder = os.path.join(self.output_dir, "Complex")
     
-        simple_files = sorted(os.listdir(simple_folder)) if os.path.exists(simple_folder) else []
-        complex_files = sorted(os.listdir(complex_folder)) if os.path.exists(complex_folder) else []
+        simple_files = sorted(
+            [f for f in os.listdir(simple_folder) if os.path.isfile(os.path.join(simple_folder, f))]
+        ) if os.path.exists(simple_folder) else []
+        
+        complex_files = sorted(
+            [f for f in os.listdir(complex_folder) if os.path.isfile(os.path.join(complex_folder, f))]
+        ) if os.path.exists(complex_folder) else []
     
         # فایل‌های مشترک
         paired_files = [fn for fn in simple_files if fn in complex_files]
