@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/free-config/refs/heads/main/HighSpeed.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_1005.yml
+    path: ./FCM_Simple_10ium/free-config/HighSpeed.txt_890.yml
 
 proxy-groups:
 

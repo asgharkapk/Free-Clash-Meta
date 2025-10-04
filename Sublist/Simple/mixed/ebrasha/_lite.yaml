@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/ebrasha/_lite.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_271.yml
+    path: ./FCM_Simple_mixed/ebrasha/_lite.yaml_271.yml
 
 proxy-groups:
 

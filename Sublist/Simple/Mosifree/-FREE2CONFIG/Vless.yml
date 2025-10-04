@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Mosifree/-FREE2CONFIG/refs/heads/main/Vless
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_1070.yml
+    path: ./FCM_Simple_Mosifree/-FREE2CONFIG/Vless_954.yml
 
 proxy-groups:
 

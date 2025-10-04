@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/surfboard/moneyfly1_merged_proxies.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_541.yml
+    path: ./FCM_Simple_surfboard/moneyfly1_merged_proxies.yaml_541.yml
 
 proxy-groups:
 

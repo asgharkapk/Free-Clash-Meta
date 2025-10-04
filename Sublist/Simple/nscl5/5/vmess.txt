@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/nscl5/5/refs/heads/main/configs/vmess.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_1009.yml
+    path: ./FCM_Simple_nscl5/5/vmess.txt_894.yml
 
 proxy-groups:
 

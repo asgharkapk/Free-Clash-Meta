@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/ss/freedomnet25500_free.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_400.yml
+    path: ./FCM_Simple_ss/freedomnet25500_free.yaml_400.yml
 
 proxy-groups:
 

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/vpnclashfa-backup/Sub-Config-Extractor/refs/heads/main/output_configs/clash/maimengmeng.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_817.yml
+    path: ./FCM_Simple_maimengmeng/500.yaml_817.yml
 
 proxy-groups:
 

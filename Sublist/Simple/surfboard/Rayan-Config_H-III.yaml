@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/surfboard/Rayan-Config_H-III.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_479.yml
+    path: ./FCM_Simple_surfboard/Rayan-Config_H-III.yaml_479.yml
 
 proxy-groups:
 

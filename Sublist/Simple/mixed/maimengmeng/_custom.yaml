@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/maimengmeng/_custom.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_329.yml
+    path: ./FCM_Simple_mixed/maimengmeng/_custom.yaml_329.yml
 
 proxy-groups:
 

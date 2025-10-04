@@ -691,7 +691,7 @@ proxy-providers:
       https://sub.amiralter.com/config
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_853.yml
+    path: ./FCM_Simple_amiralter0_853.yml
 
 proxy-groups:
 

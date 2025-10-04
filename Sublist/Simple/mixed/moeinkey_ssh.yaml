@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/moeinkey_ssh.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_334.yml
+    path: ./FCM_Simple_mixed/moeinkey_ssh.yaml_334.yml
 
 proxy-groups:
 

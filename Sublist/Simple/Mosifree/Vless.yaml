@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/refs/heads/main/encoded/Mosifree_Vless
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_722.yml
+    path: ./FCM_Simple_Mosifree/Vless.yaml_722.yml
 
 proxy-groups:
 

@@ -691,7 +691,7 @@ proxy-providers:
       https://joYAQx.mcsslk.xyz/62e8b56aa7f98dcfb44c5a77291ab2ff
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_751.yml
+    path: ./FCM_Simple_joYAQx.mcsslk.xyz.yaml_751.yml
 
 proxy-groups:
 

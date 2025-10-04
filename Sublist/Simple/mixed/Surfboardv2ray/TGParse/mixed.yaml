@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/Surfboardv2ray/TGParse/mixed.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_255.yml
+    path: ./FCM_Simple_mixed/Surfboardv2ray/TGParse/mixed.yaml_255.yml
 
 proxy-groups:
 

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/miladtahanian_config.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_753.yml
+    path: ./FCM_Simple_miladtahanian_config.yaml_753.yml
 
 proxy-groups:
 

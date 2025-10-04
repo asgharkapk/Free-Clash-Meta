@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/hamedp-71_N_warp.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_109.yml
+    path: ./FCM_Simple_clash/hamedp-71_N_warp.yaml_109.yml
 
 proxy-groups:
 

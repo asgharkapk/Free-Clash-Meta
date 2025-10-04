@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_997.yml
+    path: ./FCM_Simple_Surfboardv2ray/TGParse/hysteria2_885.yml
 
 proxy-groups:
 

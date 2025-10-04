@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/peasoft_list_raw.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_158.yml
+    path: ./FCM_Simple_clash/peasoft_list_raw.yaml_158.yml
 
 proxy-groups:
 

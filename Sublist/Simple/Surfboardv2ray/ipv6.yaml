@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Surfboardv2ray_ipv6.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_737.yml
+    path: ./FCM_Simple_Surfboardv2ray/ipv6.yaml_737.yml
 
 proxy-groups:
 

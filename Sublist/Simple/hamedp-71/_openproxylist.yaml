@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/hamedp-71/openproxylist/refs/heads/main/V2RAY_BASE64.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_745.yml
+    path: ./FCM_Simple_hamedp-71/_openproxylist.yaml_745.yml
 
 proxy-groups:
 

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/hfarahani_pr.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_747.yml
+    path: ./FCM_Simple_hfarahani_pr.yaml_747.yml
 
 proxy-groups:
 

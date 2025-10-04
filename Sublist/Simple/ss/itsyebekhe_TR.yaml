@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/ss/itsyebekhe_TR.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_406.yml
+    path: ./FCM_Simple_ss/itsyebekhe_TR.yaml_406.yml
 
 proxy-groups:
 

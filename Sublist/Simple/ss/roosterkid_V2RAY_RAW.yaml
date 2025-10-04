@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/ss/roosterkid_V2RAY_RAW.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_429.yml
+    path: ./FCM_Simple_ss/roosterkid_V2RAY_RAW.yaml_429.yml
 
 proxy-groups:
 

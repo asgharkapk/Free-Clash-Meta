@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/wudongdefeng_list_raw.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_777.yml
+    path: ./FCM_Simple_wudongdefeng_list_raw.yaml_777.yml
 
 proxy-groups:
 

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/darkvpnapp_CloudflarePlus_proxy.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_700.yml
+    path: ./FCM_Simple_darkvpnapp/CloudflarePlus_proxy.yaml_700.yml
 
 proxy-groups:
 

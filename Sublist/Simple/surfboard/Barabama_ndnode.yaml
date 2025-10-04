@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/surfboard/Barabama_ndnode.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_458.yml
+    path: ./FCM_Simple_surfboard/Barabama_ndnode.yaml_458.yml
 
 proxy-groups:
 

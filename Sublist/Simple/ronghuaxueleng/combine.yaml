@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ronghuaxueleng/get_v2/refs/heads/main/pub/combine.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_833.yml
+    path: ./FCM_Simple_ronghuaxueleng/combine.yaml_833.yml
 
 proxy-groups:
 

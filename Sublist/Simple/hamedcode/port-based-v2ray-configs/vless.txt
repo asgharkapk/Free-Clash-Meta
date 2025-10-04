@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/main/sub/vless.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_1019.yml
+    path: ./FCM_Simple_hamedcode/port-based-v2ray-configs/vless.txt_904.yml
 
 proxy-groups:
 

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/mahsanet/_mci_sub_3.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_317.yml
+    path: ./FCM_Simple_mixed/mahsanet/_mci_sub_3.yaml_317.yml
 
 proxy-groups:
 

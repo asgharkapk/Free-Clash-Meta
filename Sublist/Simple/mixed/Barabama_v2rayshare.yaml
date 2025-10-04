@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/Barabama_v2rayshare.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_210.yml
+    path: ./FCM_Simple_mixed/Barabama_v2rayshare.yaml_210.yml
 
 proxy-groups:
 

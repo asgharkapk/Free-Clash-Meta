@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/ss/miladtahanian_config.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_417.yml
+    path: ./FCM_Simple_ss/miladtahanian_config.yaml_417.yml
 
 proxy-groups:
 

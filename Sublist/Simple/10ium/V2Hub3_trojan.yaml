@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/V2Hub3/main/Split/Base64/trojan
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_694.yml
+    path: ./FCM_Simple_10ium/V2Hub3_trojan.yaml_694.yml
 
 proxy-groups:
 

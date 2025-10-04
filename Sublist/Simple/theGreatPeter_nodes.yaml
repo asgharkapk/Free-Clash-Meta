@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/theGreatPeter_nodes.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_773.yml
+    path: ./FCM_Simple_theGreatPeter_nodes.yaml_773.yml
 
 proxy-groups:
 

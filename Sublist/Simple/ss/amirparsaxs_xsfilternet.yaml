@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/ss/amirparsaxs_xsfilternet.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_394.yml
+    path: ./FCM_Simple_ss/amirparsaxs_xsfilternet.yaml_394.yml
 
 proxy-groups:
 
