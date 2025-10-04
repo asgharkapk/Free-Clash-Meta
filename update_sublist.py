@@ -319,18 +319,19 @@ class ConfigProcessor:
         for idx, (filename, url) in enumerate(entries):
             # جایگزینی URL
             modified = self._replace_proxy_url(original_template, url)
-            new_path = f"./FCM_{subdir}_{idx + 1}.yml"
+            new_path = f"./FCM_{subdir}_{filename}_{idx + 1}.yml"
             modified = self._replace_proxy_path(modified, new_path)
     
             # مسیر کامل فایل خروجی
             output_path = os.path.join(output_subdir, filename)
     
-            # اطمینان از پسوند .yml فقط اگر فاقد پسوند باشد
-            if not os.path.splitext(output_path)[1]:
-                logging.info(f"⚠️ فایل {output_path} فاقد پسوند است، پسوند .yml اضافه شد")
+            # اطمینان از پسوند .yml فقط اگر فایل فاقد پسوند باشد
+            basename = os.path.basename(output_path)  # فقط نام فایل بدون مسیر
+            if not os.path.splitext(basename)[1]:
+                logging.debug(f"⚠️ فایل {output_path} فاقد پسوند است، پسوند .yml اضافه شد")
                 output_path += ".yml"
             else:
-                logging.debug(f"✅ فایل {output_path} دارای پسوند است: {os.path.splitext(output_path)[1]}")
+                logging.debug(f"✅ فایل {output_path} دارای پسوند است: {os.path.splitext(basename)[1]}")
             
             # بررسی و ساخت پوشه والد
             parent_dir = os.path.dirname(output_path)
