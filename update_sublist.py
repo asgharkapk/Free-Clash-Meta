@@ -102,19 +102,10 @@ class ConfigProcessor:
         complex_files = sorted(f for f in os.listdir(complex_folder) if os.path.isfile(os.path.join(complex_folder, f))) if os.path.exists(complex_folder) else []
         logging.info(f"📄 تعداد فایل‌های Simple: {len(simple_files)} -> {simple_files}")
         logging.info(f"📄 تعداد فایل‌های Complex: {len(complex_files)} -> {complex_files}")
-
-        # normalize names for comparison
-        def normalize_name(filename):
-            # remove all extra extensions and lowercase
-            name = filename.lower()
-            for ext in [".yaml.yml", ".txt.yaml.yml", ".yaml", ".yml", ".txt"]:
-                if name.endswith(ext):
-                    name = name[: -len(ext)]
-            return name
             
         # فایل‌های یکتا
-        simple_map = {normalize_name(f): f for f in simple_files}
-        complex_map = {normalize_name(f): f for f in complex_files}
+        simple_map = {filename(f): f for f in simple_files}
+        complex_map = {filename(f): f for f in complex_files}
         unique_simple = [simple_map[n] for n in simple_map if n not in complex_map]
         unique_complex = [complex_map[n] for n in complex_map if n not in simple_map]
         logging.info(f"🌟 فایل‌های یکتا در Simple ({len(unique_simple)}): {unique_simple}")
