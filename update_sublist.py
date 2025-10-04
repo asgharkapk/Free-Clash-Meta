@@ -11,7 +11,7 @@ logging.basicConfig(
     filename="update.log",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
-    encoding="utf-8"
+    encoding="utf-8",
     handlers=[logging.StreamHandler(sys.stdout)]
 )
 
