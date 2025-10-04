@@ -26,3 +26,35 @@
 2025-10-04 06:51:34,322 - INFO - ✅ README.md ساخته شد (950 Simple, 616 Complex)
 2025-10-04 06:51:34,322 - INFO - 🎉 پردازش کامل شد: فایل‌ها و README ساخته شدند
 2025-10-04 06:51:34,323 - INFO - ✅ پردازش با موفقیت انجام شد!
+2025-10-04 08:03:49,854 - INFO - 🚀 شروع پردازش کل پیکربندی‌ها
+2025-10-04 08:03:49,854 - INFO - 🔍 شروع خواندن لیست: Simple_URL_List.txt (complex=False)
+2025-10-04 08:03:49,855 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 710): ''
+2025-10-04 08:03:49,855 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 721): ''
+2025-10-04 08:03:49,855 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 830): ''
+2025-10-04 08:03:49,856 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 954): ''
+2025-10-04 08:03:49,856 - INFO - ✅ تعداد 950 ورودی از Simple_URL_List.txt خوانده شد
+2025-10-04 08:03:49,856 - INFO - 🔍 شروع خواندن لیست: Complex_URL_list.txt (complex=True)
+2025-10-04 08:03:49,857 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 376): ''
+2025-10-04 08:03:49,857 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 387): ''
+2025-10-04 08:03:49,857 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 496): ''
+2025-10-04 08:03:49,858 - INFO - ✅ تعداد 616 ورودی از Complex_URL_list.txt خوانده شد
+2025-10-04 08:03:49,858 - INFO - 📂 شروع تولید فایل‌ها برای Simple (تعداد: 950)
+2025-10-04 08:03:50,987 - INFO - ✅ همه فایل‌های Simple ساخته شدند (950 فایل)
+2025-10-04 08:03:50,987 - INFO - 📂 شروع تولید فایل‌ها برای Complex (تعداد: 616)
+2025-10-04 08:03:51,609 - INFO - ✅ همه فایل‌های Complex ساخته شدند (616 فایل)
+2025-10-04 08:03:51,609 - INFO - ✅ فایل Complex_Processed_URLs.txt ساخته شد (616 URL)
+2025-10-04 08:03:51,609 - INFO - 📝 شروع تولید README.md ...
+2025-10-04 08:03:51,609 - INFO - 🔍 بررسی فولدر Simple: Sublist/Simple
+2025-10-04 08:03:51,609 - INFO - 🔍 بررسی فولدر Complex: Sublist/Complex
+2025-10-04 08:03:51,611 - INFO - 📄 تعداد فایل‌های Simple: 70 -> ['4n0nymou3.yml', '66.42.50.118.yaml.yml', '@An0nymousTeam.yaml.yml', '@DarkVPNpro2.txt.yaml.yml', '@FREE2CONFIG_Vless.txt.yaml.yml', '@proxy_kafee.txt.yaml.yml', '@redfree8.yaml.yml', '@v2ray_hidify.txt.yaml.yml', '@v2raybluecrystal.yaml.yml', 'Ashkan-m.yaml.yml', 'Eag1e_YT.yml', 'Epodonios.yaml.yml', 'Everyday-VPN.yaml.yml', 'F0rc3Run_XX.yaml.yml', 'HDYOU.yaml.yml', 'Leon406-hysteria2.yaml.yml', 'MahsaNetConfigTopic.yaml.yml', 'MatinGhanbari_v2ray-configs-super-sub.yaml.yml', 'Mosifree-Reality.yaml.yml', 'MrMohebi_under_1500ms.yaml.yml', 'NiREvil_SSTime.yaml.yml', 'ResistalProxy_server.yaml.yml', 'Ruk1ng001.yaml.yml', 'ShadowsocksM-MCI-Wifi.yaml.yml', 'SnapdragonLee_clash_config_extra_US.yaml.yml', 'YuanZhang.v2ray.yaml.yml', 'YuanZhang.yaml.yml', 'ainita.yaml.yml', 'amin_o__o_bitplatform.yaml.yml', 'amiralter0.yml', 'amiralter01.yml', 'amirparsaxs@xsfilternet.yaml.yml', 'anaer.yaml.yml', 'clashe.eu.org.yaml.yml', 'dev1.irdevs.sbs.yml', 'ermaozi.yaml.yml', 'fast.lycorisrecoil.org.yaml.yml', 'firefoxmmx2.yaml.yml', 'free18.yaml.yml', 'gheychiamoozesh.yaml.yml', 'hfarahani_pr.yaml.yml', 'ivuxy.tech.yaml.yml', 'joYAQx.mcsslk.xyz.yaml.yml', 'liketolivefree.yaml.yml', 'liketolivefree_sub.yaml.yml', 'mfuu.yaml.yml', 'miladtahanian_config.yaml.yml', 'moeinkey_ssh.yaml.yml', 'muma16fx.netlify.app.yaml.yml', 'namira.dev.yaml.yml', 'peasoft_list_raw.yaml.yml', 'proxypool.link.yaml.yml', 'pxypool.131433.yaml.yml', 'qiaomenzhuanfx.netlify.app.yaml.yml', 'rayan_proxy.yaml.yml', 'ripaojiedian.yaml.yml', 'robin.nscl.ir.yaml.yml', 'robin.victoriacross.ir.yml', 'roosterkid.yaml.yml', 'sDTz6J.absslk.xyz.yaml.yml', 'shadowmere.xyz.yaml.yml', 'shatakvpn.yaml.yml', 'the3rf_com_sub_php.yaml.yml', 'theGreatPeter_nodes.yaml.yml', 'tristan-deng_MyNodes.yaml.yml', 'ts-sf.yaml.yml', 'tt.vg.yaml.yml', 'v2.alicivil.workers.dev.yml', 'wudongdefeng_list_raw.yaml.yml', 'xsfilternet.zaya.io.yaml.yml']
+2025-10-04 08:03:51,611 - INFO - 📄 تعداد فایل‌های Complex: 70 -> ['4n0nymou3.yml', '66.42.50.118.yaml.yml', '@An0nymousTeam.yaml.yml', '@DarkVPNpro2.txt.yaml.yml', '@FREE2CONFIG_Vless.txt.yaml.yml', '@proxy_kafee.txt.yaml.yml', '@redfree8.yaml.yml', '@v2ray_hidify.txt.yaml.yml', '@v2raybluecrystal.yaml.yml', 'Ashkan-m.yaml.yml', 'Eag1e_YT.yml', 'Epodonios.yaml.yml', 'Everyday-VPN.yaml.yml', 'F0rc3Run_XX.yaml.yml', 'HDYOU.yaml.yml', 'Leon406-hysteria2.yaml.yml', 'MahsaNetConfigTopic.yaml.yml', 'MatinGhanbari_v2ray-configs-super-sub.yaml.yml', 'Mosifree-Reality.yaml.yml', 'MrMohebi_under_1500ms.yaml.yml', 'NiREvil_SSTime.yaml.yml', 'ResistalProxy_server.yaml.yml', 'Ruk1ng001.yaml.yml', 'ShadowsocksM-MCI-Wifi.yaml.yml', 'SnapdragonLee_clash_config_extra_US.yaml.yml', 'YuanZhang.v2ray.yaml.yml', 'YuanZhang.yaml.yml', 'ainita.yaml.yml', 'amin_o__o_bitplatform.yaml.yml', 'amiralter0.yml', 'amiralter01.yml', 'amirparsaxs@xsfilternet.yaml.yml', 'anaer.yaml.yml', 'clashe.eu.org.yaml.yml', 'dev1.irdevs.sbs.yml', 'ermaozi.yaml.yml', 'fast.lycorisrecoil.org.yaml.yml', 'firefoxmmx2.yaml.yml', 'free18.yaml.yml', 'gheychiamoozesh.yaml.yml', 'hfarahani_pr.yaml.yml', 'ivuxy.tech.yaml.yml', 'joYAQx.mcsslk.xyz.yaml.yml', 'liketolivefree.yaml.yml', 'liketolivefree_sub.yaml.yml', 'mfuu.yaml.yml', 'miladtahanian_config.yaml.yml', 'moeinkey_ssh.yaml.yml', 'muma16fx.netlify.app.yaml.yml', 'namira.dev.yaml.yml', 'peasoft_list_raw.yaml.yml', 'proxypool.link.yaml.yml', 'pxypool.131433.yaml.yml', 'qiaomenzhuanfx.netlify.app.yaml.yml', 'rayan_proxy.yaml.yml', 'ripaojiedian.yaml.yml', 'robin.nscl.ir.yaml.yml', 'robin.victoriacross.ir.yml', 'roosterkid.yaml.yml', 'sDTz6J.absslk.xyz.yaml.yml', 'shadowmere.xyz.yaml.yml', 'shatakvpn.yaml.yml', 'the3rf_com_sub_php.yaml.yml', 'theGreatPeter_nodes.yaml.yml', 'tristan-deng_MyNodes.yaml.yml', 'ts-sf.yaml.yml', 'tt.vg.yaml.yml', 'v2.alicivil.workers.dev.yml', 'wudongdefeng_list_raw.yaml.yml', 'xsfilternet.zaya.io.yaml.yml']
+2025-10-04 08:03:51,611 - CRITICAL - ❌ خطا: cannot access local variable 'filename' where it is not associated with a value
+Traceback (most recent call last):
+  File "/home/runner/work/Free-Clash-Meta/Free-Clash-Meta/update_sublist.py", line 329, in <module>
+    processor.generate_configs()
+  File "/home/runner/work/Free-Clash-Meta/Free-Clash-Meta/update_sublist.py", line 323, in generate_configs
+    self._generate_readme(simple_entries, complex_entries)
+  File "/home/runner/work/Free-Clash-Meta/Free-Clash-Meta/update_sublist.py", line 107, in _generate_readme
+    simple_map = {filename(f): f for f in simple_files}
+                  ^^^^^^^^
+UnboundLocalError: cannot access local variable 'filename' where it is not associated with a value
