@@ -86,3 +86,31 @@ Traceback (most recent call last):
     simple_files = list_files_recursive(simple_folder)
                                         ^^^^^^^^^^^^^
 NameError: name 'simple_folder' is not defined
+2025-10-04 08:54:43,522 - INFO - 🚀 شروع پردازش کل پیکربندی‌ها
+2025-10-04 08:54:43,522 - INFO - 🔍 شروع خواندن لیست: Simple_URL_List.txt (complex=False)
+2025-10-04 08:54:43,523 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 710): ''
+2025-10-04 08:54:43,523 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 721): ''
+2025-10-04 08:54:43,524 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 830): ''
+2025-10-04 08:54:43,524 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 954): ''
+2025-10-04 08:54:43,524 - INFO - ✅ تعداد 950 ورودی از Simple_URL_List.txt خوانده شد
+2025-10-04 08:54:43,524 - INFO - 🔍 شروع خواندن لیست: Complex_URL_list.txt (complex=True)
+2025-10-04 08:54:43,525 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 376): ''
+2025-10-04 08:54:43,525 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 387): ''
+2025-10-04 08:54:43,525 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 496): ''
+2025-10-04 08:54:43,526 - INFO - ✅ تعداد 616 ورودی از Complex_URL_list.txt خوانده شد
+2025-10-04 08:54:43,526 - INFO - 📂 شروع تولید فایل‌ها برای Simple (تعداد: 950)
+2025-10-04 08:54:44,610 - INFO - ✅ همه فایل‌های Simple ساخته شدند (950 فایل)
+2025-10-04 08:54:44,610 - INFO - 📂 شروع تولید فایل‌ها برای Complex (تعداد: 616)
+2025-10-04 08:54:45,209 - INFO - ✅ همه فایل‌های Complex ساخته شدند (616 فایل)
+2025-10-04 08:54:45,210 - INFO - ✅ فایل Complex_Processed_URLs.txt ساخته شد (616 URL)
+2025-10-04 08:54:45,210 - INFO - 📝 شروع تولید README.md ...
+2025-10-04 08:54:45,210 - CRITICAL - ❌ خطا: name 'simple_folder' is not defined
+Traceback (most recent call last):
+  File "/home/runner/work/Free-Clash-Meta/Free-Clash-Meta/update_sublist.py", line 345, in <module>
+    processor.generate_configs()
+  File "/home/runner/work/Free-Clash-Meta/Free-Clash-Meta/update_sublist.py", line 339, in generate_configs
+    self._generate_readme(simple_entries, complex_entries)
+  File "/home/runner/work/Free-Clash-Meta/Free-Clash-Meta/update_sublist.py", line 105, in _generate_readme
+    simple_files = list_files_recursive(simple_folder)
+                                        ^^^^^^^^^^^^^
+NameError: name 'simple_folder' is not defined
