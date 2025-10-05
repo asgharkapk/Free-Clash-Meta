@@ -693,6 +693,26 @@ proxy-providers:
     include-all: true
     path: ./FCM_Simple_mixed/Barabama_v2rayshare.yaml_210.yml
 
+proxies:
+- name: "dns-out"
+  type: dns
+- name: "UDP_IPv4_DIRECT"
+  type: direct
+  udp: true
+  ip-version: ipv4
+- name: "UDP_IPv6_DIRECT"
+  type: direct
+  udp: true
+  ip-version: ipv6
+- name: "TCP_IPv4_DIRECT"
+  type: direct
+  udp: false
+  ip-version: ipv4
+- name: "TCP_IPv6_DIRECT"
+  type: direct
+  udp: false
+  ip-version: ipv6
+  
 proxy-groups:
 
   - name: 🌐Proxy
@@ -2463,11 +2483,18 @@ proxy-groups:
     icon: https://www.svgrepo.com/show/253512/unlock.svg
     proxies:
       - DIRECT
+      - dns-out
+      - UDP_IPv4_DIRECT
+      - TCP_IPv4_DIRECT
+      - UDP_IPv6_DIRECT
+      - TCP_IPv6_DIRECT
+      - PASS
   - name: 🚫Block
     type: select
     icon: https://www.svgrepo.com/download/501832/stop.svg
     proxies:
       - REJECT
+      - REJECT-DROP
   - name: ⚡Online
     type: select
     icon: https://www.svgrepo.com/show/475302/online.svg
