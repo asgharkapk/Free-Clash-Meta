@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/ss/Danialsamadi_v2go_custom.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_ss/Danialsamadi_v2go_custom.yaml_382.yml
+    path: ./FCM_Simple_ss/Danialsamadi_v2go_custom.yaml_421.yml
 
 proxies:
 - name: "dns-out"

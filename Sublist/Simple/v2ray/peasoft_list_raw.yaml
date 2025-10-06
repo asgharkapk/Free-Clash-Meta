@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/v2ray/peasoft_list_raw.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_v2ray/peasoft_list_raw.yaml_614.yml
+    path: ./FCM_Simple_v2ray/peasoft_list_raw.yaml_574.yml
 
 proxies:
 - name: "dns-out"

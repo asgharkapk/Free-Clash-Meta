@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/refs/heads/master/collected-proxies/xray-json-full/actives_all.json
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_MrMohebi/xray-proxy-grabber-telegram/actives_all.json_1073.yml
+    path: ./FCM_Simple_MrMohebi/xray-proxy-grabber-telegram/actives_all.json_975.yml
 
 proxies:
 - name: "dns-out"

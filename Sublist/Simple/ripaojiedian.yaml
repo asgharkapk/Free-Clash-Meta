@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ripaojiedian/freenode/refs/heads/main/clash
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_ripaojiedian.yaml_830.yml
+    path: ./FCM_Simple_ripaojiedian.yaml_754.yml
 
 proxies:
 - name: "dns-out"

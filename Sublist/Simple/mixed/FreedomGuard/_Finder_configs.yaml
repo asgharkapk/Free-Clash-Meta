@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/FreedomGuard/_Finder_configs.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_mixed/FreedomGuard/_Finder_configs.yaml_222.yml
+    path: ./FCM_Simple_mixed/FreedomGuard/_Finder_configs.yaml_294.yml
 
 proxies:
 - name: "dns-out"

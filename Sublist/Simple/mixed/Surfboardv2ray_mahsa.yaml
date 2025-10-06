@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/Surfboardv2ray_mahsa.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_mixed/Surfboardv2ray_mahsa.yaml_264.yml
+    path: ./FCM_Simple_mixed/Surfboardv2ray_mahsa.yaml_331.yml
 
 proxies:
 - name: "dns-out"

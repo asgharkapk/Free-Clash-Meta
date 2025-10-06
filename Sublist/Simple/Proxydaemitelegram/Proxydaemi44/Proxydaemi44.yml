@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Proxydaemitelegram/Proxydaemi44/refs/heads/main/Proxydaemi44
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_Proxydaemitelegram/Proxydaemi44/Proxydaemi44_1072.yml
+    path: ./FCM_Simple_Proxydaemitelegram/Proxydaemi44/Proxydaemi44_974.yml
 
 proxies:
 - name: "dns-out"

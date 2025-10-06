@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/aqayerez/MatnOfficial-VPN/refs/heads/main/MatnOfficial#MatnOfficial
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_aqayerez/MatnOfficial-VPN/MatnOfficial_1059.yml
+    path: ./FCM_Simple_aqayerez/MatnOfficial-VPN/MatnOfficial_961.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/MahsaNet/ConfigTopic.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_mixed/MahsaNet/ConfigTopic.yaml_229.yml
+    path: ./FCM_Simple_mixed/MahsaNet/ConfigTopic.yaml_301.yml
 
 proxies:
 - name: "dns-out"

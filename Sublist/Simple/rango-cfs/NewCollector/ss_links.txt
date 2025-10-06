@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/rango-cfs/NewCollector/main/ss_links.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_rango-cfs/NewCollector/ss_links.txt_1084.yml
+    path: ./FCM_Simple_rango-cfs/NewCollector/ss_links.txt_986.yml
 
 proxies:
 - name: "dns-out"

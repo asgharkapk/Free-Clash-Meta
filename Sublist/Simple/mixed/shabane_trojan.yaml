@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/shabane_trojan.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_mixed/shabane_trojan.yaml_362.yml
+    path: ./FCM_Simple_mixed/shabane_trojan.yaml_407.yml
 
 proxies:
 - name: "dns-out"

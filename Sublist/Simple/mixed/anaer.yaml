@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/anaer.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_mixed/anaer.yaml_266.yml
+    path: ./FCM_Simple_mixed/anaer.yaml_333.yml
 
 proxies:
 - name: "dns-out"

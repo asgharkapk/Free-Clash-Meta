@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/surfboard/shatakvpn.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_surfboard/shatakvpn.yaml_560.yml
+    path: ./FCM_Simple_surfboard/shatakvpn.yaml_536.yml
 
 proxies:
 - name: "dns-out"

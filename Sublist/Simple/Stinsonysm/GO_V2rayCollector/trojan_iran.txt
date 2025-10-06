@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Stinsonysm/GO_V2rayCollector/refs/heads/main/trojan_iran.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_Stinsonysm/GO_V2rayCollector/trojan_iran.txt_1039.yml
+    path: ./FCM_Simple_Stinsonysm/GO_V2rayCollector/trojan_iran.txt_948.yml
 
 proxies:
 - name: "dns-out"

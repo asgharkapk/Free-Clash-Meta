@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/surfboard/wudongdefeng_list_raw.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_surfboard/wudongdefeng_list_raw.yaml_568.yml
+    path: ./FCM_Simple_surfboard/wudongdefeng_list_raw.yaml_539.yml
 
 proxies:
 - name: "dns-out"

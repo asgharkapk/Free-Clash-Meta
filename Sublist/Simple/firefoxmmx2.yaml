@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/clash_sub.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_firefoxmmx2.yaml_799.yml
+    path: ./FCM_Simple_firefoxmmx2.yaml_747.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/MatinGhanbari/v2ray-configs/vless.txt.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_clash/MatinGhanbari/v2ray-configs/vless.txt.yaml_55.yml
+    path: ./FCM_Simple_clash/MatinGhanbari/v2ray-configs/vless.txt.yaml_112.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/MatinGhanbari/v2ray-configs/vmess.txt.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_mixed/MatinGhanbari/v2ray-configs/vmess.txt.yaml_238.yml
+    path: ./FCM_Simple_mixed/MatinGhanbari/v2ray-configs/vmess.txt.yaml_310.yml
 
 proxies:
 - name: "dns-out"

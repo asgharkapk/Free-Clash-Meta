@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/itsyebekhe/_TR.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_clash/itsyebekhe/_TR.yaml_117.yml
+    path: ./FCM_Simple_clash/itsyebekhe/_TR.yaml_184.yml
 
 proxies:
 - name: "dns-out"

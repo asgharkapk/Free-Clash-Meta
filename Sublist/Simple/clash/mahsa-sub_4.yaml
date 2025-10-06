@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/mahsa-sub_4.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_clash/mahsa-sub_4.yaml_134.yml
+    path: ./FCM_Simple_clash/mahsa-sub_4.yaml_200.yml
 
 proxies:
 - name: "dns-out"

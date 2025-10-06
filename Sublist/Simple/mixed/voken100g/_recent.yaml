@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/voken100g/_recent.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_mixed/voken100g/_recent.yaml_368.yml
+    path: ./FCM_Simple_mixed/voken100g/_recent.yaml_412.yml
 
 proxies:
 - name: "dns-out"

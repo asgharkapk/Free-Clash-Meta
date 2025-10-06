@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ts-sf/fly/refs/heads/main/clash
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_ts-sf.yaml_838.yml
+    path: ./FCM_Simple_ts-sf.yaml_759.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/trojan.html
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_arshiacomplus/003_848.yml
+    path: ./FCM_Simple_arshiacomplus/003_763.yml
 
 proxies:
 - name: "dns-out"

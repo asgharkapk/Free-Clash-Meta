@@ -691,7 +691,7 @@ proxy-providers:
       https://tt.vg/freeclash
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_tt.vg.yaml_839.yml
+    path: ./FCM_Simple_tt.vg.yaml_760.yml
 
 proxies:
 - name: "dns-out"

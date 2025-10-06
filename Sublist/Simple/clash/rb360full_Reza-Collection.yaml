@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/rb360full_Reza-Collection.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_clash/rb360full_Reza-Collection.yaml_163.yml
+    path: ./FCM_Simple_clash/rb360full_Reza-Collection.yaml_226.yml
 
 proxies:
 - name: "dns-out"

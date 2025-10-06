@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/SnapdragonLee_clash_config_extra_US.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_clash/SnapdragonLee_clash_config_extra_US.yaml_71.yml
+    path: ./FCM_Simple_clash/SnapdragonLee_clash_config_extra_US.yaml_125.yml
 
 proxies:
 - name: "dns-out"

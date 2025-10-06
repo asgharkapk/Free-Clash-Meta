@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/ss/Mosifree_SS.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_ss/Mosifree_SS.yaml_387.yml
+    path: ./FCM_Simple_ss/Mosifree_SS.yaml_425.yml
 
 proxies:
 - name: "dns-out"

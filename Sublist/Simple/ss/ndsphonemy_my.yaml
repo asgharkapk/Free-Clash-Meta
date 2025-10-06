@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/ss/ndsphonemy_my.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_ss/ndsphonemy_my.yaml_421.yml
+    path: ./FCM_Simple_ss/ndsphonemy_my.yaml_446.yml
 
 proxies:
 - name: "dns-out"
