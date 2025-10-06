@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/vpnclashfa-backup/Sub-Config-Extractor/refs/heads/main/output_configs/clash/amin_o__o_bitplatform.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_vpnclashfa-backup/Sub-Config-Extractor/amin_o__o_bitplatform_738.yml
+    path: ./FCM_Simple_vpnclashfa-backup/Sub-Config-Extractor/amin_o__o_bitplatform_739.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/Joker-funland/V2ray-configs/vmess.txt.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_clash/Joker-funland/V2ray-configs/vmess.txt.yaml_99.yml
+    path: ./FCM_Simple_clash/Joker-funland/V2ray-configs/vmess.txt.yaml_100.yml
 
 proxies:
 - name: "dns-out"

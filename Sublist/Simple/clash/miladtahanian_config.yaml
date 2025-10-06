@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/miladtahanian_config.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_clash/miladtahanian_config.yaml_211.yml
+    path: ./FCM_Simple_clash/miladtahanian_config.yaml_212.yml
 
 proxies:
 - name: "dns-out"

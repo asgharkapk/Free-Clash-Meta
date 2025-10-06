@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/vpnclashfa-backup/SubConfigShuffler/10ium_V2ray_Config_trojan_cloudflare.txt.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_clash/vpnclashfa-backup/SubConfigShuffler/10ium_V2ray_Config_trojan_cloudflare.txt.yaml_254.yml
+    path: ./FCM_Simple_clash/vpnclashfa-backup/SubConfigShuffler/10ium_V2ray_Config_trojan_cloudflare.txt.yaml_255.yml
 
 proxies:
 - name: "dns-out"

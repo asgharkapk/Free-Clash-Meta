@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/hamedp-71_clash-m_k_z.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_clash/hamedp-71_clash-m_k_z.yaml_162.yml
+    path: ./FCM_Simple_clash/hamedp-71_clash-m_k_z.yaml_163.yml
 
 proxies:
 - name: "dns-out"

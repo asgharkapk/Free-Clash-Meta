@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/shabane/kamaji/master/hub/tested/b64/merged.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_shabane/merged.yaml_708.yml
+    path: ./FCM_Simple_shabane/merged.yaml_709.yml
 
 proxies:
 - name: "dns-out"

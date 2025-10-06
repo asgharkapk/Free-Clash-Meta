@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/roosterkid/openproxylist/V2RAY_BASE64.txt.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_mixed/roosterkid/openproxylist/V2RAY_BASE64.txt.yaml_399.yml
+    path: ./FCM_Simple_mixed/roosterkid/openproxylist/V2RAY_BASE64.txt.yaml_400.yml
 
 proxies:
 - name: "dns-out"

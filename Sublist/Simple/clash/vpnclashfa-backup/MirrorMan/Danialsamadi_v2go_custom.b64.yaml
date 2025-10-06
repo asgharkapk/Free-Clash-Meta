@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/vpnclashfa-backup/MirrorMan/Danialsamadi_v2go_custom.b64.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_clash/vpnclashfa-backup/MirrorMan/Danialsamadi_v2go_custom.b64.yaml_244.yml
+    path: ./FCM_Simple_clash/vpnclashfa-backup/MirrorMan/Danialsamadi_v2go_custom.b64.yaml_245.yml
 
 proxies:
 - name: "dns-out"

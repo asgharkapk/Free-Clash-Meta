@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/v2ray/10ium_vmess_iran.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_v2ray/10ium_vmess_iran.yaml_544.yml
+    path: ./FCM_Simple_v2ray/10ium_vmess_iran.yaml_545.yml
 
 proxies:
 - name: "dns-out"

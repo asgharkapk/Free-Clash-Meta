@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/trojanvmess.pages.dev/cmcm_b64.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_clash/trojanvmess.pages.dev/cmcm_b64.yaml_240.yml
+    path: ./FCM_Simple_clash/trojanvmess.pages.dev/cmcm_b64.yaml_241.yml
 
 proxies:
 - name: "dns-out"

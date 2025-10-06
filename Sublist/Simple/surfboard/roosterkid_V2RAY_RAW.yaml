@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/surfboard/roosterkid_V2RAY_RAW.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_surfboard/roosterkid_V2RAY_RAW.yaml_532.yml
+    path: ./FCM_Simple_surfboard/roosterkid_V2RAY_RAW.yaml_533.yml
 
 proxies:
 - name: "dns-out"

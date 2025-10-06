@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/robin.victoriacross.ir.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_clash/robin.victoriacross.ir.yaml_227.yml
+    path: ./FCM_Simple_clash/robin.victoriacross.ir.yaml_228.yml
 
 proxies:
 - name: "dns-out"

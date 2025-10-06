@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/rayan_proxy.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_mixed/rayan_proxy.yaml_391.yml
+    path: ./FCM_Simple_mixed/rayan_proxy.yaml_392.yml
 
 proxies:
 - name: "dns-out"

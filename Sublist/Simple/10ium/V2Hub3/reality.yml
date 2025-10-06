@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/V2Hub3/main/Split/Base64/reality
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/V2Hub3/reality_680.yml
+    path: ./FCM_Simple_10ium/V2Hub3/reality_681.yml
 
 proxies:
 - name: "dns-out"

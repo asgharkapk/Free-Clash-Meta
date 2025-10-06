@@ -688,10 +688,10 @@ proxy-providers:
   proxylist1:
     type: http
     url: >-
-      https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/main/sub/ss.txt
+      https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/10ium/HiN-VPN/subscription/base64/mix.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_hamedcode/port-based-v2ray-configs/ss.txt_931.yml
+    path: ./FCM_Simple_clash/10ium/HiN-VPN/subscription/base64/mix.yaml[541]_1.yml
 
 proxies:
 - name: "dns-out"

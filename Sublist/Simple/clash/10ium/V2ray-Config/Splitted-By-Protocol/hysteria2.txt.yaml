@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/10ium/V2ray-Config/Splitted-By-Protocol/hysteria2.txt.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_clash/10ium/V2ray-Config/Splitted-By-Protocol/hysteria2.txt.yaml_31.yml
+    path: ./FCM_Simple_clash/10ium/V2ray-Config/Splitted-By-Protocol/hysteria2.txt.yaml_32.yml
 
 proxies:
 - name: "dns-out"

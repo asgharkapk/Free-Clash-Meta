@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/iPsycho1_iPsycho
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/base64-encoder/iPsycho1/iPsycho_666.yml
+    path: ./FCM_Simple_10ium/base64-encoder/iPsycho1/iPsycho_667.yml
 
 proxies:
 - name: "dns-out"

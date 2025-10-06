@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/nodefree.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_Barabama/FreeNodes/nodefree_588.yml
+    path: ./FCM_Simple_Barabama/FreeNodes/nodefree_589.yml
 
 proxies:
 - name: "dns-out"

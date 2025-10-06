@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/itsyebekhe/PSG/lite/subscriptions/clash/trojan_ipv4.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_clash/itsyebekhe/PSG/lite/subscriptions/clash/trojan_ipv4.yaml_171.yml
+    path: ./FCM_Simple_clash/itsyebekhe/PSG/lite/subscriptions/clash/trojan_ipv4.yaml_172.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_MahsaNetConfigTopic/config/xray_final.txt_815.yml
+    path: ./FCM_Simple_MahsaNetConfigTopic/config/xray_final.txt_816.yml
 
 proxies:
 - name: "dns-out"

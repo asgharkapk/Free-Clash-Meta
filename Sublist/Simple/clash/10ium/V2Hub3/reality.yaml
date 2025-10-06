@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/10ium/V2Hub3/reality.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_clash/10ium/V2Hub3/reality.yaml_26.yml
+    path: ./FCM_Simple_clash/10ium/V2Hub3/reality.yaml_27.yml
 
 proxies:
 - name: "dns-out"

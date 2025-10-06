@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/V2Hub3/main/merged_base64
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/V2Hub3/merged_base64_684.yml
+    path: ./FCM_Simple_10ium/V2Hub3/merged_base64_685.yml
 
 proxies:
 - name: "dns-out"

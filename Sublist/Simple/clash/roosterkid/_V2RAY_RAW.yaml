@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/roosterkid/_V2RAY_RAW.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_clash/roosterkid/_V2RAY_RAW.yaml_231.yml
+    path: ./FCM_Simple_clash/roosterkid/_V2RAY_RAW.yaml_232.yml
 
 proxies:
 - name: "dns-out"

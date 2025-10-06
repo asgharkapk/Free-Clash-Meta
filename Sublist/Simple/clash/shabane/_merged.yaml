@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/shabane/_merged.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_clash/shabane/_merged.yaml_233.yml
+    path: ./FCM_Simple_clash/shabane/_merged.yaml_234.yml
 
 proxies:
 - name: "dns-out"

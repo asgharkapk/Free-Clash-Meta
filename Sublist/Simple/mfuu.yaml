@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/mfuu/v2ray/refs/heads/master/clash.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_mfuu.yaml_753.yml
+    path: ./FCM_Simple_mfuu.yaml_754.yml
 
 proxies:
 - name: "dns-out"
