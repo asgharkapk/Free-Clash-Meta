@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/STR97/STRUGOV/refs/heads/main/Vless
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_STR97/STRUGOV/Vless_887.yml
+    path: ./FCM_Simple_STR97/STRUGOV/Vless_658.yml
 
 proxies:
 - name: "dns-out"

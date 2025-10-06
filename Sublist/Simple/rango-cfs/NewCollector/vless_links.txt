@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/rango-cfs/NewCollector/main/vless_links.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_rango-cfs/NewCollector/vless_links.txt_985.yml
+    path: ./FCM_Simple_rango-cfs/NewCollector/vless_links.txt_756.yml
 
 proxies:
 - name: "dns-out"

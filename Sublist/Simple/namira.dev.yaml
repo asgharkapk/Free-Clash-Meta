@@ -691,7 +691,7 @@ proxy-providers:
       https://www.namira.dev/api/subscription
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_namira.dev.yaml_626.yml
+    path: ./FCM_Simple_namira.dev.yaml_397.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/darknessm427/WoW/refs/heads/main/clash-wg.yml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_darknessm427/WoW-clash-wg.yml_725.yml
+    path: ./FCM_Simple_darknessm427/WoW-clash-wg.yml_496.yml
 
 proxies:
 - name: "dns-out"

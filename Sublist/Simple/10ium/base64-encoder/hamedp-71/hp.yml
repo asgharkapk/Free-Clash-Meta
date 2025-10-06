@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/hamedp-71_hp.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/base64-encoder/hamedp-71/hp_666.yml
+    path: ./FCM_Simple_10ium/base64-encoder/hamedp-71/hp_437.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/ScrapeAndCategorize/refs/heads/main/output_configs/ShadowSocks.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/ScrapeAndCategorize/ShadowSocks_694.yml
+    path: ./FCM_Simple_10ium/ScrapeAndCategorize/ShadowSocks_465.yml
 
 proxies:
 - name: "dns-out"

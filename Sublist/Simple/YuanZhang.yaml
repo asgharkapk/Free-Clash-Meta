@@ -691,7 +691,7 @@ proxy-providers:
       https://sub.vip.sd/JPa6vvFgygVtNP2sGJ2r/download/YuanZhang?target=meta
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_YuanZhang.yaml_722.yml
+    path: ./FCM_Simple_YuanZhang.yaml_493.yml
 
 proxies:
 - name: "dns-out"

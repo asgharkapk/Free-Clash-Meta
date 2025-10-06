@@ -691,7 +691,7 @@ proxy-providers:
       https://muma16fx.netlify.app
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_muma16fx.netlify.app.yaml_712.yml
+    path: ./FCM_Simple_muma16fx.netlify.app.yaml_483.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/multi-proxy-config-fetcher/refs/heads/main/configs/singbox_configs.json
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/multi-proxy-config-fetcher/singbox_configs_688.yml
+    path: ./FCM_Simple_10ium/multi-proxy-config-fetcher/singbox_configs_459.yml
 
 proxies:
 - name: "dns-out"

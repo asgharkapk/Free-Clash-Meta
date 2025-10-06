@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/main/sub/vmess.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_hamedcode/port-based-v2ray-configs/vmess.txt_930.yml
+    path: ./FCM_Simple_hamedcode/port-based-v2ray-configs/vmess.txt_701.yml
 
 proxies:
 - name: "dns-out"

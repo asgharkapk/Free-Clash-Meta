@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ronghuaxueleng/get_v2/refs/heads/main/pub/cfmem.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_ronghuaxueleng/cfmem.yaml_757.yml
+    path: ./FCM_Simple_ronghuaxueleng/cfmem.yaml_528.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/liketolivefree/kobabi/refs/heads/main/prov_clash.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_liketolivefree.yaml_753.yml
+    path: ./FCM_Simple_liketolivefree.yaml_524.yml
 
 proxies:
 - name: "dns-out"

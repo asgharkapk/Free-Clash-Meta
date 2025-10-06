@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/bamdad23/JavidnamanIran/refs/heads/main/WS%2BHysteria2
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_bamdad23/JavidnamanIran/WS+Hysteria2_964.yml
+    path: ./FCM_Simple_bamdad23/JavidnamanIran/WS+Hysteria2_735.yml
 
 proxies:
 - name: "dns-out"

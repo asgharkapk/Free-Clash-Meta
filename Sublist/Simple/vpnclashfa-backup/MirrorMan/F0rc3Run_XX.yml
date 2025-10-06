@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/vpnclashfa-backup/MirrorMan/main/base64/F0rc3Run_XX.b64
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_vpnclashfa-backup/MirrorMan/F0rc3Run_XX_743.yml
+    path: ./FCM_Simple_vpnclashfa-backup/MirrorMan/F0rc3Run_XX_514.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/clash-meta/actives_under_1500ms.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_MrMohebi_under_1500ms.yaml_719.yml
+    path: ./FCM_Simple_MrMohebi_under_1500ms.yaml_490.yml
 
 proxies:
 - name: "dns-out"

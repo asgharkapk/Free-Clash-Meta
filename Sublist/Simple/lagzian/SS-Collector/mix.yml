@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/lagzian/SS-Collector/refs/heads/main/mix_clash.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_lagzian/SS-Collector/mix_924.yml
+    path: ./FCM_Simple_lagzian/SS-Collector/mix_695.yml
 
 proxies:
 - name: "dns-out"
