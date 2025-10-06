@@ -1,3 +1,4 @@
+clash/10ium/HiN-VPN/subscription/base64/mix.yaml[541]|https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/10ium/HiN-VPN/subscription/base64/mix.yaml
 
 clash/10ium/HiN-VPN/subscription/base64/mix.yaml|https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/10ium/HiN-VPN/subscription/base64/mix.yaml
 clash/10ium/HiN-VPN/subscription/base64/ss.yaml|https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/10ium/HiN-VPN/subscription/base64/ss.yaml
