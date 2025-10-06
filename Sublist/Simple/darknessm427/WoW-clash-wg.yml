@@ -719,6 +719,7 @@ proxy-groups:
     type: select
     icon: https://www.svgrepo.com/show/439191/http-2.svg
     proxies:
+      - 🥸round-robin
       - ⤵️FirstPing
       - 🦽Manual
       - ♻️gstatic
@@ -726,7 +727,6 @@ proxy-groups:
       - 🔓Direct
       - 🚫Block
       - 🥸consistent-hashing
-      - 🥸round-robin
       - 🥸sticky-sessions
       - 🏁Countries
 
