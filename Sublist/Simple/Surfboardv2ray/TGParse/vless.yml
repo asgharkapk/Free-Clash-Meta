@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/vless
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_Surfboardv2ray/TGParse/vless_709.yml
+    path: ./FCM_Simple_Surfboardv2ray/TGParse/vless_607.yml
 
 proxies:
 - name: "dns-out"

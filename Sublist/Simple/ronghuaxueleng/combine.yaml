@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ronghuaxueleng/get_v2/refs/heads/main/pub/combine.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_ronghuaxueleng/combine.yaml_529.yml
+    path: ./FCM_Simple_ronghuaxueleng/combine.yaml_427.yml
 
 proxies:
 - name: "dns-out"

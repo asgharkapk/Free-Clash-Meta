@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/maimengmeng/_500.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[181]mixed/maimengmeng/_500.yaml_157.yml
+    path: ./FCM_Simple_[181]mixed/maimengmeng/_500.yaml_172.yml
 
 proxies:
 - name: "dns-out"

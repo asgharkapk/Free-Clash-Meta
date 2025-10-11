@@ -691,7 +691,7 @@ proxy-providers:
       https://zaya.io/Xs_Unlimite
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_xsfilternet.zaya.io.yaml_486.yml
+    path: ./FCM_Simple_xsfilternet.zaya.io.yaml_384.yml
 
 proxies:
 - name: "dns-out"

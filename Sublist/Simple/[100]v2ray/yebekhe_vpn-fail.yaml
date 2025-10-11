@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/v2ray/yebekhe_vpn-fail.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[100]v2ray/yebekhe_vpn-fail.yaml_217.yml
+    path: ./FCM_Simple_[100]v2ray/yebekhe_vpn-fail.yaml_253.yml
 
 proxies:
 - name: "dns-out"

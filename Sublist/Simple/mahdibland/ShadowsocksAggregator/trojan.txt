@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/splitted/trojan.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_mahdibland/ShadowsocksAggregator/trojan.txt_669.yml
+    path: ./FCM_Simple_mahdibland/ShadowsocksAggregator/trojan.txt_567.yml
 
 proxies:
 - name: "dns-out"

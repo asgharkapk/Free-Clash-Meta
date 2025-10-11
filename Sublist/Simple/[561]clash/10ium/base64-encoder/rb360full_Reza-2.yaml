@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/10ium/base64-encoder/rb360full_Reza-2.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[561]clash/10ium/base64-encoder/rb360full_Reza-2.yaml_49.yml
+    path: ./FCM_Simple_[561]clash/10ium/base64-encoder/rb360full_Reza-2.yaml_54.yml
 
 proxies:
 - name: "dns-out"

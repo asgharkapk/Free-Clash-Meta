@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/refs/heads/main/v2ray_configs.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_V2RAYCONFIGSPOOL/V2RAY_SUB/v2ray_configs.txt_734.yml
+    path: ./FCM_Simple_V2RAYCONFIGSPOOL/V2RAY_SUB/v2ray_configs.txt_632.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://shadowmere.xyz/api/b64sub
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_shadowmere.xyz.yaml_485.yml
+    path: ./FCM_Simple_shadowmere.xyz.yaml_383.yml
 
 proxies:
 - name: "dns-out"

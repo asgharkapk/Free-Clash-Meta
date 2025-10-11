@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/lagzian/_trinity.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[150]mixed/lagzian/_trinity.yaml_175.yml
+    path: ./FCM_Simple_[150]mixed/lagzian/_trinity.yaml_192.yml
 
 proxies:
 - name: "dns-out"

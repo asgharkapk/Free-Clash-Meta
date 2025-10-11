@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/10ium/base64-encoder/encoded/10ium_mixed_iran.txt.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[1952]mixed/10ium/base64-encoder/encoded/10ium_mixed_iran.txt.yaml_12.yml
+    path: ./FCM_Simple_[1952]mixed/10ium/base64-encoder/encoded/10ium_mixed_iran.txt.yaml_11.yml
 
 proxies:
 - name: "dns-out"

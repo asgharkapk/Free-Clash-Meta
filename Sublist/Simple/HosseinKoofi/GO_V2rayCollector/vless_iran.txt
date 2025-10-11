@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/HosseinKoofi/GO_V2rayCollector/main/vless_iran.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_HosseinKoofi/GO_V2rayCollector/vless_iran.txt_712.yml
+    path: ./FCM_Simple_HosseinKoofi/GO_V2rayCollector/vless_iran.txt_610.yml
 
 proxies:
 - name: "dns-out"

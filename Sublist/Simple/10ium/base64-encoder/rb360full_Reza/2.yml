@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/rb360full_Reza-2
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/base64-encoder/rb360full_Reza/2_447.yml
+    path: ./FCM_Simple_10ium/base64-encoder/rb360full_Reza/2_345.yml
 
 proxies:
 - name: "dns-out"

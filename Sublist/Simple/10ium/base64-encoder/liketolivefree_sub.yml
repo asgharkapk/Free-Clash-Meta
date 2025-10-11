@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/liketolivefree_sub.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/base64-encoder/liketolivefree_sub_434.yml
+    path: ./FCM_Simple_10ium/base64-encoder/liketolivefree_sub_332.yml
 
 proxies:
 - name: "dns-out"

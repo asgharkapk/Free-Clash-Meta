@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/refs/heads/main/encoded/%40v2ray_hidify.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/base64-encoder/%40v2ray_hidify_442.yml
+    path: ./FCM_Simple_10ium/base64-encoder/%40v2ray_hidify_340.yml
 
 proxies:
 - name: "dns-out"

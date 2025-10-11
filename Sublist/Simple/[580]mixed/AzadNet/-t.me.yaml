@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/AzadNet/-t.me.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[580]mixed/AzadNet/-t.me.yaml_45.yml
+    path: ./FCM_Simple_[580]mixed/AzadNet/-t.me.yaml_52.yml
 
 proxies:
 - name: "dns-out"
