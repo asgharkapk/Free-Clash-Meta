@@ -878,9 +878,35 @@ proxy-groups:
       - 🥸round-robin
       - 🥸sticky-sessions
       - 🏁Countries
+  - name: 🎮Dota2.exe🎯
+    type: select
+    icon: https://www.citypng.com/public/uploads/preview/hd-dota-2-official-logo-png-701751694788589vbfyq561nz.png
+    proxies:
+      - 🔓Direct
+      - 🌐Proxy
+      - 🚫Block
+      - ⤵️FirstPing
+      - 🦽Manual
+      - 🥸consistent-hashing
+      - 🥸round-robin
+      - 🥸sticky-sessions
+      - 🏁Countries
   - name: 🎮Dota2🎯
     type: select
     icon: https://www.citypng.com/public/uploads/preview/hd-dota-2-official-logo-png-701751694788589vbfyq561nz.png
+    proxies:
+      - 🔓Direct
+      - 🌐Proxy
+      - 🚫Block
+      - ⤵️FirstPing
+      - 🦽Manual
+      - 🥸consistent-hashing
+      - 🥸round-robin
+      - 🥸sticky-sessions
+      - 🏁Countries
+  - name: 🚂Steam.exe🎯
+    type: select
+    icon: https://www.svgrepo.com/show/452107/steam.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
@@ -2020,6 +2046,8 @@ proxy-groups:
       - 🦠SECURITY
       - </>GIT🎯
       - 🎮Dota2🎯
+      - 🎮Dota2.exe🎯
+      - 🚂Steam.exe🎯
       - 🚂Steam🎯
       - 📘Facebook🎯
       - 🎛NVIDIA🎯
@@ -2534,9 +2562,9 @@ rules:
   - RULE-SET,phishing,🦠SECURITY
   - RULE-SET,warninglist,🦠SECURITY
   - RULE-SET,Ponzi,🦠SECURITY
-  - PROCESS-NAME,dota2.exe,🎮Dota2🎯
-  - PROCESS-NAME,steam.exe,🚂Steam🎯
-  - PROCESS-NAME,steamwebhelper.exe,🚂Steam🎯
+  - PROCESS-NAME,dota2.exe,🎮Dota2.exe🎯
+  - PROCESS-NAME,steam.exe,🚂Steam.exe🎯
+  - PROCESS-NAME,steamwebhelper.exe,🚂Steam.exe🎯
   - PROCESS-NAME,Battle.net.exe,🎮Blizzard.exe🎯
   - PROCESS-NAME,EpicGamesLauncher.exe,⚫EpicGames.exe🎯
   - PROCESS-NAME,LeagueClientUx.exe,🎮LOL.exe🎯
@@ -2621,75 +2649,7 @@ rules:
   - RULE-SET,TikTok,🎬TikTok🎯
   - GEOSITE,linkedin,💼LinkedIn🎯
   - RULE-SET,Dota2,🎮Dota2🎯
-  - PROCESS-NAME,dota2.exe,🎮Dota2🎯
-  - IP-CIDR,103.10.124.0/23,🎮Dota2🎯,no-resolve
-  - IP-CIDR,103.28.54.0/23,🎮Dota2🎯,no-resolve
-  - IP-CIDR,146.66.155.0/24,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.224.0/19,🎮Dota2🎯,no-resolve
-  - IP-CIDR,162.254.192.0/21,🎮Dota2🎯,no-resolve
-  - IP-CIDR,185.25.182.0/24,🎮Dota2🎯,no-resolve
-  - IP-CIDR,45.121.184.0/22,🎮Dota2🎯,no-resolve
-  - IP-CIDR,146.66.155.36/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.248.53/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.246.66/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.248.53/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.246.66/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.253.38/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.232.98/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.235.34/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.246.34/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,162.254.198.43/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.230.101/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,162.213.192.58/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,162.254.192.67/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.233.99/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.239.25/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.245.35/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,103.10.124.44/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,103.10.125.146/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.238.163/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,3.5.221.177/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,20.60.213.1/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,20.60.213.129/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,23.2.13.184/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,68.169.42.221/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,95.100.170.43/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,95.100.170.59/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,146.66.155.69/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,148.72.168.4/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.226.73/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.227.41/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.230.99/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.238.178/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.246.40/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.248.41/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.252.88/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,162.254.192.73/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,162.254.193.100/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,162.254.196.70/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,162.254.198.156/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,173.237.26.52/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,185.25.182.51/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,185.25.183.163/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,188.42.106.164/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,188.42.190.28/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,103.10.124.117/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,103.10.125.147/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,103.28.54.174/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,103.28.54.189/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.246.39/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,155.133.248.36/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,162.254.193.73/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,162.254.194.37/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,162.254.197.36/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,162.254.198.103/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,162.254.199.179/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,23.251.100.186/32,🎮Dota2🎯,no-resolve
-  - DOMAIN-SUFFIX,steamcloud-bah.s3.dualstack.me-south-1.amazonaws.com,🎮Dota2🎯
-  - DOMAIN-SUFFIX,steamclouddubai.blob.core.windows.net,🎮Dota2🎯
   - DOMAIN-SUFFIX,dota2.com,🎮Dota2🎯
-  - IP-CIDR,23.36.163.33/32,🎮Dota2🎯,no-resolve
-  - IP-CIDR,23.36.163.22/32,🎮Dota2🎯,no-resolve
   - DOMAIN-SUFFIX,deepseek.com,🤖AI🎯
   - DOMAIN-SUFFIX,qwen.ai,🤖AI🎯
   - RULE-SET,category-ai,🤖AI🎯
