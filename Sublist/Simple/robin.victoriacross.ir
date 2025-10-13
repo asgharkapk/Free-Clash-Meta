@@ -691,7 +691,7 @@ proxy-providers:
       https://robin.victoriacross.ir
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_robin.victoriacross.ir_555.yml
+    path: ./FCM_Simple_robin.victoriacross.ir_565.yml
 
 proxies:
 - name: "dns-out"

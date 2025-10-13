@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/V2rayCollectorForFree/F-Collector/refs/heads/main/F-Collector
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_V2rayCollectorForFree/F-Collector/F-Collector_657.yml
+    path: ./FCM_Simple_V2rayCollectorForFree/F-Collector/F-Collector_664.yml
 
 proxies:
 - name: "dns-out"

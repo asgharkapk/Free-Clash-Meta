@@ -691,7 +691,7 @@ proxy-providers:
       https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/trojan.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_Epodonios/v2ray-configs/trojan.txt_549.yml
+    path: ./FCM_Simple_Epodonios/v2ray-configs/trojan.txt_559.yml
 
 proxies:
 - name: "dns-out"

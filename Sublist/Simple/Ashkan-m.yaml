@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Ashkan-m/v2ray/refs/heads/main/Sub.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_Ashkan-m.yaml_300.yml
+    path: ./FCM_Simple_Ashkan-m.yaml_298.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/Surfboardv2ray/TGParse/splitted/trojan.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[130]clash/Surfboardv2ray/TGParse/splitted/trojan.yaml_213.yml
+    path: ./FCM_Simple_[130]clash/Surfboardv2ray/TGParse/splitted/trojan.yaml_211.yml
 
 proxies:
 - name: "dns-out"

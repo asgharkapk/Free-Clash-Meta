@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/freeclash/-v2ray-4.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[172]clash/freeclash/-v2ray-4.yaml_178.yml
+    path: ./FCM_Simple_[172]clash/freeclash/-v2ray-4.yaml_176.yml
 
 proxies:
 - name: "dns-out"

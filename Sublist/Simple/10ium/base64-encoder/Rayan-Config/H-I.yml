@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Rayan-Config_H-I
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/base64-encoder/Rayan-Config/H-I_306.yml
+    path: ./FCM_Simple_10ium/base64-encoder/Rayan-Config/H-I_304.yml
 
 proxies:
 - name: "dns-out"

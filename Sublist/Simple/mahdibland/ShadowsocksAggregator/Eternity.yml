@@ -688,10 +688,10 @@ proxy-providers:
   proxylist1:
     type: http
     url: >-
-      https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity
+      https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_mahdibland/ShadowsocksAggregator/Eternity_565.yml
+    path: ./FCM_Simple_mahdibland/ShadowsocksAggregator/Eternity.yml_463.yml
 
 proxies:
 - name: "dns-out"

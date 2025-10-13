@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/vpnclashfa-backup/SubConfigShuffler/roosterkid_v2ray.txt.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[148]clash/vpnclashfa-backup/SubConfigShuffler/roosterkid_v2ray.txt.yaml_195.yml
+    path: ./FCM_Simple_[148]clash/vpnclashfa-backup/SubConfigShuffler/roosterkid_v2ray.txt.yaml_193.yml
 
 proxies:
 - name: "dns-out"

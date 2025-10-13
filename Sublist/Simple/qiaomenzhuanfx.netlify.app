@@ -691,7 +691,7 @@ proxy-providers:
       https://qiaomenzhuanfx.netlify.app
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_qiaomenzhuanfx.netlify.app_374.yml
+    path: ./FCM_Simple_qiaomenzhuanfx.netlify.app_372.yml
 
 proxies:
 - name: "dns-out"

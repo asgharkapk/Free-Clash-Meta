@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/super-sub.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_MatinGhanbari/v2ray-configs/super-sub.txt_550.yml
+    path: ./FCM_Simple_MatinGhanbari/v2ray-configs/super-sub.txt_560.yml
 
 proxies:
 - name: "dns-out"

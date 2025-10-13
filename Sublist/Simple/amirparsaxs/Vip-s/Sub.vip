@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/amirparsaxs/Vip-s/refs/heads/main/Sub.vip
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_amirparsaxs/Vip-s/Sub.vip_651.yml
+    path: ./FCM_Simple_amirparsaxs/Vip-s/Sub.vip_658.yml
 
 proxies:
 - name: "dns-out"

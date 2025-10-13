@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/vpnclashfa-backup/MirrorMan/main/base64/v2nodes.b64
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_vpnclashfa-backup/MirrorMan/shatakvpn_414.yml
+    path: ./FCM_Simple_vpnclashfa-backup/MirrorMan/shatakvpn_412.yml
 
 proxies:
 - name: "dns-out"

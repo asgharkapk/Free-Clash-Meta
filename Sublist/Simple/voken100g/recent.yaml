@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/voken100g/AutoSSR/master/recent
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_voken100g/recent.yaml_380.yml
+    path: ./FCM_Simple_voken100g/recent.yaml_378.yml
 
 proxies:
 - name: "dns-out"

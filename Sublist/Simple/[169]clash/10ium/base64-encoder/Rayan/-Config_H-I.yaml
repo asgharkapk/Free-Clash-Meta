@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/10ium/base64-encoder/Rayan/-Config_H-I.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[169]clash/10ium/base64-encoder/Rayan/-Config_H-I.yaml_179.yml
+    path: ./FCM_Simple_[169]clash/10ium/base64-encoder/Rayan/-Config_H-I.yaml_177.yml
 
 proxies:
 - name: "dns-out"

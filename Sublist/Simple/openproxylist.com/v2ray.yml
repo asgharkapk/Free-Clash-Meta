@@ -691,7 +691,7 @@ proxy-providers:
       https://openproxylist.com/v2ray/
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_openproxylist.com/v2ray_574.yml
+    path: ./FCM_Simple_openproxylist.com/v2ray_581.yml
 
 proxies:
 - name: "dns-out"

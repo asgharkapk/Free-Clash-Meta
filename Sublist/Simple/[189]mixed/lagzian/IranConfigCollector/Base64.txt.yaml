@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/lagzian/IranConfigCollector/Base64.txt.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[189]mixed/lagzian/IranConfigCollector/Base64.txt.yaml_166.yml
+    path: ./FCM_Simple_[189]mixed/lagzian/IranConfigCollector/Base64.txt.yaml_164.yml
 
 proxies:
 - name: "dns-out"

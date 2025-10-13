@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/NiREvil/vless/refs/heads/main/sub/fragment
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_NiREvil/vless/fragment_575.yml
+    path: ./FCM_Simple_NiREvil/vless/fragment_582.yml
 
 proxies:
 - name: "dns-out"

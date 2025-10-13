@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/refs/heads/main/encoded/%40proxy_kafee.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/base64-encoder/%40proxy_kafee_343.yml
+    path: ./FCM_Simple_10ium/base64-encoder/%40proxy_kafee_341.yml
 
 proxies:
 - name: "dns-out"

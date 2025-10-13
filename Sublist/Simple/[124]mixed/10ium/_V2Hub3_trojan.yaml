@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/10ium/_V2Hub3_trojan.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[124]mixed/10ium/_V2Hub3_trojan.yaml_222.yml
+    path: ./FCM_Simple_[124]mixed/10ium/_V2Hub3_trojan.yaml_220.yml
 
 proxies:
 - name: "dns-out"

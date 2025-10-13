@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/surfboard/yebekhe_vpn-fail.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[102]surfboard/yebekhe_vpn-fail.yaml_248.yml
+    path: ./FCM_Simple_[102]surfboard/yebekhe_vpn-fail.yaml_246.yml
 
 proxies:
 - name: "dns-out"

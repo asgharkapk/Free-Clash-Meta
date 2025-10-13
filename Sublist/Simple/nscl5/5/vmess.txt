@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/nscl5/5/refs/heads/main/configs/vmess.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_nscl5/5/vmess.txt_583.yml
+    path: ./FCM_Simple_nscl5/5/vmess.txt_590.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/refs/heads/main/vmess_configs.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_ebrasha/free-v2ray-public-list/vmess_configs.txt_614.yml
+    path: ./FCM_Simple_ebrasha/free-v2ray-public-list/vmess_configs.txt_621.yml
 
 proxies:
 - name: "dns-out"

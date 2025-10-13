@@ -691,7 +691,7 @@ proxy-providers:
       https://sub.amiralter.com/config-lite
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_amiralter01_439.yml
+    path: ./FCM_Simple_amiralter01_437.yml
 
 proxies:
 - name: "dns-out"

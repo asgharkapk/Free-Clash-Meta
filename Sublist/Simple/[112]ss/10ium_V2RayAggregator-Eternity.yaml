@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/ss/10ium_V2RayAggregator-Eternity.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[112]ss/10ium_V2RayAggregator-Eternity.yaml_236.yml
+    path: ./FCM_Simple_[112]ss/10ium_V2RayAggregator-Eternity.yaml_234.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub3.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_Epodonios/v2ray-configs/Sub3.txt_625.yml
+    path: ./FCM_Simple_Epodonios/v2ray-configs/Sub3.txt_632.yml
 
 proxies:
 - name: "dns-out"

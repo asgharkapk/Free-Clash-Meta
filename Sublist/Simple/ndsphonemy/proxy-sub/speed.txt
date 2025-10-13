@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ndsphonemy/proxy-sub/refs/heads/main/speed.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_ndsphonemy/proxy-sub/speed.txt_638.yml
+    path: ./FCM_Simple_ndsphonemy/proxy-sub/speed.txt_645.yml
 
 proxies:
 - name: "dns-out"

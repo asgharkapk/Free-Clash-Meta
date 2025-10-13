@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/refs/heads/main/encoded/freedomnet25500_free
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/base64-encoder/freedomnet25500/free_338.yml
+    path: ./FCM_Simple_10ium/base64-encoder/freedomnet25500/free_336.yml
 
 proxies:
 - name: "dns-out"

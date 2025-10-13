@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/V2Hub3/main/Split/Base64/shadowsocks
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/V2Hub3/shadowsocks_351.yml
+    path: ./FCM_Simple_10ium/V2Hub3/shadowsocks_349.yml
 
 proxies:
 - name: "dns-out"

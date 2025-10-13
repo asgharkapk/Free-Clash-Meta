@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/surfboard/rb360full_Reza-Collection.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[107]surfboard/rb360full_Reza-Collection.yaml_241.yml
+    path: ./FCM_Simple_[107]surfboard/rb360full_Reza-Collection.yaml_239.yml
 
 proxies:
 - name: "dns-out"

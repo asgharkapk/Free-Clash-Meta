@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/itsyebekhe/PSG/subscriptions/clash/ss.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[117]mixed/itsyebekhe/PSG/subscriptions/clash/ss.yaml_231.yml
+    path: ./FCM_Simple_[117]mixed/itsyebekhe/PSG/subscriptions/clash/ss.yaml_229.yml
 
 proxies:
 - name: "dns-out"
