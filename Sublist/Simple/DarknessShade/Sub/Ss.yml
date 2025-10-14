@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/DarknessShade/Sub/main/Ss
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_DarknessShade/Sub/Ss_588.yml
+    path: ./FCM_Simple_DarknessShade/Sub/Ss_495.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/anaer/Sub/refs/heads/main/clash.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_anaer.yaml_390.yml
+    path: ./FCM_Simple_anaer.yaml_297.yml
 
 proxies:
 - name: "dns-out"

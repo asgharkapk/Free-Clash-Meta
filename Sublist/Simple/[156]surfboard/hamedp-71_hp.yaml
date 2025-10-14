@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/surfboard/hamedp-71_hp.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[156]surfboard/hamedp-71_hp.yaml_181.yml
+    path: ./FCM_Simple_[156]surfboard/hamedp-71_hp.yaml_144.yml
 
 proxies:
 - name: "dns-out"

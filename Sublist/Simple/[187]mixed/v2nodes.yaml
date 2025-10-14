@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/v2nodes.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[187]mixed/v2nodes.yaml_165.yml
+    path: ./FCM_Simple_[187]mixed/v2nodes.yaml_121.yml
 
 proxies:
 - name: "dns-out"

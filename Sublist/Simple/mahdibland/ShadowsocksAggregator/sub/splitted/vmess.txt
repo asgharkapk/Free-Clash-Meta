@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/splitted/vmess.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_mahdibland/ShadowsocksAggregator/sub/splitted/vmess.txt_472.yml
+    path: ./FCM_Simple_mahdibland/ShadowsocksAggregator/sub/splitted/vmess.txt_379.yml
 
 proxies:
 - name: "dns-out"

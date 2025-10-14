@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/NiREvil_SSTime.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[374]mixed/NiREvil_SSTime.yaml_86.yml
+    path: ./FCM_Simple_[374]mixed/NiREvil_SSTime.yaml_31.yml
 
 proxies:
 - name: "dns-out"

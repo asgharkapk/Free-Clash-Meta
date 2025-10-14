@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/AzadNetCH/Clash/refs/heads/main/AzadNet_iOS.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_AzadNetCH/Clash/AzadNet_iOS.txt_650.yml
+    path: ./FCM_Simple_AzadNetCH/Clash/AzadNet_iOS.txt_557.yml
 
 proxies:
 - name: "dns-out"

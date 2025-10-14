@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/vpnclashfa-backup/MirrorMan/hamedp-71_Sub_Checker_Creator_final.b64.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[291]clash/vpnclashfa-backup/MirrorMan/hamedp-71_Sub_Checker_Creator_final.b64.yaml_108.yml
+    path: ./FCM_Simple_[291]clash/vpnclashfa-backup/MirrorMan/hamedp-71_Sub_Checker_Creator_final.b64.yaml_50.yml
 
 proxies:
 - name: "dns-out"

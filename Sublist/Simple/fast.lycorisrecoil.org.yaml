@@ -691,7 +691,7 @@ proxy-providers:
       https://fast.lycorisrecoil.org/link/At3FWhPqhfOAvPOL?clash=1
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_fast.lycorisrecoil.org.yaml_414.yml
+    path: ./FCM_Simple_fast.lycorisrecoil.org.yaml_321.yml
 
 proxies:
 - name: "dns-out"

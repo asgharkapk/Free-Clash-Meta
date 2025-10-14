@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/mshojaei77/v2rayAuto/refs/heads/main/telegram/popular_channels_1
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_mshojaei77/v2rayAuto/popular_channels_1_641.yml
+    path: ./FCM_Simple_mshojaei77/v2rayAuto/popular_channels_1_548.yml
 
 proxies:
 - name: "dns-out"

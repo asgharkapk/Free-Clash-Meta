@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/V2RayAggregator/refs/heads/master/Eternity.yml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/V2RayAggregator/Eternity_353.yml
+    path: ./FCM_Simple_10ium/V2RayAggregator/Eternity_260.yml
 
 proxies:
 - name: "dns-out"

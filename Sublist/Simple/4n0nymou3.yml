@@ -691,7 +691,7 @@ proxy-providers:
       https://github.com/4n0nymou3/multi-proxy-config-fetcher/raw/refs/heads/main/configs/proxy_configs.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_4n0nymou3_438.yml
+    path: ./FCM_Simple_4n0nymou3_345.yml
 
 proxies:
 - name: "dns-out"

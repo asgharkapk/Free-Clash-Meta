@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/mixed/mahdibland/ShadowsocksAggregator/Eternity.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_[200]mixed/mahdibland/ShadowsocksAggregator/Eternity.yaml_144.yml
+    path: ./FCM_Simple_[200]mixed/mahdibland/ShadowsocksAggregator/Eternity.yaml_100.yml
 
 proxies:
 - name: "dns-out"

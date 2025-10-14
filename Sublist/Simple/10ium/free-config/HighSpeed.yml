@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/free-config/refs/heads/main/HighSpeed.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/free-config/HighSpeed_346.yml
+    path: ./FCM_Simple_10ium/free-config/HighSpeed_253.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_youfoundamin/V2rayCollector/mixed_iran.txt_591.yml
+    path: ./FCM_Simple_youfoundamin/V2rayCollector/mixed_iran.txt_498.yml
 
 proxies:
 - name: "dns-out"
