@@ -2140,336 +2140,432 @@ proxy-groups:
     type: url-test
     #icon 
     url: https://www.gstatic.com/generate_204
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
   - name: ☁️cloudflare
     type: url-test
     icon: https://www.svgrepo.com/show/353564/cloudflare.svg
     url: https://cp.cloudflare.com/generate_204
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
 
   - name: 🇭🇰HongKong
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇭🇰|港|HK|hk|HongKong|hongkong"
   - name: 🇯🇵Japan
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇯🇵|日本|东京|大阪|JP|Japan"
   - name: 🇺🇸USA
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇺🇸|美|US|USA|UnitedStates|洛杉矶|圣何塞|西雅图|芝加哥|达拉斯|凤凰城|硅谷|Portland|Seattle|Chicago|Dallas"
   - name: 🇨🇳Taiwan
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇹🇼|TW|Taiwan|台|台北"
   - name: 🇸🇬Singapore
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇸🇬|SG|Singapore|新加坡|狮城"
   - name: 🇰🇷Korea
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇰🇷|KR|Korea|韩国|首尔|Seoul"
   - name: 🇩🇪Germany
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇩🇪|DE|Germany|德国|法兰克福|慕尼黑|柏林|Frankfurt|Berlin|Munich"
   - name: 🇬🇧UK
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇬🇧|GB|UK|England|英国|伦敦|London"
   - name: 🇫🇷France
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇫🇷|FR|France|法国|巴黎|Marseille|Lyon"
   - name: 🇳🇱Netherlands
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇳🇱|NL|Netherlands|荷兰|阿姆斯特丹|Amsterdam"
   - name: 🇮🇳India
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇮🇳|IN|India|印度|孟买|Mumbai|Delhi|班加罗尔|Bangalore"
   - name: 🇨🇦Canada
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇨🇦|CA|Canada|加拿大|Toronto|温哥华|Vancouver|Montreal"
   - name: 🇷🇺Russia
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇷🇺|RU|Russia|俄罗斯|莫斯科|Moscow|圣彼得堡|StPetersburg"
   - name: 🇦🇺Australia
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇦🇺|AU|Australia|澳大利亚|悉尼|墨尔本|Sydney|Melbourne"
   - name: 🇲🇾Malaysia
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇲🇾|MY|Malaysia|马来西亚|吉隆坡|KualaLumpur"
   - name: 🇹🇭Thailand
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇹🇭|TH|Thailand|泰国|曼谷|Bangkok"
   - name: 🇵🇭Philippines
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇵🇭|PH|Philippines|菲律宾|马尼拉|Manila"
   - name: 🇻🇳Vietnam
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇻🇳|VN|Vietnam|越南|胡志明|Hanoi|HoChiMinh"
   - name: 🇹🇷Turkey
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇹🇷|TR|Turkey|土耳其|伊斯坦布尔|Istanbul|Ankara"
   - name: 🇧🇷Brazil
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇧🇷|BR|Brazil|巴西|圣保罗|SaoPaulo|Rio"
   - name: 🇸🇦SaudiArabia
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇸🇦|SA|Saudi|阿拉伯|利雅得|Riyadh|Jeddah"
   - name: 🇿🇦SouthAfrica
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇿🇦|ZA|SouthAfrica|南非|约翰内斯堡|开普敦|CapeTown"
   - name: 🇦🇪UAE
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇦🇪|AE|UAE|阿联酋|迪拜|Dubai|AbuDhabi"
   - name: 🇲🇽Mexico
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇲🇽|MX|Mexico|墨西哥|墨西哥城|CDMX"
   - name: 🇱🇹Lithuania
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇱🇹|LT|Lithuania|立陶宛|Vilnius"
   - name: 🇲🇩Moldova
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇲🇩|MD|Moldova|摩尔多瓦|Chisinau"
   - name: 🇵🇱Poland
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇵🇱|PL|Poland|波兰|华沙|Warsaw"
   - name: 🇸🇪Sweden
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇸🇪|SE|Sweden|瑞典|斯德哥尔摩|Stockholm"
   - name: 🇮🇷Iran
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇮🇷|IR|Iran|ایران|Tehran|تهران"
   - name: 🇪🇸Spain
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇪🇸|ES|Spain|西班牙|马德里|Madrid|巴塞罗那|Barcelona"
   - name: 🇨🇳China
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇨🇳|CN|China|中国|大陆|上海|北京|广州|深圳"
   - name: 🇮🇸Iceland
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇮🇸|IS|Iceland"
   - name: 🇩🇰Denmark
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇩🇰|DK|Denmark"
   - name: 🇺🇦Ukraine
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇺🇦|UA|Ukraine"
   - name: 🏳️‍🌈RELAY
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "RELAY"
   - name: 🇨🇭Switzerland
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇨🇭|CH|Switzerland|瑞士|苏黎世|Zurich|Geneva"
   - name: 🇳🇴Norway
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇳🇴|NO|Norway|挪威|奥斯陆|Oslo"
   - name: 🇫🇮Finland
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇫🇮|FI|Finland|芬兰|赫尔辛基|Helsinki"
   - name: 🇧🇪Belgium
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇧🇪|BE|Belgium|比利时|布鲁塞尔|Brussels"
   - name: 🇵🇹Portugal
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇵🇹|PT|Portugal|葡萄牙|里斯本|Lisbon|Porto"
   - name: 🇮🇹Italy
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇮🇹|IT|Italy|意大利|米兰|罗马|Milan|Rome"
   - name: 🇨🇱Chile
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇨🇱|CL|Chile|智利|圣地亚哥|Santiago"
   - name: 🇦🇷Argentina
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇦🇷|AR|Argentina|阿根廷|布宜诺斯艾利斯|BuenosAires"
   - name: 🇳🇿NewZealand
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "🇳🇿|NZ|NewZealand|新西兰|奥克兰|Auckland|Wellington"
   - name: 🇮🇩Indonesia
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
         - proxylist1
     filter: "🇮🇩|ID|Indonesia"
   - name: 🌍Others
     type: url-test
     url: https://www.facebook.com
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
     filter: "^(?!.*(US|🇺🇸|GB|🇬🇧|JP|🇯🇵|HK|🇭🇰|TW|🇹🇼|SG|🇸🇬|KR|🇰🇷|DE|🇩🇪|FR|🇫🇷|NL|🇳🇱|IN|🇮🇳|CA|🇨🇦|RU|🇷🇺|AU|🇦🇺|MY|🇲🇾|TH|🇹🇭|PH|🇵🇭|VN|🇻🇳|TR|🇹🇷|BR|🇧🇷|SA|🇸🇦|ZA|🇿🇦|AE|🇦🇪|MX|🇲🇽|LT|🇱🇹|MD|🇲🇩|PL|🇵🇱|SE|🇸🇪|IR|🇮🇷|ES|🇪🇸|CN|🇨🇳|IS|🇮🇸|DK|🇩🇰|UA|🇺🇦|RELAY🇨🇭|CH|🇳🇴|NO|🇫🇮|FI|🇧🇪|BE|🇵🇹|PT|🇮🇹|IT|🇨🇱|CL|🇦🇷|AR|🇳🇿|NZ|🇮🇩|ID)).*"
@@ -2478,7 +2574,9 @@ proxy-groups:
     type: fallback
     #icon 
     url: https://cp.cloudflare.com/generate_204
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
   - name: 🥸consistent-hashing
@@ -2486,7 +2584,9 @@ proxy-groups:
     #icon 
     strategy: consistent-hashing
     url: https://cp.cloudflare.com/generate_204
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
   - name: 🥸round-robin
@@ -2494,7 +2594,9 @@ proxy-groups:
     #icon 
     strategy: round-robin
     url: https://cp.cloudflare.com/generate_204
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
   - name: 🥸sticky-sessions
@@ -2502,7 +2604,9 @@ proxy-groups:
     #icon 
     strategy: sticky-sessions
     url: https://cp.cloudflare.com/generate_204
+    interval: 7200
     tolerance: 300
+    lazy: false
     use:
       - proxylist1
 
