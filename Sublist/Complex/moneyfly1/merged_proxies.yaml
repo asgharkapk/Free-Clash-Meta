@@ -691,7 +691,7 @@ proxy-providers:
       https://url.v1.mk/sub?&url=https://raw.githubusercontent.com/moneyfly1/chromego_merge/refs/heads/main/sub/merged_proxies.yaml&target=clash&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead%2Fsubconverter-config%40master%2Fremote-config%2Funiversal%2Furltest.ini&add_emoji=true&append_type=true&append_info=true&scv=true&udp=true&list=true&sort=false&fdn=true&insert=false
     interval: 7200
     include-all: true
-    path: ./FCM_Complex_moneyfly1/merged_proxies.yaml_357.yml
+    path: ./FCM_Complex_moneyfly1/merged_proxies.yaml_363.yml
 
 proxies:
 - name: "dns-out"
