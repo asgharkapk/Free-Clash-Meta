@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/moneyfly1/chromego_merge/refs/heads/main/sub/merged_warp_proxies.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_moneyfly1/chromego_merge/merged_warp_proxies_191.yml
+    path: ./FCM_Simple_moneyfly1/chromego_merge/merged_warp_proxies_213.yml
 
 proxies:
 - name: "dns-out"

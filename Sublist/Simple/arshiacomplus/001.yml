@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/mix/sub.html
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_arshiacomplus/001_342.yml
+    path: ./FCM_Simple_arshiacomplus/001_364.yml
 
 proxies:
 - name: "dns-out"

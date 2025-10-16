@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/lagzian/TVC/refs/heads/main/subscriptions/meta/mix
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_lagzian/TVC/meta_512.yml
+    path: ./FCM_Simple_lagzian/TVC/meta_534.yml
 
 proxies:
 - name: "dns-out"

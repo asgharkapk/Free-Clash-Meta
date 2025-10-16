@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Mosifree/-FREE2CONFIG/refs/heads/main/Reality
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_Mosifree/-FREE2CONFIG/Reality_561.yml
+    path: ./FCM_Simple_Mosifree/-FREE2CONFIG/Reality_583.yml
 
 proxies:
 - name: "dns-out"

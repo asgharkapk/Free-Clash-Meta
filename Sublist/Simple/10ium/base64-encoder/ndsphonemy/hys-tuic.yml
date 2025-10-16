@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/ndsphonemy_hys-tuic.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/base64-encoder/ndsphonemy/hys-tuic_240.yml
+    path: ./FCM_Simple_10ium/base64-encoder/ndsphonemy/hys-tuic_262.yml
 
 proxies:
 - name: "dns-out"

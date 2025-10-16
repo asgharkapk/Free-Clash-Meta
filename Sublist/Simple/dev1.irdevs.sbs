@@ -691,7 +691,7 @@ proxy-providers:
       https://dev1.irdevs.sbs
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_dev1.irdevs.sbs_485.yml
+    path: ./FCM_Simple_dev1.irdevs.sbs_507.yml
 
 proxies:
 - name: "dns-out"

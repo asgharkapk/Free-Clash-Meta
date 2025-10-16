@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub3.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_barry-far/V2ray-config/Sub3.txt_549.yml
+    path: ./FCM_Simple_barry-far/V2ray-config/Sub3.txt_571.yml
 
 proxies:
 - name: "dns-out"

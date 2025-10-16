@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/HenryPorternew/sub/refs/heads/main/singbox.json
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_HenryPorternew/sub/singbox.json_165.yml
+    path: ./FCM_Simple_HenryPorternew/sub/singbox.json_187.yml
 
 proxies:
 - name: "dns-out"

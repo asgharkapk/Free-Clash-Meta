@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/vpnclashfa-backup/Sub-Config-Extractor/refs/heads/main/output_configs/clash/darkvpn.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_vpnclashfa-backup/Sub-Config-Extractor/darkvpn/xray_final_306.yml
+    path: ./FCM_Simple_vpnclashfa-backup/Sub-Config-Extractor/darkvpn/xray_final_328.yml
 
 proxies:
 - name: "dns-out"

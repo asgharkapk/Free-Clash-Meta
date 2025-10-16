@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/V2ray-Config/main/Splitted-By-Protocol/hysteria2.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/V2ray-Config/hysteria2_276.yml
+    path: ./FCM_Simple_10ium/V2ray-Config/hysteria2_298.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/ss.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_SoliSpirit/v2ray-configs/ss.txt_496.yml
+    path: ./FCM_Simple_SoliSpirit/v2ray-configs/ss.txt_518.yml
 
 proxies:
 - name: "dns-out"

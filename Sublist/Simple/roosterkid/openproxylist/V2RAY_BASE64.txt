@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_roosterkid/openproxylist/V2RAY_BASE64.txt_528.yml
+    path: ./FCM_Simple_roosterkid/openproxylist/V2RAY_BASE64.txt_550.yml
 
 proxies:
 - name: "dns-out"

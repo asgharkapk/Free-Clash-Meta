@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/lagzian/SS-Collector/refs/heads/main/vmess_tvc_clash.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_lagzian/SS-Collector/vmess_tvc_517.yml
+    path: ./FCM_Simple_lagzian/SS-Collector/vmess_tvc_539.yml
 
 proxies:
 - name: "dns-out"

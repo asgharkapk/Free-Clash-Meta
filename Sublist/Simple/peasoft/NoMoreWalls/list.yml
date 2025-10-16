@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/list.yml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_peasoft/NoMoreWalls/list_194.yml
+    path: ./FCM_Simple_peasoft/NoMoreWalls/list_216.yml
 
 proxies:
 - name: "dns-out"

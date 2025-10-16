@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/splitted/ss.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_mahdibland/ShadowsocksAggregator/sub/splitted/ss.txt_388.yml
+    path: ./FCM_Simple_mahdibland/ShadowsocksAggregator/sub/splitted/ss.txt_410.yml
 
 proxies:
 - name: "dns-out"

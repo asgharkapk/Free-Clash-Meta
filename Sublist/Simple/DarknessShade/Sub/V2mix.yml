@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/DarknessShade/Sub/main/V2mix
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_DarknessShade/Sub/V2mix_500.yml
+    path: ./FCM_Simple_DarknessShade/Sub/V2mix_522.yml
 
 proxies:
 - name: "dns-out"

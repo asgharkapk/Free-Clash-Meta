@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/liketolivefree/kobabi/main/sub_all.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_liketolivefree/kobabi/sub_all.txt_542.yml
+    path: ./FCM_Simple_liketolivefree/kobabi/sub_all.txt_564.yml
 
 proxies:
 - name: "dns-out"

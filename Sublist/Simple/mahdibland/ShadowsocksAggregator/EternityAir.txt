@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_mahdibland/ShadowsocksAggregator/EternityAir.txt_378.yml
+    path: ./FCM_Simple_mahdibland/ShadowsocksAggregator/EternityAir.txt_400.yml
 
 proxies:
 - name: "dns-out"
