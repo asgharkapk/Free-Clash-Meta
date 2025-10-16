@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/HDYOU/porxy/refs/heads/main/rules/github-clash-all.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_HDYOU.yaml_291.yml
+    path: ./FCM_Simple_HDYOU.yaml_297.yml
 
 proxies:
 - name: "dns-out"

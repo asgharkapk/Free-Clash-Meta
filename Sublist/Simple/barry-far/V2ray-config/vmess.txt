@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/barry-far/V2ray-config/main/Splitted-By-Protocol/vmess.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_barry-far/V2ray-config/vmess.txt_477.yml
+    path: ./FCM_Simple_barry-far/V2ray-config/vmess.txt_483.yml
 
 proxies:
 - name: "dns-out"

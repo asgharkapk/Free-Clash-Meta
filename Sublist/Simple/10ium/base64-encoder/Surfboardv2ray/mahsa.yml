@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Surfboardv2ray_mahsa.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/base64-encoder/Surfboardv2ray/mahsa_226.yml
+    path: ./FCM_Simple_10ium/base64-encoder/Surfboardv2ray/mahsa_232.yml
 
 proxies:
 - name: "dns-out"

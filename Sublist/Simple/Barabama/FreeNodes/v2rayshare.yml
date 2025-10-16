@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/v2rayshare.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_Barabama/FreeNodes/v2rayshare_164.yml
+    path: ./FCM_Simple_Barabama/FreeNodes/v2rayshare_170.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Mahdi0024/ProxyCollector/master/sub/proxies.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_Mahdi0024/ProxyCollector/proxies.txt_493.yml
+    path: ./FCM_Simple_Mahdi0024/ProxyCollector/proxies.txt_499.yml
 
 proxies:
 - name: "dns-out"

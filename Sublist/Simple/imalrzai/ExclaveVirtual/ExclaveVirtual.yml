@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/imalrzai/ExclaveVirtual/refs/heads/main/ExclaveVirtual
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_imalrzai/ExclaveVirtual/ExclaveVirtual_517.yml
+    path: ./FCM_Simple_imalrzai/ExclaveVirtual/ExclaveVirtual_523.yml
 
 proxies:
 - name: "dns-out"

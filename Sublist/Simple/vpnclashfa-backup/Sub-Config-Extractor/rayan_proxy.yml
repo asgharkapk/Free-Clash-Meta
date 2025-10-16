@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/vpnclashfa-backup/Sub-Config-Extractor/refs/heads/main/output_configs/clash/rayan_proxy.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_vpnclashfa-backup/Sub-Config-Extractor/rayan_proxy_310.yml
+    path: ./FCM_Simple_vpnclashfa-backup/Sub-Config-Extractor/rayan_proxy_316.yml
 
 proxies:
 - name: "dns-out"

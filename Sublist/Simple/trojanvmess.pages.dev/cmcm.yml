@@ -691,7 +691,7 @@ proxy-providers:
       https://trojanvmess.pages.dev/cmcm?b64#cmcm?b64
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_trojanvmess.pages.dev/cmcm_554.yml
+    path: ./FCM_Simple_trojanvmess.pages.dev/cmcm_560.yml
 
 proxies:
 - name: "dns-out"

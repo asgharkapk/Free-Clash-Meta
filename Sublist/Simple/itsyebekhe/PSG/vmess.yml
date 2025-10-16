@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/normal/vmess
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_itsyebekhe/PSG/vmess_503.yml
+    path: ./FCM_Simple_itsyebekhe/PSG/vmess_509.yml
 
 proxies:
 - name: "dns-out"

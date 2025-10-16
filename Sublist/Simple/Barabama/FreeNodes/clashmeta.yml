@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/clashmeta.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_Barabama/FreeNodes/clashmeta_161.yml
+    path: ./FCM_Simple_Barabama/FreeNodes/clashmeta_167.yml
 
 proxies:
 - name: "dns-out"

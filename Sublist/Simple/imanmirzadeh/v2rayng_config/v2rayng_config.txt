@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/imanmirzadeh/v2rayng_config/refs/heads/main/v2rayng_config.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_imanmirzadeh/v2rayng_config/v2rayng_config.txt_572.yml
+    path: ./FCM_Simple_imanmirzadeh/v2rayng_config/v2rayng_config.txt_578.yml
 
 proxies:
 - name: "dns-out"

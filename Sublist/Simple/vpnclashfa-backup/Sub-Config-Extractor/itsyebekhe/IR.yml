@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/vpnclashfa-backup/Sub-Config-Extractor/refs/heads/main/output_configs/clash/itsyebekhe_IR.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_vpnclashfa-backup/Sub-Config-Extractor/itsyebekhe/IR_303.yml
+    path: ./FCM_Simple_vpnclashfa-backup/Sub-Config-Extractor/itsyebekhe/IR_309.yml
 
 proxies:
 - name: "dns-out"

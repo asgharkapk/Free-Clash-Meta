@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Epodonios_config.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/base64-encoder/Epodonios_config_206.yml
+    path: ./FCM_Simple_10ium/base64-encoder/Epodonios_config_212.yml
 
 proxies:
 - name: "dns-out"

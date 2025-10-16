@@ -691,7 +691,7 @@ proxy-providers:
       https://fs.v2rayse.com/share/20250417/kn4eyffwk0.json#kn4eyffwk0
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_@An0nymousTeam.yaml_202.yml
+    path: ./FCM_Simple_@An0nymousTeam.yaml_208.yml
 
 proxies:
 - name: "dns-out"
