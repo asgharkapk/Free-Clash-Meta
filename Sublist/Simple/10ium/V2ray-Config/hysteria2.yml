@@ -719,16 +719,18 @@ proxy-groups:
     type: select
     icon: https://www.svgrepo.com/show/439191/http-2.svg
     proxies:
-      - 🥸round-robin
+      - 🔃round-robin
       - ⤵️FirstPing
       - 🦽Manual
       - ♻️gstatic
       - ☁️cloudflare
       - 🔓Direct
-      - 🚫Block
-      - 🥸consistent-hashing
-      - 🥸sticky-sessions
+      - ⛔Block
+      - 🔐consistent-hashing
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
 
   - name: 🦽Manual
     type: select
@@ -791,1250 +793,1443 @@ proxy-groups:
     type: select
     icon: https://www.svgrepo.com/show/343553/facebook-network-communication-internet-interaction.svg
     proxies:
-      - 🚫Block
+      - ⛔Block
       - 🔓Direct
       - 🌐Proxy
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing
-      - 🥸round-robin
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing
+      - 🔃round-robin
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🛑Advertisements
     type: select
     icon: https://www.svgrepo.com/show/93261/click-ad.svg
     proxies:
-      - 🚫Block
+      - 🩸Drop
+      - ⛔Block
       - 🔓Direct
       - 🌐Proxy
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing
-      - 🥸round-robin
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing
+      - 🔃round-robin
+      - 🕎sticky-sessions
       - 🏁Countries
+      - ⛓️‍💥SkipRules
   - name: 🛡️PrivacyTrackers
     type: select
     icon: https://www.svgrepo.com/show/453947/hide.svg
     proxies:
-      - 🚫Block
+      - ⛔Block
       - 🔓Direct
       - 🌐Proxy
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing
-      - 🥸round-robin
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing
+      - 🔃round-robin
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🦠SECURITY
     type: select
     icon: https://www.svgrepo.com/show/406633/microbe.svg
     proxies:
-      - 🚫Block
+      - ⛔Block
       - 🔓Direct
       - 🌐Proxy
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing
-      - 🥸round-robin
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing
+      - 🔃round-robin
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🖥️Lan
     type: select
     icon: https://www.svgrepo.com/show/187321/networking-server.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing
-      - 🥸round-robin
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing
+      - 🔃round-robin
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🇮🇷IranWebsites
     type: select
     icon: https://www.svgrepo.com/show/405513/flag-for-flag-iran.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing
-      - 🥸round-robin
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing
+      - 🔃round-robin
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: </>GIT🎯
     type: select
     icon: https://www.svgrepo.com/show/439173/git.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing
-      - 🥸round-robin
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing
+      - 🔃round-robin
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🎮Dota2.exe🎯
     type: select
     icon: https://www.citypng.com/public/uploads/preview/hd-dota-2-official-logo-png-701751694788589vbfyq561nz.png
     proxies:
       - 🔓Direct
       - 🌐Proxy
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing
-      - 🥸round-robin
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing
+      - 🔃round-robin
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🎮Dota2🎯
     type: select
     icon: https://www.citypng.com/public/uploads/preview/hd-dota-2-official-logo-png-701751694788589vbfyq561nz.png
     proxies:
       - 🔓Direct
       - 🌐Proxy
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing
-      - 🥸round-robin
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing
+      - 🔃round-robin
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🚂Steam.exe🎯
     type: select
     icon: https://www.svgrepo.com/show/452107/steam.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing
-      - 🥸round-robin
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing
+      - 🔃round-robin
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🚂Steam🎯
     type: select
     icon: https://www.svgrepo.com/show/452107/steam.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing
-      - 🥸round-robin
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing
+      - 🔃round-robin
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🤬censorMovie🎯
     type: select
     icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS33HISPQ3YqM26dlS3m6IfpwJ3wgudtCZ3cQ&s
     proxies:
       - 🔓Direct
       - 🌐Proxy
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing
-      - 🥸round-robin
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing
+      - 🔃round-robin
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🕹️VideoGame🎯
     type: select
     icon: https://www.svgrepo.com/show/400887/videogame.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing
-      - 🥸round-robin
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing
+      - 🔃round-robin
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 📲Xiaomi🎯
     type: select
     icon: https://www.svgrepo.com/show/331655/xiaomi.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing
-      - 🥸round-robin
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing
+      - 🔃round-robin
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🪟Windows🎯
     type: select
     icon: https://www.svgrepo.com/show/52775/windows.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing
-      - 🥸round-robin
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing
+      - 🔃round-robin
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 📥Download🎯
     type: select
     icon: https://www.svgrepo.com/show/411366/download.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing
-      - 🥸round-robin
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing
+      - 🔃round-robin
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 💻AnyDesk🎯
     type: select
     icon: https://www.svgrepo.com/show/331289/anydesk.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing
-      - 🥸round-robin
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing
+      - 🔃round-robin
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 💬Whatsapp🎯
     type: select
     icon: https://www.svgrepo.com/show/452133/whatsapp.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing
-      - 🥸round-robin
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing
+      - 🔃round-robin
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🔀Restream🎯
     type: select
     icon: https://www.svgrepo.com/show/402073/letter-r.svg
     proxies:
       - 🔓Direct
       - 🌐Proxy
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: ☁️Cloudflare🎯
     type: select
     icon: https://www.svgrepo.com/show/331337/cloudflare.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 📱Google🎯
     type: select
     icon: https://www.svgrepo.com/show/382723/google.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🎛NVIDIA🎯
     type: select
     icon: https://www.svgrepo.com/show/331511/nvidia.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 📺YouTube🎯
     type: select
     icon: https://www.svgrepo.com/show/416500/youtube-circle-logo.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 📙Reddit🎯
     type: select
     icon: https://www.svgrepo.com/show/354270/reddit-icon.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🔵Telegram🎯
     type: select
     icon: https://www.svgrepo.com/show/354443/telegram.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🤖Grok🎯
     type: select
     icon: https://www.svgrepo.com/show/535603/robot.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🤖OpenAI🎯
     type: select
     icon: https://www.svgrepo.com/show/306500/openai.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🤖AI🎯
     type: select
     icon: https://www.svgrepo.com/show/486520/ai.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🐦Twitter🎯
     type: select
     icon: https://www.svgrepo.com/show/331618/twitter.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 📸Instagram🎯
     type: select
     icon: https://www.svgrepo.com/show/331440/instagram.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🎥Netflix🎯
     type: select
     icon: https://www.svgrepo.com/show/303196/netflix-2-logo.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🎶Spotify🎯
     type: select
     icon: https://www.svgrepo.com/show/475684/spotify-color.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🎬TikTok🎯
     type: select
     icon: https://www.svgrepo.com/show/303260/tiktok-logo-logo.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing   
-      - 🥸round-robin   
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing   
+      - 🔃round-robin   
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 💼LinkedIn🎯
     type: select
     icon: https://www.svgrepo.com/show/452051/linkedin.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing     
-      - 🥸round-robin    
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing     
+      - 🔃round-robin    
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🎮Blizzard🎯
     type: select
     icon: https://www.svgrepo.com/show/331321/blizzard.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing   
-      - 🥸round-robin 
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing   
+      - 🔃round-robin 
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: ⚫EpicGames🎯
     type: select
     icon: https://www.svgrepo.com/show/306007/epicgames.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing      
-      - 🥸round-robin   
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing      
+      - 🔃round-robin   
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🎮RiotGames🎯
     type: select
     icon: https://www.svgrepo.com/show/306668/riotgames.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing    
-      - 🥸round-robin   
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing    
+      - 🔃round-robin   
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🎮BattleNet🎯
     type: select
     icon: https://www.svgrepo.com/show/305784/battlenet.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing      
-      - 🥸round-robin    
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing      
+      - 🔃round-robin    
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🟩kick🎯
     type: select
     icon: https://www.svgrepo.com/show/382727/kickstarter-kick-starter-crowdfunding.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing    
-      - 🥸round-robin     
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing    
+      - 🔃round-robin     
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 👾Twitch🎯
     type: select
     icon: https://www.svgrepo.com/show/331620/twitch-v2.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing    
-      - 🥸round-robin   
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing    
+      - 🔃round-robin   
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 📡streamlabs🎯
     type: select
     icon: https://www.svgrepo.com/show/519482/streamlabs.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing 
-      - 🥸round-robin    
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing 
+      - 🔃round-robin    
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🎦OBS.exe🎯
     type: select
     icon: https://www.svgrepo.com/show/426784/obs.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing      
-      - 🥸round-robin     
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing      
+      - 🔃round-robin     
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: ⚫EpicGames.exe🎯
     type: select
     icon: https://www.svgrepo.com/show/443039/brand-epicgames.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing     
-      - 🥸round-robin     
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing     
+      - 🔃round-robin     
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🎮Blizzard.exe🎯
     type: select
     icon: https://www.svgrepo.com/show/331321/blizzard.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing     
-      - 🥸round-robin    
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing     
+      - 🔃round-robin    
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🎮LOL.exe🎯
     type: select
     icon: https://www.svgrepo.com/show/458866/rofl.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing      
-      - 🥸round-robin    
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing      
+      - 🔃round-robin    
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🎮VALORANT.exe🎯
     type: select
     icon: https://www.svgrepo.com/show/424907/valorant-logo-play.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing    
-      - 🥸round-robin    
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing    
+      - 🔃round-robin    
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🎮BattleNet.exe🎯
     type: select
     icon: https://www.svgrepo.com/show/305784/battlenet.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing     
-      - 🥸round-robin    
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing     
+      - 🔃round-robin    
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🗣️Discord🎯
     type: select
     icon: https://www.svgrepo.com/show/331368/discord-v2.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing    
-      - 🥸round-robin  
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing    
+      - 🔃round-robin  
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🦁Brave.exe🎯
     type: select
     icon: https://www.svgrepo.com/show/331328/brave.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing     
-      - 🥸round-robin    
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing     
+      - 🔃round-robin    
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🟢Edge.exe🎯
     type: select
     icon: https://www.svgrepo.com/show/349349/edge.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing      
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing      
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: ⭕Opera.exe🎯
     type: select
     icon: https://www.svgrepo.com/show/331521/opera.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: ©️Chrome.exe🎯
     type: select
     icon: https://www.svgrepo.com/show/475640/chrome-color.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🔫Fortnite.exe🎯
     type: select
     icon: https://www.svgrepo.com/show/504355/fortnite.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🚗GTAV.exe🎯
     type: select
     icon: https://www.svgrepo.com/show/303623/gta-grand-theft-auto-logo.svg
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing      
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing      
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🔫CODWarzone.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🧨CODColdWar.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🔫CODModernWarfare.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🏹ApexLegends.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🎯Valorant.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🔫CS2.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🕹️CSGO.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🎮Overwatch2.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🧙LeagueLoL.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: ⚔️Smite.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🏁ForzaHorizon5.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🏎️ForzaMotorsport.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🚗NFSHeat.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🚗NFSUnbound.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🏎️F1-23.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🛡️EldenRing.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🐺Witcher3.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🤖Cyberpunk2077.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🐉SkyrimSE.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: ☢️Fallout4.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🚀Starfield.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🌌Genshin.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: ⚽FIFA.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: ⚽eFootball.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🏡TheSims4.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🧱MinecraftJava.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🧱MinecraftBedrock.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🔫Rainbow6.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🔫Tarkov.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🛩️BF2042.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🛩️BFV.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🛩️BF1.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 👻RE4.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🏰REVillage.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🧟DeadByDaylight.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🧟TLouPC.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🦖ARK.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🌄DayZ.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🏙️RDR2.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🛡️ACValhalla.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🗡️ACOdyssey.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 🪓ACMirage.exe🎯
     type: select
     #icon 
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
-      - 🥸consistent-hashing       
-      - 🥸round-robin       
-      - 🥸sticky-sessions
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
       - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
+      
   - name: 🎯Destinations
     type: select
     #icon 
@@ -2045,9 +2240,9 @@ proxy-groups:
       - 🛡️PrivacyTrackers
       - 🦠SECURITY
       - </>GIT🎯
-      - 🎮Dota2🎯
       - 🎮Dota2.exe🎯
       - 🚂Steam.exe🎯
+      - 🎮Dota2🎯
       - 🚂Steam🎯
       - 📘Facebook🎯
       - 🎛NVIDIA🎯
@@ -2077,17 +2272,22 @@ proxy-groups:
       - 🟩kick🎯
       - 🔀Restream🎯
       - 🎮Blizzard🎯
-      - 🎮Blizzard.exe🎯
       - 📡streamlabs🎯
       - ⚫EpicGames🎯
-      - ⚫EpicGames.exe🎯
       - 🎮RiotGames🎯
+      - 🎮BattleNet🎯
+      - 🗣️Discord🎯
+      - 🗣️Discord🎯
+      - EXE🎯Dests
+  - name: EXE🎯Dests
+    type: select
+    #icon 
+    proxies:
+      - ⚫EpicGames.exe🎯
+      - 🎮Blizzard.exe🎯
       - 🎮LOL.exe🎯
       - 🎮VALORANT.exe🎯
-      - 🎮BattleNet🎯
       - 🎮BattleNet.exe🎯
-      - 🗣️Discord🎯
-      - 🗣️Discord🎯
       - 🦁Brave.exe🎯
       - 🟢Edge.exe🎯
       - ⭕Opera.exe🎯
@@ -2579,7 +2779,7 @@ proxy-groups:
     lazy: false
     use:
       - proxylist1
-  - name: 🥸consistent-hashing
+  - name: 🔐consistent-hashing
     type: load-balance
     #icon 
     strategy: consistent-hashing
@@ -2589,7 +2789,7 @@ proxy-groups:
     lazy: false
     use:
       - proxylist1
-  - name: 🥸round-robin
+  - name: 🔃round-robin
     type: load-balance
     #icon 
     strategy: round-robin
@@ -2599,7 +2799,7 @@ proxy-groups:
     lazy: false
     use:
       - proxylist1
-  - name: 🥸sticky-sessions
+  - name: 🕎sticky-sessions
     type: load-balance
     #icon 
     strategy: sticky-sessions
@@ -2620,12 +2820,20 @@ proxy-groups:
       - TCP_IPv4_DIRECT
       - UDP_IPv6_DIRECT
       - TCP_IPv6_DIRECT
+  - name: ⛓️‍💥SkipRules
+    type: select
+    #icon: https://www.svgrepo.com/show/253512/unlock.svg
+    proxies:
       - PASS
-  - name: 🚫Block
+  - name: ⛔Block
     type: select
     icon: https://www.svgrepo.com/download/501832/stop.svg
     proxies:
       - REJECT
+  - name: 🩸Drop
+    type: select
+    icon: https://www.svgrepo.com/download/501832/stop.svg
+    proxies:
       - REJECT-DROP
   - name: ⚡Online
     type: select
@@ -2633,8 +2841,10 @@ proxy-groups:
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - 🚫Block
+      - ⛔Block
       - 🎯Destinations
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
 
 ntp:
   enable: true
@@ -2708,14 +2918,19 @@ rules:
   - GEOSITE,nvidia,🎛NVIDIA🎯
   - GEOSITE,github,</>GIT🎯
   - GEOSITE,gitlab,</>GIT🎯
-  - RULE-SET,github,</>GIT🎯
+  - PROCESS-NAME,com.github.android,</>GIT🎯
+  - GEOSITE,gitlab,</>GIT🎯
+  - PROCESS-NAME,com.google.android.youtube,📺YouTube🎯
+  - PROCESS-NAME,com.google.android.apps.youtube.music,📺YouTube🎯
   - RULE-SET,ACLyoutube,📺YouTube🎯
   - RULE-SET,youtube,📺YouTube🎯
   - RULE-SET,YouTubeMusic,📺YouTube🎯
   - RULE-SET,10iumYouTube,📺YouTube🎯
+  - PROCESS-NAME,com.reddit.frontpage,📙Reddit🎯
   - RULE-SET,reddit,📙Reddit🎯
   - RULE-SET,ACLtelegram,🔵Telegram🎯
   - RULE-SET,telegram,🔵Telegram🎯
+  - PROCESS-NAME,com.openai.chatgpt,🤖OpenAI🎯
   - GEOSITE,openai,🤖OpenAI🎯
   - RULE-SET,openai,🤖OpenAI🎯
   - PROCESS-NAME,Twitter.exe,🐦Twitter🎯
@@ -2791,11 +3006,14 @@ rules:
   - PROCESS-NAME,obs64.exe,🎦OBS.exe🎯
   - PROCESS-NAME,obs-browser-page.exe,🎦OBS.exe🎯
   - PROCESS-NAME,brave.exe,🦁Brave.exe🎯
+  - PROCESS-NAME,com.brave.browser,🦁Brave.exe🎯
   - PROCESS-NAME,msedge.exe,🟢Edge.exe🎯
   - PROCESS-NAME,Telegram.exe,🔵Telegram🎯
   - PROCESS-NAME,org.telegram.messenger,🔵Telegram🎯
   - PROCESS-NAME,org.telegram.messenger.web,🔵Telegram🎯
+  - PROCESS-NAME,org.telegram.messenger.beta,🔵Telegram🎯
   - PROCESS-NAME,chrome.exe,©️Chrome.exe🎯
+  - PROCESS-NAME,com.android.chrome,©️Chrome.exe🎯
   - PROCESS-NAME,opera.exe,⭕Opera.exe🎯
   - PROCESS-NAME,opera_crashreporter.exe,⭕Opera.exe🎯
   - PROCESS-NAME,FortniteClient-Win64-Shipping.exe,🔫Fortnite.exe🎯
@@ -2848,4 +3066,5 @@ rules:
   - RULE-SET,google-play,📱Google🎯
   - PROCESS-NAME,com.android.vending,📱Google🎯
   - PROCESS-NAME,com.google.android.gms,📱Google🎯
+  - PROCESS-NAME,com.facebook.services,📘Facebook🎯
   - MATCH,⚡Online
