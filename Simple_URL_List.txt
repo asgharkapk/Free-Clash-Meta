@@ -160,6 +160,14 @@
 [150]clash/lagzian/_trinity.yaml|https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/lagzian/_trinity.yaml
 [150]clash/10ium/base64-encoder/Rayan/-Config_H-I.yaml|https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/refs/heads/main/output_configs/clash/10ium/base64-encoder/Rayan/-Config_H-I.yaml
 
+
+chromego-sub.netlify.app/sub/merged_proxies_new.yaml|https://chromego-sub.netlify.app/sub/merged_proxies_new.yaml
+linzjian666/chromego_extractor/outputs/clash_meta_warp.yaml|https://raw.githubusercontent.com/linzjian666/chromego_extractor/main/outputs/clash_meta_warp.yaml
+linzjian666/chromego_extractor/outputs/clash_meta.yaml|https://raw.githubusercontent.com/linzjian666/chromego_extractor/main/outputs/clash_meta.yaml
+HenryPorternew/sub/base64.txt|https://raw.githubusercontent.com/HenryPorternew/sub/refs/heads/main/base64.txt
+HenryPorternew/sub/singbox.json|https://raw.githubusercontent.com/HenryPorternew/sub/refs/heads/main/singbox.json
+HenryPorternew/sub/raw.txt|https://raw.githubusercontent.com/HenryPorternew/sub/refs/heads/main/raw.txt
+
 Barabama/FreeNodes/clashmeta|https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/clashmeta.yaml
 Barabama/FreeNodes/ndnode|https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/ndnode.yaml
 Barabama/FreeNodes/nodefree|https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/nodefree.yaml
