@@ -4232,3 +4232,462 @@ NameError: name 'list_yml_files' is not defined. Did you mean: 'list_all_files'?
 2025-10-16 06:40:07,123 - INFO - ✅ پردازش با موفقیت انجام شد!
 2025-10-16 06:40:07,123 - INFO - ⏱️ مدت زمان اجرای کل اسکریپت: 2.12 ثانیه
 2025-10-16 06:40:07,123 - INFO - 🏁 پایان اجرای اسکریپت
+2025-10-16 06:47:39,618 - INFO - 🚀 شروع اجرای اسکریپت اصلی
+2025-10-16 06:47:39,618 - INFO - 🛠️ ایجاد شیء ConfigProcessor ...
+2025-10-16 06:47:39,618 - INFO - ⚙️ تنظیمات اولیه کلاس بارگذاری شد.
+2025-10-16 06:47:39,618 - INFO - ✅ شیء ConfigProcessor با موفقیت ساخته شد.
+2025-10-16 06:47:39,618 - INFO - ⚙️ شروع فراخوانی generate_configs() ...
+2025-10-16 06:47:39,618 - INFO - 🚀 شروع پردازش کل پیکربندی‌ها
+2025-10-16 06:47:39,618 - INFO - 📥 در حال بارگذاری ورودی‌های Simple از Simple_URL_List.txt
+2025-10-16 06:47:39,618 - INFO - 🔍 شروع خواندن لیست: Simple_URL_List.txt (complex=False)
+2025-10-16 06:47:39,618 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 1): ''
+2025-10-16 06:47:39,618 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 184): ''
+2025-10-16 06:47:39,618 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 185): ''
+2025-10-16 06:47:39,618 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 192): ''
+2025-10-16 06:47:39,618 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 197): ''
+2025-10-16 06:47:39,618 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 199): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 215): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 217): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 219): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 224): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 227): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 231): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 233): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 244): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 246): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 249): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 317): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 333): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 335): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 346): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 348): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 369): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 377): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 385): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 388): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 399): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 422): ''
+2025-10-16 06:47:39,619 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 438): ''
+2025-10-16 06:47:39,620 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 458): ''
+2025-10-16 06:47:39,620 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 460): ''
+2025-10-16 06:47:39,620 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 514): ''
+2025-10-16 06:47:39,620 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 541): ''
+2025-10-16 06:47:39,620 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 564): ''
+2025-10-16 06:47:39,620 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 573): ''
+2025-10-16 06:47:39,620 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 574): ''
+2025-10-16 06:47:39,620 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 600): ''
+2025-10-16 06:47:39,620 - WARNING - ⏭️ خط بی‌اعتبار در Simple_URL_List.txt (شماره خط 637): ''
+2025-10-16 06:47:39,620 - INFO - ✅ تعداد 600 ورودی از Simple_URL_List.txt خوانده شد
+2025-10-16 06:47:39,620 - INFO - ✅ تعداد ورودی‌های Simple بارگذاری شد: 600
+2025-10-16 06:47:39,620 - INFO - 📥 در حال بارگذاری ورودی‌های Complex از Complex_URL_list.txt
+2025-10-16 06:47:39,620 - INFO - 🔍 شروع خواندن لیست: Complex_URL_list.txt (complex=True)
+2025-10-16 06:47:39,620 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 7): ''
+2025-10-16 06:47:39,620 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 14): ''
+2025-10-16 06:47:39,620 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 23): ''
+2025-10-16 06:47:39,621 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 24): '# 10ium/base64'
+2025-10-16 06:47:39,621 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 151): ''
+2025-10-16 06:47:39,621 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 155): ''
+2025-10-16 06:47:39,621 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 157): ''
+2025-10-16 06:47:39,621 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 162): ''
+2025-10-16 06:47:39,622 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 309): ''
+2025-10-16 06:47:39,622 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 315): ''
+2025-10-16 06:47:39,622 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 317): ''
+2025-10-16 06:47:39,622 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 328): ''
+2025-10-16 06:47:39,622 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 332): ''
+2025-10-16 06:47:39,623 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 401): ''
+2025-10-16 06:47:39,623 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 412): ''
+2025-10-16 06:47:39,623 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 432): ''
+2025-10-16 06:47:39,623 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 448): ''
+2025-10-16 06:47:39,623 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 500): ''
+2025-10-16 06:47:39,623 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 508): ''
+2025-10-16 06:47:39,623 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 516): ''
+2025-10-16 06:47:39,623 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 522): ''
+2025-10-16 06:47:39,624 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 524): ''
+2025-10-16 06:47:39,624 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 545): ''
+2025-10-16 06:47:39,624 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 549): ''
+2025-10-16 06:47:39,624 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 604): ''
+2025-10-16 06:47:39,624 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 612): ''
+2025-10-16 06:47:39,624 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 635): ''
+2025-10-16 06:47:39,624 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 643): ''
+2025-10-16 06:47:39,624 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 652): ''
+2025-10-16 06:47:39,624 - WARNING - ⏭️ خط بی‌اعتبار در Complex_URL_list.txt (شماره خط 659): ''
+2025-10-16 06:47:39,624 - INFO - ✅ تعداد 631 ورودی از Complex_URL_list.txt خوانده شد
+2025-10-16 06:47:39,624 - INFO - ✅ تعداد ورودی‌های Complex بارگذاری شد: 631
+2025-10-16 06:47:39,624 - INFO - 🛠️ شروع تولید فایل‌ها برای Simple ...
+2025-10-16 06:47:39,624 - INFO - 📂 شروع تولید فایل‌ها برای Simple (تعداد: 600)
+2025-10-16 06:47:39,627 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[303]____ss/10ium/V2Hub3
+2025-10-16 06:47:39,630 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[303]____mixed/10ium/V2Hub3
+2025-10-16 06:47:39,632 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[303]____clash/10ium/V2Hub3
+2025-10-16 06:47:39,634 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[298]____ss
+2025-10-16 06:47:39,635 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[291]____clash/vpnclashfa-backup/MirrorMan
+2025-10-16 06:47:39,637 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[291]____clash/hamedp-71
+2025-10-16 06:47:39,639 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[291]____clash/10ium/base64-encoder
+2025-10-16 06:47:39,641 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[286]____surfboard
+2025-10-16 06:47:39,643 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[283]____mixed/maimengmeng
+2025-10-16 06:47:39,644 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[281]____v2ray
+2025-10-16 06:47:39,646 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[281]____mixed/10ium
+2025-10-16 06:47:39,648 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[279]____clash/10ium/base64-encoder/Surfboardv2ray
+2025-10-16 06:47:39,650 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[276]____v2ray
+2025-10-16 06:47:39,651 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[276]____v2ray/10ium/base64-encoder
+2025-10-16 06:47:39,653 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[271]____mixed/vpnclashfa-backup/SubConfigShuffler
+2025-10-16 06:47:39,655 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[268]____v2ray/10ium/V2Hub3
+2025-10-16 06:47:39,659 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[268]____surfboard
+2025-10-16 06:47:39,662 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[268]____mixed/10ium/V2Hub3
+2025-10-16 06:47:39,664 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[267]____surfboard
+2025-10-16 06:47:39,666 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[266]____clash/10ium/V2Hub3
+2025-10-16 06:47:39,667 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[265]____surfboard
+2025-10-16 06:47:39,669 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[265]____mixed/vpnclashfa-backup/SubConfigShuffler
+2025-10-16 06:47:39,671 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[257]____clash/10ium/V2ray-Config/Splitted-By-Protocol
+2025-10-16 06:47:39,673 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[256]____surfboard
+2025-10-16 06:47:39,676 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[254]____mixed/vpnclashfa-backup/MirrorMan
+2025-10-16 06:47:39,678 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[240]____surfboard
+2025-10-16 06:47:39,680 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[239]____clash
+2025-10-16 06:47:39,682 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[229]____surfboard
+2025-10-16 06:47:39,683 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[228]____v2ray
+2025-10-16 06:47:39,685 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[228]____mixed/Leon406/SubCrawler/sub/share
+2025-10-16 06:47:39,687 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[228]____clash/Leon406/SubCrawler/sub/share
+2025-10-16 06:47:39,689 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[227]____ss
+2025-10-16 06:47:39,691 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[227]____mixed/Mosifree
+2025-10-16 06:47:39,692 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[226]____mixed/vpnclashfa-backup/SubConfigShuffler
+2025-10-16 06:47:39,694 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[226]____clash/vpnclashfa-backup/SubConfigShuffler
+2025-10-16 06:47:39,698 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[225]____clash/10ium/base64-encoder
+2025-10-16 06:47:39,700 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[222]____ss
+2025-10-16 06:47:39,701 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[222]____ss/10ium/base64-encoder/ndsphonemy
+2025-10-16 06:47:39,703 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[215]____mixed/Epodonios/v2ray-configs
+2025-10-16 06:47:39,705 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[215]____mixed/Epodonios/v2ray-configs/Splitted-By-Protocol
+2025-10-16 06:47:39,707 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[215]____clash/Epodonios/v2ray-configs
+2025-10-16 06:47:39,709 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[215]____clash/Epodonios/v2ray-configs/Splitted-By-Protocol
+2025-10-16 06:47:39,710 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[209]____clash/10ium/V2Hub3
+2025-10-16 06:47:39,712 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[203]____surfboard
+2025-10-16 06:47:39,714 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[203]____clash/vpnclashfa-backup/SubConfigShuffler
+2025-10-16 06:47:39,716 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[201]____mixed/mahdibland/ShadowsocksAggregator
+2025-10-16 06:47:39,718 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[201]____mixed/10ium
+2025-10-16 06:47:39,719 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[201]____mixed/10ium/V2RayAggregator
+2025-10-16 06:47:39,721 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[201]____clash/mahdibland/ShadowsocksAggregator
+2025-10-16 06:47:39,723 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[201]____clash/10ium/V2RayAggregator
+2025-10-16 06:47:39,725 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[200]____surfboard
+2025-10-16 06:47:39,727 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[200]____mixed/mahdibland/ShadowsocksAggregator
+2025-10-16 06:47:39,728 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[200]____clash/vpnclashfa-backup/MirrorMan
+2025-10-16 06:47:39,730 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[200]____clash/mahdibland/ShadowsocksAggregator
+2025-10-16 06:47:39,732 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[200]____clash/MatinGhanbari/v2ray-configs
+2025-10-16 06:47:39,734 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[200]____clash/MatinGhanbari/v2ray-configs/subscriptions/v2ray
+2025-10-16 06:47:39,739 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[198]____clash/Joker-funland/V2ray-configs
+2025-10-16 06:47:39,741 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[194]____surfboard
+2025-10-16 06:47:39,743 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[194]____mixed/vpnclashfa-backup/MirrorMan
+2025-10-16 06:47:39,744 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[193]____clash/vpnclashfa-backup/SubConfigShuffler
+2025-10-16 06:47:39,746 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[192]____v2ray
+2025-10-16 06:47:39,748 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[192]____surfboard
+2025-10-16 06:47:39,750 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[192]____mixed
+2025-10-16 06:47:39,751 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[192]____mixed/MatinGhanbari/v2ray-configs
+2025-10-16 06:47:39,753 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[192]____mixed/MatinGhanbari/v2ray-configs/subscriptions/v2ray
+2025-10-16 06:47:39,758 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[192]____clash/lagzian/IranConfigCollector
+2025-10-16 06:47:39,760 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[190]____mixed/lagzian
+2025-10-16 06:47:39,762 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[190]____clash/vpnclashfa-backup/SubConfigShuffler
+2025-10-16 06:47:39,764 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[190]____clash/lagzian
+2025-10-16 06:47:39,766 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[189]____mixed/lagzian/IranConfigCollector
+2025-10-16 06:47:39,767 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[187]____mixed
+2025-10-16 06:47:39,771 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[187]____clash/10ium/HiN-VPN/subscription/source/base64
+2025-10-16 06:47:39,773 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[186]____v2ray
+2025-10-16 06:47:39,775 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[185]____surfboard
+2025-10-16 06:47:39,776 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[181]____v2ray/itsyebekhe/PSG/subscriptions/clash
+2025-10-16 06:47:39,785 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[181]____mixed/maimengmeng
+2025-10-16 06:47:39,790 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[181]____mixed/itsyebekhe/PSG/subscriptions/clash
+2025-10-16 06:47:39,794 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[178]____clash/10ium/base64-encoder/Surfboardv2ray
+2025-10-16 06:47:39,796 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[177]____clash/itsyebekhe/PSG/subscriptions/clash
+2025-10-16 06:47:39,799 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[173]____clash/freeclash
+2025-10-16 06:47:39,801 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[172]____ss/AzadNetCH/Clash
+2025-10-16 06:47:39,803 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[172]____ss/AzadNet
+2025-10-16 06:47:39,805 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[172]____clash/freeclash
+2025-10-16 06:47:39,807 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[166]____clash/freeclash
+2025-10-16 06:47:39,808 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[165]____ss
+2025-10-16 06:47:39,810 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[165]____ss/lagzian
+2025-10-16 06:47:39,812 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[162]____clash/10ium/HiN-VPN/subscription/source/base64
+2025-10-16 06:47:39,814 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[157]____v2ray
+2025-10-16 06:47:39,816 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[157]____surfboard
+2025-10-16 06:47:39,818 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[156]____surfboard
+2025-10-16 06:47:39,821 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[155]____v2ray
+2025-10-16 06:47:39,823 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[155]____mixed/Mosifree
+2025-10-16 06:47:39,825 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[154]____mixed/vpnclashfa-backup/MirrorMan
+2025-10-16 06:47:39,826 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[154]____mixed/hamedp-71
+2025-10-16 06:47:39,828 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[154]____mixed/10ium/base64-encoder
+2025-10-16 06:47:39,830 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[152]____surfboard
+2025-10-16 06:47:39,832 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[150]____ss
+2025-10-16 06:47:39,834 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[150]____ss/lagzian
+2025-10-16 06:47:39,835 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[150]____mixed/lagzian
+2025-10-16 06:47:39,837 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[150]____clash/lagzian
+2025-10-16 06:47:39,839 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[149]____clash/vpnclashfa-backup/SubConfigShuffler
+2025-10-16 06:47:39,841 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[148]____clash/vpnclashfa-backup/SubConfigShuffler
+2025-10-16 06:47:39,843 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[148]____clash/roosterkid/openproxylist
+2025-10-16 06:47:39,846 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[148]____clash/10ium/base64-encoder/roosterkid
+2025-10-16 06:47:39,848 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[146]____ss/vpnclashfa-backup/MirrorMan
+2025-10-16 06:47:39,853 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[146]____ss/hamedp-71
+2025-10-16 06:47:39,855 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[146]____ss/10ium/base64-encoder
+2025-10-16 06:47:39,857 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[146]____mixed/FreedomGuard
+2025-10-16 06:47:39,859 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[140]____mixed/itsyebekhe/PSG/lite/subscriptions/clash
+2025-10-16 06:47:39,861 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[140]____clash/10ium/base64-encoder/ebrasha
+2025-10-16 06:47:39,862 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[139]____v2ray/lagzian/IranConfigCollector
+2025-10-16 06:47:39,864 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[139]____clash/itsyebekhe/PSG/lite/subscriptions/clash
+2025-10-16 06:47:39,866 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[138]____mixed
+2025-10-16 06:47:39,868 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[135]____mixed
+2025-10-16 06:47:39,871 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[134]____mixed
+2025-10-16 06:47:39,873 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[134]____clash
+2025-10-16 06:47:39,875 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[131]____ss
+2025-10-16 06:47:39,877 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[130]____clash
+2025-10-16 06:47:39,878 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[128]____clash
+2025-10-16 06:47:39,880 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[127]____ss/itsyebekhe/PSG/subscriptions/clash
+2025-10-16 06:47:39,884 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[127]____mixed/itsyebekhe/PSG/subscriptions/clash
+2025-10-16 06:47:39,886 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[127]____clash/itsyebekhe/PSG/subscriptions/clash
+2025-10-16 06:47:39,888 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[127]____clash/10ium/base64-encoder/Rayan
+2025-10-16 06:47:39,889 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[125]____ss/vpnclashfa-backup/MirrorMan
+2025-10-16 06:47:39,891 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[124]____mixed/10ium
+2025-10-16 06:47:39,893 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[123]____mixed/10ium/base64-encoder/FreedomGuard
+2025-10-16 06:47:39,895 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[122]____v2ray/vpnclashfa-backup/SubConfigShuffler
+2025-10-16 06:47:39,897 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[122]____mixed/Surfboardv2ray/TGParse/splitted
+2025-10-16 06:47:39,899 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[122]____clash/Surfboardv2ray/TGParse/splitted
+2025-10-16 06:47:39,900 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[121]____mixed
+2025-10-16 06:47:39,902 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[118]____surfboard
+2025-10-16 06:47:39,904 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[118]____ss
+2025-10-16 06:47:39,908 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[117]____ss/Leon406/SubCrawler/sub/share
+2025-10-16 06:47:39,909 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[115]____surfboard
+2025-10-16 06:47:39,911 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[115]____ss
+2025-10-16 06:47:39,913 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[113]____clash/Joker-funland/V2ray-configs
+2025-10-16 06:47:39,915 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[112]____ss
+2025-10-16 06:47:39,917 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[111]____ss/vpnclashfa-backup/MirrorMan
+2025-10-16 06:47:39,918 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[110]____ss/10ium/V2RayAggregator
+2025-10-16 06:47:39,920 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[110]____mixed
+2025-10-16 06:47:39,922 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[109]____v2ray/vpnclashfa-backup/MirrorMan
+2025-10-16 06:47:39,926 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[109]____ss/mahdibland/ShadowsocksAggregator
+2025-10-16 06:47:39,927 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[109]____clash/vpnclashfa-backup/SubConfigShuffler
+2025-10-16 06:47:39,929 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[109]____clash/10ium/base64-encoder
+2025-10-16 06:47:39,931 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[107]____surfboard
+2025-10-16 06:47:39,933 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[106]____v2ray/Leon406/SubCrawler/sub/share
+2025-10-16 06:47:39,935 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[106]____surfboard
+2025-10-16 06:47:39,936 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[105]____mixed
+2025-10-16 06:47:39,938 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[105]____mixed/10ium/base64-encoder
+2025-10-16 06:47:39,942 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[105]____clash/10ium/base64-encoder
+2025-10-16 06:47:39,944 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[102]____surfboard
+2025-10-16 06:47:39,945 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[102]____ss
+2025-10-16 06:47:39,947 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[100]____v2ray
+2025-10-16 06:47:39,949 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[100]____ss/itsyebekhe/PSG/subscriptions/clash
+2025-10-16 06:47:39,952 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[100]____mixed
+2025-10-16 06:47:39,954 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[100]____mixed/itsyebekhe/PSG/subscriptions/clash
+2025-10-16 06:47:39,956 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[100]____clash
+2025-10-16 06:47:39,958 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/[100]____clash/itsyebekhe/PSG/subscriptions/clash
+2025-10-16 06:47:39,960 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/chromego-sub.netlify.app/sub
+2025-10-16 06:47:39,961 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/linzjian666/chromego_extractor/outputs
+2025-10-16 06:47:39,965 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/HenryPorternew/sub
+2025-10-16 06:47:39,970 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Barabama/FreeNodes
+2025-10-16 06:47:39,999 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/hamedp-71
+2025-10-16 06:47:40,007 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/moneyfly1/chromego_merge
+2025-10-16 06:47:40,014 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/peasoft/NoMoreWalls
+2025-10-16 06:47:40,018 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/proxypool
+2025-10-16 06:47:40,020 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/snakem982/proxypool
+2025-10-16 06:47:40,026 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/ronghuaxueleng
+2025-10-16 06:47:40,035 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/amin_o__o
+2025-10-16 06:47:40,038 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/yebekhe
+2025-10-16 06:47:40,047 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/base64-encoder
+2025-10-16 06:47:40,054 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/base64-encoder/Rayan-Config
+2025-10-16 06:47:40,065 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/base64-encoder/Mosifree
+2025-10-16 06:47:40,074 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/base64-encoder/Surfboardv2ray
+2025-10-16 06:47:40,086 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/base64-encoder/shabane
+2025-10-16 06:47:40,091 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/base64-encoder/ebrasha
+2025-10-16 06:47:40,093 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/base64-encoder/ndsphonemy
+2025-10-16 06:47:40,104 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/base64-encoder/hamedp-71
+2025-10-16 06:47:40,106 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/base64-encoder/iPsycho1
+2025-10-16 06:47:40,109 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/base64-encoder/freedomnet25500
+2025-10-16 06:47:40,120 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/base64-encoder/roosterkid
+2025-10-16 06:47:40,121 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/base64-encoder/rb360full_Reza
+2025-10-16 06:47:40,125 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/base64-encoder/robin.nscl.ir
+2025-10-16 06:47:40,127 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/free-config
+2025-10-16 06:47:40,130 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/V2Hub3
+2025-10-16 06:47:40,139 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/V2RayAggregator
+2025-10-16 06:47:40,142 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/multi-proxy-config-fetcher
+2025-10-16 06:47:40,149 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/ScrapeAndCategorize
+2025-10-16 06:47:40,156 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/V2ray-Config
+2025-10-16 06:47:40,157 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/base64-encoder/darkvpnapp
+2025-10-16 06:47:40,159 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/10ium/base64-encoder/FreedomGuard
+2025-10-16 06:47:40,163 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/roosterkid
+2025-10-16 06:47:40,164 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/joYAQx.mcsslk.xyz
+2025-10-16 06:47:40,166 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Leon406/SubCrawler
+2025-10-16 06:47:40,178 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/shabane
+2025-10-16 06:47:40,180 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/voken100g
+2025-10-16 06:47:40,205 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/darknessm427
+2025-10-16 06:47:40,207 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/vpnclashfa-backup/Sub-Config-Extractor/darkvpn
+2025-10-16 06:47:40,209 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/vpnclashfa-backup/Sub-Config-Extractor/hamedp-71
+2025-10-16 06:47:40,212 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/vpnclashfa-backup/Sub-Config-Extractor/itsyebekhe
+2025-10-16 06:47:40,219 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/vpnclashfa-backup/Sub-Config-Extractor/maimengmeng
+2025-10-16 06:47:40,236 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/vpnclashfa-backup/MirrorMan
+2025-10-16 06:47:40,268 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/arshiacomplus
+2025-10-16 06:47:40,287 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/arshiacomplus/v2rayExtractor/mix
+2025-10-16 06:47:40,297 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/vpny.online
+2025-10-16 06:47:40,299 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Epodonios/v2ray-configs
+2025-10-16 06:47:40,304 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/MatinGhanbari/v2ray-configs
+2025-10-16 06:47:40,313 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/STR97/STRUGOV
+2025-10-16 06:47:40,314 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/NiREvil/vless
+2025-10-16 06:47:40,317 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/darkvpnapp/CloudflarePlus
+2025-10-16 06:47:40,318 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/barry-far/V2ray-config
+2025-10-16 06:47:40,324 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mahdibland/ShadowsocksAggregator
+2025-10-16 06:47:40,334 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mahdibland/SSAggregator/sub
+2025-10-16 06:47:40,339 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mahdibland/ShadowsocksAggregator/sub
+2025-10-16 06:47:40,343 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mahdibland/ShadowsocksAggregator/sub/splitted
+2025-10-16 06:47:40,350 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/F0rc3Run/F0rc3Run
+2025-10-16 06:47:40,355 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Surfboardv2ray/TGParse
+2025-10-16 06:47:40,358 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/SoliSpirit/v2ray-configs
+2025-10-16 06:47:40,364 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Mahdi0024/ProxyCollector
+2025-10-16 06:47:40,365 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/DarknessShade/Sub
+2025-10-16 06:47:40,369 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/nscl5/5
+2025-10-16 06:47:40,372 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/youfoundamin/V2rayCollector
+2025-10-16 06:47:40,378 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/itsyebekhe/PSG
+2025-10-16 06:47:40,383 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/MahsaNetConfigTopic/config
+2025-10-16 06:47:40,385 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/hamedcode/port-based-v2ray-configs
+2025-10-16 06:47:40,390 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/AzadNetCH/Clash
+2025-10-16 06:47:40,393 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/imalrzai/ExclaveVirtual
+2025-10-16 06:47:40,395 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Pawdroid/Free-servers
+2025-10-16 06:47:40,402 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/roosterkid/openproxylist
+2025-10-16 06:47:40,404 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/HosseinKoofi/GO_V2rayCollector
+2025-10-16 06:47:40,409 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/ebrasha/free-v2ray-public-list
+2025-10-16 06:47:40,414 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Argh94/V2RayAutoConfig
+2025-10-16 06:47:40,419 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Stinsonysm/GO_V2rayCollector
+2025-10-16 06:47:40,421 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/MhdiTaheri/V2rayCollector_Py
+2025-10-16 06:47:40,424 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/liketolivefree/kobabi
+2025-10-16 06:47:40,441 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/aqayerez/MatnOfficial-VPN
+2025-10-16 06:47:40,443 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/V2RAYCONFIGSPOOL/V2RAY_SUB
+2025-10-16 06:47:40,445 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/bamdad23/JavidnamanIran
+2025-10-16 06:47:40,447 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/mshojaei77/v2rayAuto
+2025-10-16 06:47:40,454 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/ndsphonemy/proxy-sub
+2025-10-16 06:47:40,457 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Mosifree/-FREE2CONFIG
+2025-10-16 06:47:40,462 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/Proxydaemitelegram/Proxydaemi44
+2025-10-16 06:47:40,464 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/MrMohebi/xray-proxy-grabber-telegram
+2025-10-16 06:47:40,471 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/barry-far/V2ray-Configs
+2025-10-16 06:47:40,473 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/amirparsaxs/Vip-s
+2025-10-16 06:47:40,475 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/rango-cfs/NewCollector
+2025-10-16 06:47:40,520 - WARNING - ⚠️ یک فایل با نام پوشه وجود دارد و حذف می‌شود: Sublist/Simple/v2.alicivil.workers.dev
+2025-10-16 06:47:40,520 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/v2.alicivil.workers.dev
+2025-10-16 06:47:40,535 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/shadowmere.xyz/api
+2025-10-16 06:47:40,537 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/openproxylist.com
+2025-10-16 06:47:40,565 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/lagzian/IranConfigCollector
+2025-10-16 06:47:40,567 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/lagzian/SS-Collector
+2025-10-16 06:47:40,568 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/lagzian/TVC
+2025-10-16 06:47:40,651 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/trojanvmess.pages.dev
+2025-10-16 06:47:40,669 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/azadnet05.pages.dev
+2025-10-16 06:47:40,681 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/V2rayCollectorForFree/F-Collector
+2025-10-16 06:47:40,683 - INFO - 📂 ساخت پوشه والد: Sublist/Simple/imanmirzadeh/v2rayng_config
+2025-10-16 06:47:40,683 - INFO - ✅ همه فایل‌های Simple ساخته شدند (600 فایل)
+2025-10-16 06:47:40,683 - INFO - ✅ تولید فایل‌های Simple تکمیل شد.
+2025-10-16 06:47:40,683 - INFO - 🛠️ شروع تولید فایل‌ها برای Complex ...
+2025-10-16 06:47:40,683 - INFO - 📂 شروع تولید فایل‌ها برای Complex (تعداد: 631)
+2025-10-16 06:47:40,685 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/chromego-sub.netlify.app/sub
+2025-10-16 06:47:40,687 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/linzjian666/chromego_extractor/outputs
+2025-10-16 06:47:40,690 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/HenryPorternew/sub
+2025-10-16 06:47:40,695 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/10ium
+2025-10-16 06:47:40,704 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/amin_o__o
+2025-10-16 06:47:40,707 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/yebekhe
+2025-10-16 06:47:40,709 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Danialsamadi
+2025-10-16 06:47:40,722 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/darkvpnapp
+2025-10-16 06:47:40,723 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/FreedomGuard
+2025-10-16 06:47:40,725 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/ebrasha
+2025-10-16 06:47:40,739 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Mosifree
+2025-10-16 06:47:40,748 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Rayan-Config
+2025-10-16 06:47:40,762 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Surfboardv2ray
+2025-10-16 06:47:40,775 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/freedomnet25500
+2025-10-16 06:47:40,778 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/hamedp-71
+2025-10-16 06:47:40,781 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/iPsycho1
+2025-10-16 06:47:40,791 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/ndsphonemy
+2025-10-16 06:47:40,805 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/rb360full_Reza
+2025-10-16 06:47:40,810 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/roosterkid
+2025-10-16 06:47:40,811 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/shabane
+2025-10-16 06:47:40,821 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/10ium/base64-encoder
+2025-10-16 06:47:40,920 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/ndsphonemy/proxy-sub
+2025-10-16 06:47:40,934 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/voken100g
+2025-10-16 06:47:40,945 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Barabama
+2025-10-16 06:47:40,964 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/darknessm427
+2025-10-16 06:47:40,966 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/darkvpn
+2025-10-16 06:47:40,982 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/itsyebekhe
+2025-10-16 06:47:40,988 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/lagzian
+2025-10-16 06:47:40,999 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/maimengmeng
+2025-10-16 06:47:41,006 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/moneyfly1
+2025-10-16 06:47:41,012 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/peasoft.list
+2025-10-16 06:47:41,022 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/ronghuaxueleng
+2025-10-16 06:47:41,030 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/snakem982-clash
+2025-10-16 06:47:41,292 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/arshiacomplus
+2025-10-16 06:47:41,309 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/arshiacomplus/v2rayExtractor/mix
+2025-10-16 06:47:41,318 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/vpny.online
+2025-10-16 06:47:41,320 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Epodonios/v2ray-configs
+2025-10-16 06:47:41,325 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/MatinGhanbari/v2ray-configs
+2025-10-16 06:47:41,333 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/STR97/STRUGOV
+2025-10-16 06:47:41,334 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/NiREvil/vless
+2025-10-16 06:47:41,336 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/darkvpnapp/CloudflarePlus
+2025-10-16 06:47:41,338 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/mahdibland/ShadowsocksAggregator
+2025-10-16 06:47:41,347 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/mahdibland/SSAggregator/sub
+2025-10-16 06:47:41,352 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/mahdibland/ShadowsocksAggregator/sub
+2025-10-16 06:47:41,355 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/mahdibland/ShadowsocksAggregator/sub/splitted
+2025-10-16 06:47:41,362 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/F0rc3Run/F0rc3Run
+2025-10-16 06:47:41,366 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Surfboardv2ray/TGParse
+2025-10-16 06:47:41,370 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/SoliSpirit/v2ray-configs
+2025-10-16 06:47:41,374 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Mahdi0024/ProxyCollector
+2025-10-16 06:47:41,376 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/10ium/free-config
+2025-10-16 06:47:41,378 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/DarknessShade/Sub
+2025-10-16 06:47:41,381 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/nscl5/5
+2025-10-16 06:47:41,384 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/youfoundamin/V2rayCollector
+2025-10-16 06:47:41,389 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/itsyebekhe/PSG
+2025-10-16 06:47:41,394 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/lagzian/IranConfigCollector
+2025-10-16 06:47:41,395 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/lagzian/SS-Collector
+2025-10-16 06:47:41,397 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/MahsaNetConfigTopic/config
+2025-10-16 06:47:41,399 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/hamedcode/port-based-v2ray-configs
+2025-10-16 06:47:41,403 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/AzadNetCH/Clash
+2025-10-16 06:47:41,405 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Leon406/SubCrawler
+2025-10-16 06:47:41,407 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/imalrzai/ExclaveVirtual
+2025-10-16 06:47:41,408 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Pawdroid/Free-servers
+2025-10-16 06:47:41,415 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/roosterkid/openproxylist
+2025-10-16 06:47:41,416 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/HosseinKoofi/GO_V2rayCollector
+2025-10-16 06:47:41,421 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/ebrasha/free-v2ray-public-list
+2025-10-16 06:47:41,426 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Argh94/V2RayAutoConfig
+2025-10-16 06:47:41,431 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Stinsonysm/GO_V2rayCollector
+2025-10-16 06:47:41,432 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/MhdiTaheri/V2rayCollector_Py
+2025-10-16 06:47:41,436 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/liketolivefree/kobabi
+2025-10-16 06:47:41,439 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/10ium/ScrapeAndCategorize
+2025-10-16 06:47:41,440 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/10ium/V2ray-Config
+2025-10-16 06:47:41,442 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/10ium/V2Hub3
+2025-10-16 06:47:41,455 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/aqayerez/MatnOfficial-VPN
+2025-10-16 06:47:41,456 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/V2RAYCONFIGSPOOL/V2RAY_SUB
+2025-10-16 06:47:41,458 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/bamdad23/JavidnamanIran
+2025-10-16 06:47:41,460 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/mshojaei77/v2rayAuto
+2025-10-16 06:47:41,466 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Mosifree/-FREE2CONFIG
+2025-10-16 06:47:41,471 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/Proxydaemitelegram/Proxydaemi44
+2025-10-16 06:47:41,472 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/MrMohebi/xray-proxy-grabber-telegram
+2025-10-16 06:47:41,474 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/amirparsaxs/Vip-s
+2025-10-16 06:47:41,510 - WARNING - ⚠️ یک فایل با نام پوشه وجود دارد و حذف می‌شود: Sublist/Complex/v2.alicivil.workers.dev
+2025-10-16 06:47:41,510 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/v2.alicivil.workers.dev
+2025-10-16 06:47:41,520 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/shadowmere.xyz/api
+2025-10-16 06:47:41,522 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/openproxylist.com
+2025-10-16 06:47:41,608 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/barry-far/V2ray-config
+2025-10-16 06:47:41,624 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/barry-far/V2ray-Configs
+2025-10-16 06:47:41,654 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/trojanvmess.pages.dev
+2025-10-16 06:47:41,663 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/azadnet05.pages.dev
+2025-10-16 06:47:41,666 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/rango-cfs/NewCollector
+2025-10-16 06:47:41,676 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/V2rayCollectorForFree/F-Collector
+2025-10-16 06:47:41,678 - INFO - 📂 ساخت پوشه والد: Sublist/Complex/imanmirzadeh/v2rayng_config
+2025-10-16 06:47:41,678 - INFO - ✅ همه فایل‌های Complex ساخته شدند (631 فایل)
+2025-10-16 06:47:41,678 - INFO - ✅ تولید فایل‌های Complex تکمیل شد.
+2025-10-16 06:47:41,678 - INFO - 💾 در حال ذخیره لیست پردازش‌شده Complex ...
+2025-10-16 06:47:41,679 - INFO - ✅ فایل Complex_Processed_URLs.txt ساخته شد (631 URL)
+2025-10-16 06:47:41,679 - INFO - ✅ لیست Complex ذخیره شد.
+2025-10-16 06:47:41,679 - INFO - 📄 شروع تولید README.md ...
+2025-10-16 06:47:41,679 - INFO - 📝 شروع تولید README.md ...
+2025-10-16 06:47:41,679 - INFO - 📂 شروع ساخت دیکشنری‌ها از ورودی‌ها ...
+2025-10-16 06:47:41,679 - INFO - ✅ دیکشنری Simple ساخته شد (تعداد: 14)
+2025-10-16 06:47:41,679 - INFO - ✅ دیکشنری Complex ساخته شد (تعداد: 15)
+2025-10-16 06:47:41,679 - INFO - 📂 شروع جستجوی فایل‌ها در پوشه: Sublist/Simple
+2025-10-16 06:47:41,693 - INFO - ✅ تعداد کل فایل‌های پیدا شده در Sublist/Simple: 474
+2025-10-16 06:47:41,693 - INFO - 📂 شروع جستجوی فایل‌ها در پوشه: Sublist/Complex
+2025-10-16 06:47:41,699 - INFO - ✅ تعداد کل فایل‌های پیدا شده در Sublist/Complex: 302
+2025-10-16 06:47:41,699 - INFO - 🔹 فایل‌های موجود در Simple: 474
+2025-10-16 06:47:41,699 - INFO - 🔹 فایل‌های موجود در Complex: 302
+2025-10-16 06:47:41,699 - INFO - 🔎 تعداد کل فایل‌ها (یونیون Simple و Complex): 595
+2025-10-16 06:47:41,701 - INFO - 🔗 تعداد فایل‌های مشترک (Simple ↔ Complex): 181
+2025-10-16 06:47:41,705 - INFO - ✅ README.md ساخته شد (600 Simple, 631 Complex)
+2025-10-16 06:47:41,705 - INFO - ✅ README.md ساخته شد.
+2025-10-16 06:47:41,705 - INFO - 🎉 پردازش کامل شد: همه فایل‌ها و README ساخته شدند
+2025-10-16 06:47:41,705 - INFO - ✅ پردازش با موفقیت انجام شد!
+2025-10-16 06:47:41,705 - INFO - ⏱️ مدت زمان اجرای کل اسکریپت: 2.09 ثانیه
+2025-10-16 06:47:41,705 - INFO - 🏁 پایان اجرای اسکریپت
