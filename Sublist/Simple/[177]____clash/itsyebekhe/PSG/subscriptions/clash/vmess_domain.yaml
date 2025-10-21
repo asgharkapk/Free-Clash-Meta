@@ -1074,6 +1074,21 @@ proxy-groups:
       - 🏁Countries
       - 🩸Drop
       - ⛓️‍💥SkipRules
+  - name: 👧BPSR.exe🎯
+    type: select
+    #icon: https://www.svgrepo.com/show/331337/cloudflare.svg
+    proxies:
+      - 🌐Proxy
+      - 🔓Direct
+      - ⛔Block
+      - ⤵️FirstPing
+      - 🦽Manual
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
+      - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: ☁️Cloudflare🎯
     type: select
     icon: https://www.svgrepo.com/show/331337/cloudflare.svg
@@ -1678,8 +1693,8 @@ proxy-groups:
     type: select
     #icon 
     proxies:
-      - 🌐Proxy
       - 🔓Direct
+      - 🌐Proxy
       - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
@@ -2876,6 +2891,51 @@ rules:
   - RULE-SET,phishing,🦠SECURITY
   - RULE-SET,warninglist,🦠SECURITY
   - RULE-SET,Ponzi,🦠SECURITY
+  - PROCESS-NAME,BPSR_STEAM.exe,👧BPSR.exe🎯
+  - PROCESS-NAME,FortniteClient-Win64-Shipping.exe,🔫Fortnite.exe🎯
+  - PROCESS-NAME,GTA5.exe,🚗GTAV.exe🎯
+  - PROCESS-NAME,cod.exe,🔫CODWarzone.exe🎯
+  - PROCESS-NAME,BlackOpsColdWar.exe,🧨CODColdWar.exe🎯
+  - PROCESS-NAME,ModernWarfare.exe,🔫CODModernWarfare.exe🎯
+  - PROCESS-NAME,r5apex.exe,🏹ApexLegends.exe🎯
+  - PROCESS-NAME,VALORANT-Win64-Shipping.exe,🎯Valorant.exe🎯
+  - PROCESS-NAME,cs2.exe,🔫CS2.exe🎯
+  - PROCESS-NAME,csgo.exe,🕹️CSGO.exe🎯
+  - PROCESS-NAME,Overwatch.exe,🎮Overwatch2.exe🎯
+  - PROCESS-NAME,League of Legends.exe,🧙LeagueLoL.exe🎯
+  - PROCESS-NAME,Smite.exe,⚔️Smite.exe🎯
+  - PROCESS-NAME,ForzaHorizon5.exe,🏁ForzaHorizon5.exe🎯
+  - PROCESS-NAME,ForzaMotorsport.exe,🏎️ForzaMotorsport.exe🎯
+  - PROCESS-NAME,NFSHeat.exe,🚗NFSHeat.exe🎯
+  - PROCESS-NAME,NeedForSpeedUnbound.exe,🚗NFSUnbound.exe🎯
+  - PROCESS-NAME,F1_23.exe,🏎️F1-23.exe🎯
+  - PROCESS-NAME,eldenring.exe,🛡️EldenRing.exe🎯
+  - PROCESS-NAME,witcher3.exe,🐺Witcher3.exe🎯
+  - PROCESS-NAME,Cyberpunk2077.exe,🤖Cyberpunk2077.exe🎯
+  - PROCESS-NAME,SkyrimSE.exe,🐉SkyrimSE.exe🎯
+  - PROCESS-NAME,Fallout4.exe,☢️Fallout4.exe🎯
+  - PROCESS-NAME,Starfield.exe,🚀Starfield.exe🎯
+  - PROCESS-NAME,GenshinImpact.exe,🌌Genshin.exe🎯
+  - PROCESS-NAME,EASFC24.exe,⚽FIFA.exe🎯
+  - PROCESS-NAME,eFootball.exe,⚽eFootball.exe🎯
+  - PROCESS-NAME,TS4_x64.exe,🏡TheSims4.exe🎯
+  - PROCESS-NAME,javaw.exe,🧱MinecraftJava.exe🎯
+  - PROCESS-NAME,Minecraft.Windows.exe,🧱MinecraftBedrock.exe🎯
+  - PROCESS-NAME,RainbowSix.exe,🔫Rainbow6.exe🎯
+  - PROCESS-NAME,EscapeFromTarkov.exe,🔫Tarkov.exe🎯
+  - PROCESS-NAME,BF2042.exe,🛩️BF2042.exe🎯
+  - PROCESS-NAME,bfv.exe,🛩️BFV.exe🎯
+  - PROCESS-NAME,bf1.exe,🛩️BF1.exe🎯
+  - PROCESS-NAME,re4.exe,👻RE4.exe🎯
+  - PROCESS-NAME,re8.exe,🏰REVillage.exe🎯
+  - PROCESS-NAME,DeadByDaylight.exe,🧟DeadByDaylight.exe🎯
+  - PROCESS-NAME,tlou-i.exe,🧟TLouPC.exe🎯
+  - PROCESS-NAME,ShooterGame.exe,🦖ARK.exe🎯
+  - PROCESS-NAME,DayZ_x64.exe,🌄DayZ.exe🎯
+  - PROCESS-NAME,RDR2.exe,🏙️RDR2.exe🎯
+  - PROCESS-NAME,ACValhalla.exe,🛡️ACValhalla.exe🎯
+  - PROCESS-NAME,ACOdyssey.exe,🗡️ACOdyssey.exe🎯
+  - PROCESS-NAME,ACMirage.exe,🪓ACMirage.exe🎯
   - PROCESS-NAME,dota2.exe,🎮Dota2.exe🎯
   - PROCESS-NAME,steam.exe,🚂Steam.exe🎯
   - PROCESS-NAME,steamwebhelper.exe,🚂Steam.exe🎯
@@ -2941,12 +3001,6 @@ rules:
   - RULE-SET,Domtwitter,🐦Twitter🎯
   - DOMAIN-SUFFIX,grok.com,🤖Grok🎯
   - DOMAIN-SUFFIX,x.ai,🤖Grok🎯
-  - DOMAIN-SUFFIX,steampowered.com,🚂Steam🎯
-  - DOMAIN-SUFFIX,steamcommunity.com,🚂Steam🎯
-  - DOMAIN-SUFFIX,steamstatic.com,🚂Steam🎯
-  - RULE-SET,ACLsteam,🚂Steam🎯
-  - RULE-SET,steam,🚂Steam🎯
-  - RULE-SET,SteamRegionCheck,🚂Steam🎯
   - RULE-SET,ACLtwitch,👾Twitch🎯
   - RULE-SET,twitch,👾Twitch🎯
   - GEOSITE,cloudflare,☁️Cloudflare🎯
@@ -2967,8 +3021,6 @@ rules:
   - RULE-SET,mihspotify,🎶Spotify🎯
   - RULE-SET,TikTok,🎬TikTok🎯
   - GEOSITE,linkedin,💼LinkedIn🎯
-  - RULE-SET,Dota2,🎮Dota2🎯
-  - DOMAIN-SUFFIX,dota2.com,🎮Dota2🎯
   - DOMAIN-SUFFIX,deepseek.com,🤖AI🎯
   - DOMAIN-SUFFIX,qwen.ai,🤖AI🎯
   - RULE-SET,category-ai,🤖AI🎯
@@ -2986,6 +3038,14 @@ rules:
   - PROCESS-NAME,WhatsApp.exe,💬Whatsapp🎯
   - RULE-SET,whatsapp,💬Whatsapp🎯
   - RULE-SET,windows,🪟Windows🎯
+  - RULE-SET,Dota2,🎮Dota2🎯
+  - DOMAIN-SUFFIX,dota2.com,🎮Dota2🎯
+  - DOMAIN-SUFFIX,steampowered.com,🚂Steam🎯
+  - DOMAIN-SUFFIX,steamcommunity.com,🚂Steam🎯
+  - DOMAIN-SUFFIX,steamstatic.com,🚂Steam🎯
+  - RULE-SET,ACLsteam,🚂Steam🎯
+  - RULE-SET,steam,🚂Steam🎯
+  - RULE-SET,SteamRegionCheck,🚂Steam🎯
   - GEOSITE,category-ir,🇮🇷IranWebsites
   - RULE-SET,apps,🇮🇷IranWebsites
   - RULE-SET,category_ir,🇮🇷IranWebsites
@@ -3014,50 +3074,6 @@ rules:
   - PROCESS-NAME,com.android.chrome,©️Chrome.exe🎯
   - PROCESS-NAME,opera.exe,⭕Opera.exe🎯
   - PROCESS-NAME,opera_crashreporter.exe,⭕Opera.exe🎯
-  - PROCESS-NAME,FortniteClient-Win64-Shipping.exe,🔫Fortnite.exe🎯
-  - PROCESS-NAME,GTA5.exe,🚗GTAV.exe🎯
-  - PROCESS-NAME,cod.exe,🔫CODWarzone.exe🎯
-  - PROCESS-NAME,BlackOpsColdWar.exe,🧨CODColdWar.exe🎯
-  - PROCESS-NAME,ModernWarfare.exe,🔫CODModernWarfare.exe🎯
-  - PROCESS-NAME,r5apex.exe,🏹ApexLegends.exe🎯
-  - PROCESS-NAME,VALORANT-Win64-Shipping.exe,🎯Valorant.exe🎯
-  - PROCESS-NAME,cs2.exe,🔫CS2.exe🎯
-  - PROCESS-NAME,csgo.exe,🕹️CSGO.exe🎯
-  - PROCESS-NAME,Overwatch.exe,🎮Overwatch2.exe🎯
-  - PROCESS-NAME,League of Legends.exe,🧙LeagueLoL.exe🎯
-  - PROCESS-NAME,Smite.exe,⚔️Smite.exe🎯
-  - PROCESS-NAME,ForzaHorizon5.exe,🏁ForzaHorizon5.exe🎯
-  - PROCESS-NAME,ForzaMotorsport.exe,🏎️ForzaMotorsport.exe🎯
-  - PROCESS-NAME,NFSHeat.exe,🚗NFSHeat.exe🎯
-  - PROCESS-NAME,NeedForSpeedUnbound.exe,🚗NFSUnbound.exe🎯
-  - PROCESS-NAME,F1_23.exe,🏎️F1-23.exe🎯
-  - PROCESS-NAME,eldenring.exe,🛡️EldenRing.exe🎯
-  - PROCESS-NAME,witcher3.exe,🐺Witcher3.exe🎯
-  - PROCESS-NAME,Cyberpunk2077.exe,🤖Cyberpunk2077.exe🎯
-  - PROCESS-NAME,SkyrimSE.exe,🐉SkyrimSE.exe🎯
-  - PROCESS-NAME,Fallout4.exe,☢️Fallout4.exe🎯
-  - PROCESS-NAME,Starfield.exe,🚀Starfield.exe🎯
-  - PROCESS-NAME,GenshinImpact.exe,🌌Genshin.exe🎯
-  - PROCESS-NAME,EASFC24.exe,⚽FIFA.exe🎯
-  - PROCESS-NAME,eFootball.exe,⚽eFootball.exe🎯
-  - PROCESS-NAME,TS4_x64.exe,🏡TheSims4.exe🎯
-  - PROCESS-NAME,javaw.exe,🧱MinecraftJava.exe🎯
-  - PROCESS-NAME,Minecraft.Windows.exe,🧱MinecraftBedrock.exe🎯
-  - PROCESS-NAME,RainbowSix.exe,🔫Rainbow6.exe🎯
-  - PROCESS-NAME,EscapeFromTarkov.exe,🔫Tarkov.exe🎯
-  - PROCESS-NAME,BF2042.exe,🛩️BF2042.exe🎯
-  - PROCESS-NAME,bfv.exe,🛩️BFV.exe🎯
-  - PROCESS-NAME,bf1.exe,🛩️BF1.exe🎯
-  - PROCESS-NAME,re4.exe,👻RE4.exe🎯
-  - PROCESS-NAME,re8.exe,🏰REVillage.exe🎯
-  - PROCESS-NAME,DeadByDaylight.exe,🧟DeadByDaylight.exe🎯
-  - PROCESS-NAME,tlou-i.exe,🧟TLouPC.exe🎯
-  - PROCESS-NAME,ShooterGame.exe,🦖ARK.exe🎯
-  - PROCESS-NAME,DayZ_x64.exe,🌄DayZ.exe🎯
-  - PROCESS-NAME,RDR2.exe,🏙️RDR2.exe🎯
-  - PROCESS-NAME,ACValhalla.exe,🛡️ACValhalla.exe🎯
-  - PROCESS-NAME,ACOdyssey.exe,🗡️ACOdyssey.exe🎯
-  - PROCESS-NAME,ACMirage.exe,🪓ACMirage.exe🎯
   - GEOSITE,google,📱Google🎯
   - RULE-SET,ACLgoogle,📱Google🎯
   - RULE-SET,google,📱Google🎯
