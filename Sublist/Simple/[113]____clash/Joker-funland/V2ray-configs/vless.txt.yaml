@@ -2999,8 +2999,6 @@ rules:
   - RULE-SET,parspack,🇮🇷IranWebsites
   - GEOIP,IR,🇮🇷IranWebsites
   - GEOSITE,private,🖥️Lan
-  - IP-CIDR,10.10.34.0/24,🖥️Lan
-  - RULE-SET,local_ips,🖥️Lan
   - RULE-SET,C4Uprivate,🖥️Lan
   - RULE-SET,private,🖥️Lan
   - PROCESS-NAME,obs64.exe,🎦OBS.exe🎯
