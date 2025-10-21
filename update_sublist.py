@@ -119,6 +119,7 @@ class ConfigProcessor:
             "# 📂 لیست کانفیگ‌های کلش متا",
             "### با قوانین مخصوص ایران\n",
             "**فایل‌های پیکربندی آماده استفاده:**\n",
+            "- لینک های Processed با کمک subconverter خارجی تولید شده اند\n",
             ""
         ]
     
@@ -171,8 +172,8 @@ class ConfigProcessor:
         logging.info("🔗 تعداد فایل‌های مشترک (Simple ↔ Complex): %d", len(paired_files))
 
         if paired_files:
-            md_content.append("## 🔗 لینک‌ها (Simple ↔ Complex)\n")
-            md_content.append("| Simple | Complex |")
+            md_content.append("## 🔗 لینک‌ها (Simple ↔ Processed)\n")
+            md_content.append("| Simple | Processed |")
             md_content.append("|--------|---------|")
     
             for idx, filename in enumerate(paired_files):
@@ -195,7 +196,7 @@ class ConfigProcessor:
         # ۳. فایل‌های یکتا در Complex
         unique_complex = [fn for fn in complex_files if fn not in simple_files]
         if unique_complex:
-            md_content.append("\n## 🔹 فقط Complex\n")
+            md_content.append("\n## 🔹 فقط Processed\n")
             for idx, filename in enumerate(unique_complex):
                 emoji = emojis[idx % len(emojis)]
                 c_file_url = f"{self.base_url}Complex/{urllib.parse.quote(filename)}"
