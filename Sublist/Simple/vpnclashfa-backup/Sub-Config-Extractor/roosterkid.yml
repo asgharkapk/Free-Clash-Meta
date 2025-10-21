@@ -1074,6 +1074,21 @@ proxy-groups:
       - 🏁Countries
       - 🩸Drop
       - ⛓️‍💥SkipRules
+  - name: 🔫CS2.exe🎯
+    type: select
+    #icon 
+    proxies:
+      - 🔓Direct
+      - 🌐Proxy
+      - ⛔Block
+      - ⤵️FirstPing
+      - 🦽Manual
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
+      - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 👧BPSR.exe🎯
     type: select
     #icon: https://www.svgrepo.com/show/331337/cloudflare.svg
@@ -1680,21 +1695,6 @@ proxy-groups:
     proxies:
       - 🌐Proxy
       - 🔓Direct
-      - ⛔Block
-      - ⤵️FirstPing
-      - 🦽Manual
-      - 🔐consistent-hashing       
-      - 🔃round-robin       
-      - 🕎sticky-sessions
-      - 🏁Countries
-      - 🩸Drop
-      - ⛓️‍💥SkipRules
-  - name: 🔫CS2.exe🎯
-    type: select
-    #icon 
-    proxies:
-      - 🔓Direct
-      - 🌐Proxy
       - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
