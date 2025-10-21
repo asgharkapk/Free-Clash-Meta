@@ -2315,6 +2315,7 @@ proxy-groups:
       - 🏹ApexLegends.exe🎯
       - 🎯Valorant.exe🎯
       - 🔫CS2.exe🎯
+      - 👧BPSR.exe🎯
       - 🕹️CSGO.exe🎯
       - 🎮Overwatch2.exe🎯
       - 🧙LeagueLoL.exe🎯
