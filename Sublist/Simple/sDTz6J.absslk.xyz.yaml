@@ -691,7 +691,7 @@ proxy-providers:
       https://sDTz6J.absslk.xyz/3e1fc97dfeebc0778a6176c1742d06de
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_sDTz6J.absslk.xyz.yaml_310.yml
+    path: ./FCM_Simple_sDTz6J.absslk.xyz.yaml_340.yml
 
 proxies:
 - name: "dns-out"

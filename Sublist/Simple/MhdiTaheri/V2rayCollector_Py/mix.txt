@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector_Py/refs/heads/main/sub/Mix/mix.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_MhdiTaheri/V2rayCollector_Py/mix.txt_561.yml
+    path: ./FCM_Simple_MhdiTaheri/V2rayCollector_Py/mix.txt_591.yml
 
 proxies:
 - name: "dns-out"

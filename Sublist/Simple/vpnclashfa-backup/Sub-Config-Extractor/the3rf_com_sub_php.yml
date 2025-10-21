@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/vpnclashfa-backup/Sub-Config-Extractor/refs/heads/main/output_configs/clash/the3rf_com_sub_php.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_vpnclashfa-backup/Sub-Config-Extractor/the3rf_com_sub_php_342.yml
+    path: ./FCM_Simple_vpnclashfa-backup/Sub-Config-Extractor/the3rf_com_sub_php_372.yml
 
 proxies:
 - name: "dns-out"

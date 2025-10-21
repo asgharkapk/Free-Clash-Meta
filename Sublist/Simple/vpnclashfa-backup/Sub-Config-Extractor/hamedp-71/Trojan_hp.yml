@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/vpnclashfa-backup/Sub-Config-Extractor/refs/heads/main/output_configs/clash/hamedp-71_Trojan_hp.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_vpnclashfa-backup/Sub-Config-Extractor/hamedp-71/Trojan_hp_330.yml
+    path: ./FCM_Simple_vpnclashfa-backup/Sub-Config-Extractor/hamedp-71/Trojan_hp_360.yml
 
 proxies:
 - name: "dns-out"

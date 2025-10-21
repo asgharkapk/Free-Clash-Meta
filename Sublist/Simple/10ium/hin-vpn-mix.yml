@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/base64/mix
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/hin-vpn-mix_289.yml
+    path: ./FCM_Simple_10ium/hin-vpn-mix_319.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://v2.alicivil.workers.dev/?list=us&count=300&shuffle=true&unique=false
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_v2.alicivil.workers.dev/list_509.yml
+    path: ./FCM_Simple_v2.alicivil.workers.dev/list_539.yml
 
 proxies:
 - name: "dns-out"

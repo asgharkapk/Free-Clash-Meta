@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/refs/heads/main/encoded/Mosifree_Vmess
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/base64-encoder/Mosifree/Vmess_249.yml
+    path: ./FCM_Simple_10ium/base64-encoder/Mosifree/Vmess_279.yml
 
 proxies:
 - name: "dns-out"

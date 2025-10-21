@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Surfboardv2ray_bugfix.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/base64-encoder/Surfboardv2ray/bugfix_252.yml
+    path: ./FCM_Simple_10ium/base64-encoder/Surfboardv2ray/bugfix_282.yml
 
 proxies:
 - name: "dns-out"

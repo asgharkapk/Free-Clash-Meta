@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/linzjian666/chromego_extractor/main/outputs/clash_meta_warp.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_linzjian666/chromego_extractor/outputs/clash_meta_warp.yaml_184.yml
+    path: ./FCM_Simple_linzjian666/chromego_extractor/outputs/clash_meta_warp.yaml_214.yml
 
 proxies:
 - name: "dns-out"

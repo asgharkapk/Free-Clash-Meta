@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/hamedp-71/N_warp/refs/heads/main/HP.yaml
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_hamedp-71/N_warp.yaml_353.yml
+    path: ./FCM_Simple_hamedp-71/N_warp.yaml_383.yml
 
 proxies:
 - name: "dns-out"

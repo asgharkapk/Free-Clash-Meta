@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/HenryPorternew/sub/refs/heads/main/base64.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_HenryPorternew/sub/base64.txt_186.yml
+    path: ./FCM_Simple_HenryPorternew/sub/base64.txt_216.yml
 
 proxies:
 - name: "dns-out"

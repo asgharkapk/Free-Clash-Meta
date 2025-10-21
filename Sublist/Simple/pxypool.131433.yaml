@@ -691,7 +691,7 @@ proxy-providers:
       https://pxypool.131433.xyz/clash/proxies
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_pxypool.131433.yaml_220.yml
+    path: ./FCM_Simple_pxypool.131433.yaml_250.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_mahdibland/SSAggregator/sub/sub_merge_base64.txt_402.yml
+    path: ./FCM_Simple_mahdibland/SSAggregator/sub/sub_merge_base64.txt_432.yml
 
 proxies:
 - name: "dns-out"

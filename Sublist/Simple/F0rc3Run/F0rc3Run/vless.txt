@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/splitted-by-protocol/vless.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_F0rc3Run/F0rc3Run/vless.txt_511.yml
+    path: ./FCM_Simple_F0rc3Run/F0rc3Run/vless.txt_541.yml
 
 proxies:
 - name: "dns-out"

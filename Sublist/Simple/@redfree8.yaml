@@ -691,7 +691,7 @@ proxy-providers:
       https://shadowmere.xyz/api/b64sub/#@redfree8
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_@redfree8.yaml_231.yml
+    path: ./FCM_Simple_@redfree8.yaml_261.yml
 
 proxies:
 - name: "dns-out"

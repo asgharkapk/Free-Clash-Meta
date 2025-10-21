@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/ScrapeAndCategorize/refs/heads/main/output_configs/Trojan.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/ScrapeAndCategorize/Trojan_297.yml
+    path: ./FCM_Simple_10ium/ScrapeAndCategorize/Trojan_327.yml
 
 proxies:
 - name: "dns-out"

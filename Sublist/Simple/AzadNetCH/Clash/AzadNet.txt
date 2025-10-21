@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_AzadNetCH/Clash/AzadNet.txt_543.yml
+    path: ./FCM_Simple_AzadNetCH/Clash/AzadNet.txt_573.yml
 
 proxies:
 - name: "dns-out"

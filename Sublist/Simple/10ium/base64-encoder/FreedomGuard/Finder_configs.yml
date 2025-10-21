@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Freedom-Guard_Finder_configs.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/base64-encoder/FreedomGuard/Finder_configs_300.yml
+    path: ./FCM_Simple_10ium/base64-encoder/FreedomGuard/Finder_configs_330.yml
 
 proxies:
 - name: "dns-out"

@@ -691,7 +691,7 @@ proxy-providers:
       https://azadnet05.pages.dev/sub/4d794980-54c0-4fcb-8def-c2beaecadbad#EN-Normal
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_azadnet05.pages.dev/sub_592.yml
+    path: ./FCM_Simple_azadnet05.pages.dev/sub_622.yml
 
 proxies:
 - name: "dns-out"

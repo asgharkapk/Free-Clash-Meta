@@ -691,7 +691,7 @@ proxy-providers:
       https://sub.bitplatform.workers.dev/pub
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_amin_o__o/bitplatform.yaml_227.yml
+    path: ./FCM_Simple_amin_o__o/bitplatform.yaml_257.yml
 
 proxies:
 - name: "dns-out"

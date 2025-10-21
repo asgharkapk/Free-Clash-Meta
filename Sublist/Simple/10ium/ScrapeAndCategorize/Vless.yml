@@ -691,7 +691,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/ScrapeAndCategorize/refs/heads/main/output_configs/Vless.txt
     interval: 7200
     include-all: true
-    path: ./FCM_Simple_10ium/ScrapeAndCategorize/Vless_295.yml
+    path: ./FCM_Simple_10ium/ScrapeAndCategorize/Vless_325.yml
 
 proxies:
 - name: "dns-out"
