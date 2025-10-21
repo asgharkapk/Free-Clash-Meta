@@ -214,7 +214,7 @@ rule-providers:
   ACLyoutube:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/YouTube.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/YouTube.yaml
     interval: 86400
     path: ./ruleset/ACLyoutube.yaml
   telegram:
@@ -565,121 +565,121 @@ rule-providers:
   IranAds:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/IranAds.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/IranAds.yaml
     interval: 86400
     path: ./ruleset/IranAds.yaml
   ACLgoogle:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/google.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/google.yaml
     interval: 86400
     path: ./ruleset/ACLgoogle.yaml
   reddit:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/reddit.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/reddit.yaml
     interval: 86400
     path: ./ruleset/reddit.yaml
   ACLtelegram:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/telegram.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/telegram.yaml
     interval: 86400
     path: ./ruleset/ACLtelegram.yaml
   openai:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/OpenAi.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/OpenAi.yaml
     interval: 86400
     path: ./ruleset/openai.yaml
   ACLTwitter:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/Twitter.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/Twitter.yaml
     interval: 86400
     path: ./ruleset/ACLTwitter.yaml
   ACLdiscord:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/discord.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/discord.yaml
     interval: 86400
     path: ./ruleset/ACLdiscord.yaml
   ACLsteam:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/steam.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/steam.yaml
     interval: 86400
     path: ./ruleset/ACLsteam.yaml
   ACLtwitch:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/twitch.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/twitch.yaml
     interval: 86400
     path: ./ruleset/ACLtwitch.yaml
   ACLinsta:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/Instagram.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/Instagram.yaml
     interval: 86400
     path: ./ruleset/ACLinsta.yaml
   facebook:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/facebook.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/facebook.yaml
     interval: 86400
     path: ./ruleset/facebook.yaml
   Netflix:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/Netflix.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/Netflix.yaml
     interval: 86400
     path: ./ruleset/Netflix.yaml
   NetflixIP:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/NetflixIP.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/NetflixIP.yaml
     interval: 86400
     path: ./ruleset/NetflixIP.yaml
   ACLSpotify:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/Spotify.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/Spotify.yaml
     interval: 86400
     path: ./ruleset/ACLSpotify.yaml
   TikTok:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/TikTok.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/TikTok.yaml
     interval: 86400
     path: ./ruleset/TikTok.yaml
   Dota2:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/Dota2.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/Dota2.yaml
     interval: 86400
     path: ./ruleset/Dota2.yaml
   BanEasyListChina:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/BanEasyListChina.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/BanEasyListChina.yaml
     interval: 86400
     path: ./ruleset/BanEasyListChina.yaml
   ACLBanEasyList:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/BanEasyList.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/BanEasyList.yaml
     interval: 86400
     path: ./ruleset/ACLBanEasyList.yaml
   ACLBanAD:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/BanAD.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/BanAD.yaml
     interval: 86400
     path: ./ruleset/ACLBanAD.yaml
   BanEasyPrivacy:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/BanEasyPrivacy.yaml
+    url: https://raw.githubusercontent.com/asgharkapk/IranACL/refs/heads/main/Rulests/IRANyml/BanEasyPrivacy.yaml
     interval: 86400
     path: ./ruleset/BanEasyPrivacy.yaml
 
