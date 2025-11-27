@@ -54,100 +54,18 @@ dns:
   default-nameserver:
     - 8.8.8.8
     - 8.8.4.4
-    - 1.0.0.1
-    - 1.1.1.1
-    - 9.9.9.9
-    - 9.9.9.11
-    - 9.9.9.10
-    - 149.112.112.112
-    - 94.140.14.15
-    - 94.140.15.15
-    - 223.5.5.5
-    - 77.88.8.8
-    - 78.157.42.100
-    - 78.157.42.101
-    - 2.188.21.42
-    - 2.188.21.50
-    - 2.188.21.140
-    - 2.188.21.20
-    - 217.218.127.127
-    - 217.218.155.155
-    - 37.10.67.10
-    - 37.10.67.11
-    - 77.77.77.77
-    - 77.77.77.78
-    - 4.2.2.1
-    - 4.2.2.2
-    - 209.244.0.3
-    - 209.244.0.4
   nameserver:
-    - https://sky.rethinkdns.com/1:-J8AGH8C7_2-___f3_vZ3f_z-f9KagBI
-    - tls://1-7cpqagd7alx73px777p5766z3x77h6p7jjvaasa.max.rethinkdns.com
-    - 1.0.0.1
-    - 1.0.0.2
     - 1.1.1.1
-    - 1.1.1.2
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
-    - 2606:4700:4700::1002
-    - 2606:4700:4700::1112
-    - https://cloudflare-dns.com/dns-query
-    - tls://one.one.one.one
-    - one.one.one.one
-    - security.cloudflare-dns.com
-    - https://security.cloudflare-dns.com/dns-query
-    - tls://security.cloudflare-dns.com
-    - 208.67.222.222
-    - 208.67.220.220
-    - 208.67.222.220
-    - 208.67.220.222
-    - 2620:119:35::35
-    - 2620:119:53::53
-    - https://doh.opendns.com/dns-query
-    - https://dns.opendns.com/dns-query
-    - tls://dns.opendns.com
-    - resolver1.opendns.com
-    - tls://dns.umbrella.com
-    - 4.2.2.1
-    - 4.2.2.2
-    - 4.2.2.3
-    - 4.2.2.4
-    - 4.2.2.5
-    - 4.2.2.6
-    - 209.244.0.3
-    - 209.244.0.4
-    - 4.4.4.4
-    - resolver1.level3.net
+    - 1.0.0.1
   direct-nameserver:
     - 1.1.1.1
     - 8.8.8.8
-    - 2.188.21.42
-    - 2.188.21.50
-    - 2.188.21.140
-    - 2.188.21.20
-    - 217.218.127.127
-    - 217.218.155.155
-    - 37.10.67.10
-    - 37.10.67.11
-    - 77.77.77.77
-    - 77.77.77.78
   proxy-server-nameserver:
-    - 1.0.0.1
-    - 1.0.0.2
     - 1.1.1.1
-    - 1.1.1.2
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
-    - 2606:4700:4700::1002
-    - 2606:4700:4700::1112
+    - 8.8.8.8    
     - https://cloudflare-dns.com/dns-query
     - tls://one.one.one.one
     - one.one.one.one
-    - security.cloudflare-dns.com
-    - https://security.cloudflare-dns.com/dns-query
-    - tls://security.cloudflare-dns.com
-    - 119.29.29.29
-    - 182.254.116.116
     - https://doh.pub/dns-query
     - tls://doh.pub
     - doh.pub
@@ -155,15 +73,6 @@ dns:
     - 2606:4700:4700::1001
     - 2001:4860:4860::8888
     - 2001:4860:4860::8844
-    - 1.1.1.1
-    - 8.8.8.8
-    - 8.8.4.4
-    - 9.9.9.9
-    - 223.5.5.5
-    - 77.88.8.8
-    - 2400:3200::1
-    - 2a02:6b8::feed:0ff
-    - 2620:fe::fe
 
 sniffer:
   enable: true
@@ -722,6 +631,7 @@ proxy-groups:
       - 🔃round-robin
       - ⤵️FirstPing
       - 🦽Manual
+      - 🦽Launam
       - ♻️gstatic
       - ☁️cloudflare
       - 🔓Direct
@@ -738,6 +648,12 @@ proxy-groups:
     use:
       - proxylist1
 
+  - name: 🦽Launam
+    type: select
+    icon: https://www.svgrepo.com/show/489275/web-select.svg
+    use:
+      - proxylist1
+      
   - name: 🏁Countries
     type: select
     icon: https://www.svgrepo.com/download/245796/geography-map.svg
@@ -1089,6 +1005,22 @@ proxy-groups:
       - 🏁Countries
       - 🩸Drop
       - ⛓️‍💥SkipRules
+  - name: 👧BPSR.Voice🎯
+    type: select
+    #icon: https://www.svgrepo.com/show/331337/cloudflare.svg
+    proxies:
+      - 🔓Direct
+      - 🌐Proxy
+      - ⛔Block
+      - ⤵️FirstPing
+      - 🦽Manual
+      - 🦽Launam
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
+      - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: 👧BPSR.exe🎯
     type: select
     #icon: https://www.svgrepo.com/show/331337/cloudflare.svg
@@ -1098,6 +1030,7 @@ proxy-groups:
       - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
+      - 🦽Launam
       - 🔐consistent-hashing       
       - 🔃round-robin       
       - 🕎sticky-sessions
@@ -1158,6 +1091,23 @@ proxy-groups:
       - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
+      - 🦽Launam
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
+      - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
+  - name: 🎧YTmusic🎯
+    type: select
+    icon: https://www.svgrepo.com/show/416500/youtube-circle-logo.svg
+    proxies:
+      - 🌐Proxy
+      - 🔓Direct
+      - ⛔Block
+      - ⤵️FirstPing
+      - 🦽Manual
+      - 🦽Launam
       - 🔐consistent-hashing       
       - 🔃round-robin       
       - 🕎sticky-sessions
@@ -1443,6 +1393,7 @@ proxy-groups:
       - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
+      - 🦽Launam
       - 🔐consistent-hashing      
       - 🔃round-robin     
       - 🕎sticky-sessions
@@ -1533,6 +1484,7 @@ proxy-groups:
       - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
+      - 🦽Launam
       - 🔐consistent-hashing    
       - 🔃round-robin  
       - 🕎sticky-sessions
@@ -1548,6 +1500,7 @@ proxy-groups:
       - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
+      - 🦽Launam
       - 🔐consistent-hashing     
       - 🔃round-robin    
       - 🕎sticky-sessions
@@ -1563,6 +1516,7 @@ proxy-groups:
       - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
+      - 🦽Launam
       - 🔐consistent-hashing      
       - 🔃round-robin       
       - 🕎sticky-sessions
@@ -1578,6 +1532,7 @@ proxy-groups:
       - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
+      - 🦽Launam
       - 🔐consistent-hashing       
       - 🔃round-robin       
       - 🕎sticky-sessions
@@ -1593,6 +1548,7 @@ proxy-groups:
       - ⛔Block
       - ⤵️FirstPing
       - 🦽Manual
+      - 🦽Launam
       - 🔐consistent-hashing       
       - 🔃round-robin       
       - 🕎sticky-sessions
@@ -2262,6 +2218,7 @@ proxy-groups:
       - 📘Facebook🎯
       - 🎛NVIDIA🎯
       - 📺YouTube🎯
+      - 🎧YTmusic🎯
       - 📱Google🎯
       - 📙Reddit🎯
       - 🔵Telegram🎯
@@ -2316,6 +2273,7 @@ proxy-groups:
       - 🎯Valorant.exe🎯
       - 🔫CS2.exe🎯
       - 👧BPSR.exe🎯
+      - 👧BPSR.Voice🎯
       - 🕹️CSGO.exe🎯
       - 🎮Overwatch2.exe🎯
       - 🧙LeagueLoL.exe🎯
@@ -2892,6 +2850,7 @@ rules:
   - RULE-SET,phishing,🦠SECURITY
   - RULE-SET,warninglist,🦠SECURITY
   - RULE-SET,Ponzi,🦠SECURITY
+  - DOMAIN-SUFFIX,us.voice.gcloud.com,👧BPSR.Voice🎯
   - PROCESS-NAME,BPSR_STEAM.exe,👧BPSR.exe🎯
   - PROCESS-NAME,FortniteClient-Win64-Shipping.exe,🔫Fortnite.exe🎯
   - PROCESS-NAME,GTA5.exe,🚗GTAV.exe🎯
@@ -2981,11 +2940,11 @@ rules:
   - GEOSITE,gitlab,</>GIT🎯
   - PROCESS-NAME,com.github.android,</>GIT🎯
   - GEOSITE,gitlab,</>GIT🎯
+  - PROCESS-NAME,com.google.android.apps.youtube.music,🎧YTmusic🎯
+  - RULE-SET,YouTubeMusic,🎧YTmusic🎯
   - PROCESS-NAME,com.google.android.youtube,📺YouTube🎯
-  - PROCESS-NAME,com.google.android.apps.youtube.music,📺YouTube🎯
   - RULE-SET,ACLyoutube,📺YouTube🎯
   - RULE-SET,youtube,📺YouTube🎯
-  - RULE-SET,YouTubeMusic,📺YouTube🎯
   - RULE-SET,10iumYouTube,📺YouTube🎯
   - PROCESS-NAME,com.reddit.frontpage,📙Reddit🎯
   - RULE-SET,reddit,📙Reddit🎯
