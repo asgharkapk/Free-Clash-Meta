@@ -1005,22 +1005,6 @@ proxy-groups:
       - 🏁Countries
       - 🩸Drop
       - ⛓️‍💥SkipRules
-  - name: 👧BPSR.Voice🎯
-    type: select
-    #icon: https://www.svgrepo.com/show/331337/cloudflare.svg
-    proxies:
-      - 🔓Direct
-      - 🌐Proxy
-      - ⛔Block
-      - ⤵️FirstPing
-      - 🦽Manual
-      - 🦽Launam
-      - 🔐consistent-hashing       
-      - 🔃round-robin       
-      - 🕎sticky-sessions
-      - 🏁Countries
-      - 🩸Drop
-      - ⛓️‍💥SkipRules
   - name: 👧BPSR.exe🎯
     type: select
     #icon: https://www.svgrepo.com/show/331337/cloudflare.svg
@@ -2273,7 +2257,6 @@ proxy-groups:
       - 🎯Valorant.exe🎯
       - 🔫CS2.exe🎯
       - 👧BPSR.exe🎯
-      - 👧BPSR.Voice🎯
       - 🕹️CSGO.exe🎯
       - 🎮Overwatch2.exe🎯
       - 🧙LeagueLoL.exe🎯
@@ -2850,7 +2833,6 @@ rules:
   - RULE-SET,phishing,🦠SECURITY
   - RULE-SET,warninglist,🦠SECURITY
   - RULE-SET,Ponzi,🦠SECURITY
-  - DOMAIN-SUFFIX,us.voice.gcloud.com,👧BPSR.Voice🎯
   - PROCESS-NAME,BPSR_STEAM.exe,👧BPSR.exe🎯
   - PROCESS-NAME,FortniteClient-Win64-Shipping.exe,🔫Fortnite.exe🎯
   - PROCESS-NAME,GTA5.exe,🚗GTAV.exe🎯
