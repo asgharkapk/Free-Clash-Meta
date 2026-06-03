@@ -1539,6 +1539,22 @@ proxy-groups:
       - 🏁Countries
       - 🩸Drop
       - ⛓️‍💥SkipRules
+  - name: 🦊FireFox.exe🎯
+    type: select
+    icon: https://www.svgrepo.com/show/331521/opera.svg
+    proxies:
+      - 🌐Proxy
+      - 🔓Direct
+      - ⛔Block
+      - ⤵️FirstPing
+      - 🦽Manual
+      - 🦽Launam
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
+      - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: ©️Chrome.exe🎯
     type: select
     icon: https://www.svgrepo.com/show/475640/chrome-color.svg
@@ -2263,6 +2279,7 @@ proxy-groups:
       - 🦁Brave.exe🎯
       - 🟢Edge.exe🎯
       - ⭕Opera.exe🎯
+      - 🦊FireFox.exe🎯
       - ©️Chrome.exe🎯
       - 🔫Fortnite.exe🎯
       - 🚗GTAV.exe🎯
@@ -3033,6 +3050,7 @@ rules:
   - PROCESS-NAME,chrome.exe,©️Chrome.exe🎯
   - PROCESS-NAME,com.android.chrome,©️Chrome.exe🎯
   - PROCESS-NAME,opera.exe,⭕Opera.exe🎯
+  - PROCESS-NAME,firefox.exe,🦊FireFox.exe🎯
   - PROCESS-NAME,opera_crashreporter.exe,⭕Opera.exe🎯
   - GEOSITE,google,📱Google🎯
   - RULE-SET,ACLgoogle,📱Google🎯
