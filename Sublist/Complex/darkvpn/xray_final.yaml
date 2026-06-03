@@ -1021,6 +1021,22 @@ proxy-groups:
       - 🏁Countries
       - 🩸Drop
       - ⛓️‍💥SkipRules
+  - name: 🛣️FLClash.exe🎯
+    type: select
+    #icon: https://www.svgrepo.com/show/331337/cloudflare.svg
+    proxies:
+      - ⤵️FirstPing
+      - 🌐Proxy
+      - 🔓Direct
+      - ⛔Block
+      - 🦽Manual
+      - 🦽Launam
+      - 🔐consistent-hashing       
+      - 🔃round-robin       
+      - 🕎sticky-sessions
+      - 🏁Countries
+      - 🩸Drop
+      - ⛓️‍💥SkipRules
   - name: ☁️Cloudflare🎯
     type: select
     icon: https://www.svgrepo.com/show/331337/cloudflare.svg
@@ -2257,6 +2273,7 @@ proxy-groups:
       - 🎯Valorant.exe🎯
       - 🔫CS2.exe🎯
       - 👧BPSR.exe🎯
+      - 🛣️FLClash.exe🎯
       - 🕹️CSGO.exe🎯
       - 🎮Overwatch2.exe🎯
       - 🧙LeagueLoL.exe🎯
@@ -2834,6 +2851,7 @@ rules:
   - RULE-SET,warninglist,🦠SECURITY
   - RULE-SET,Ponzi,🦠SECURITY
   - PROCESS-NAME,BPSR_STEAM.exe,👧BPSR.exe🎯
+  - PROCESS-NAME,FlClash.exe,🛣️FLClash.exe🎯
   - PROCESS-NAME,FortniteClient-Win64-Shipping.exe,🔫Fortnite.exe🎯
   - PROCESS-NAME,GTA5.exe,🚗GTAV.exe🎯
   - PROCESS-NAME,cod.exe,🔫CODWarzone.exe🎯
